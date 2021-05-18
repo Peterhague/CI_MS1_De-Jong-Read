@@ -2,3 +2,47 @@
     text-align: left;
     padding-left:88px;
 }
+
+.para-one {
+    animation-name: typing;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    overflow: hidden;  
+    white-space: nowrap;
+    
+}
+
+.para-two {
+    animation-name: typing;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    overflow: hidden;  
+    white-space: nowrap;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+.para-three {
+    animation-name: typing;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    overflow: hidden;  
+    white-space: nowrap;
+    animation-delay: 4s;
+    animation-fill-mode: backwards;
+}
+
+.para-four {
+    animation-name: typing;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    overflow: hidden;  
+    white-space: nowrap;
+    animation-delay: 6s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes typing {
+    from {width: 0%;}
+    to {width: 100%;}
+}
