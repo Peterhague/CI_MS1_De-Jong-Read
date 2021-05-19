@@ -2,21 +2,21 @@
     text-align: center;
 }
 
+.paras {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .para-one {
     animation-name: typing;
     animation-duration: 6s;
     animation-timing-function: linear;
-    overflow: hidden;  
-    white-space: nowrap;
-    height: 10vh;    
+    height: 10vh;   
 }
 
 .para-two {
     animation-name: typing;
     animation-duration: 6s;
     animation-timing-function: linear;
-    overflow: hidden;  
-    white-space: nowrap;
     animation-delay: 2s;
     animation-fill-mode: backwards;
     height: 10vh;
@@ -26,8 +26,6 @@
     animation-name: typing;
     animation-duration: 6s;
     animation-timing-function: linear;
-    overflow: hidden;  
-    white-space: nowrap;
     animation-delay: 4s;
     animation-fill-mode: backwards;
     height: 10vh;
@@ -37,16 +35,14 @@
     animation-name: typing;
     animation-duration: 6s;
     animation-timing-function: linear;
-    overflow: hidden;  
-    white-space: nowrap;
     animation-delay: 6s;
     animation-fill-mode: backwards;
     height: 10vh;
 }
 
 @keyframes typing {
-    from {width: 0%;}
-    to {width: 100%;}
+    from {color: white;}
+    to {color: black;}
 }
 
 .break-home-top {
