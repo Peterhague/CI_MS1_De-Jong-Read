@@ -70,16 +70,74 @@ header {
     display: inline-block;
     width: 25vw;
     background-color: salmon;
-    position: absolute;
+    
 }
 
 .background-paras-small-tr {
     display: inline-block;
     width: 25vw;
     background-color: rgb(60, 143, 92);
+    
+}
+
+.background-paras-small-bl  { 
+    display: inline-block;
+    width: 25vw;
+}
+.background-paras-small-br {
+    display: inline-block;
+    width: 25vw;
+    background-color: yellow;
+    
+}
+
+
+.paas-container {
+    position: relative;
+}
+
+.spana {
+    width: 25vw;
+    height: 20vh;
+    background-color: yellow;
+}
+
+.spanb {
+    position: relative;
+    left: 25vw;
+    bottom: 20vh;
+    height: 20vh;
+    width: 25vw;
+    background-color: violet;
+}
+
+.spanc {
+    position: relative;
+    bottom: 20vh;
+    width: 25vw;
+    height: 20vh;
+    background-color: red;
+}
+
+.spand {
+    position: relative;
+    left: 25vw;
+    bottom: 40vh;
+    width: 25vw;
+    height: 20vh;
+    background-color: royalblue;
+}
+
+.bg-colors-small {
     position: absolute;
 }
 
-.paras-container {
+#test {
     position: relative;
+}
+
+#position {
+    position:fixed;
+    top: 50%;
+    left: 50%;
 }
