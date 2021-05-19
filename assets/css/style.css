@@ -1,6 +1,5 @@
 .title-subtitle {
-    text-align: left;
-    padding-left:88px;
+    text-align: center;
 }
 
 .para-one {
@@ -9,7 +8,7 @@
     animation-timing-function: linear;
     overflow: hidden;  
     white-space: nowrap;
-    
+    height: 10vh;    
 }
 
 .para-two {
@@ -20,6 +19,7 @@
     white-space: nowrap;
     animation-delay: 2s;
     animation-fill-mode: backwards;
+    height: 10vh;
 }
 
 .para-three {
@@ -30,6 +30,7 @@
     white-space: nowrap;
     animation-delay: 4s;
     animation-fill-mode: backwards;
+    height: 10vh;
 }
 
 .para-four {
@@ -40,9 +41,14 @@
     white-space: nowrap;
     animation-delay: 6s;
     animation-fill-mode: backwards;
+    height: 10vh;
 }
 
 @keyframes typing {
     from {width: 0%;}
     to {width: 100%;}
+}
+
+.break-home-top {
+    height: 15vh;
 }
