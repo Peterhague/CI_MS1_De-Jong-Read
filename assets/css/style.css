@@ -75,7 +75,7 @@ body {
 nav a {
     text-decoration: none !important;
     font-family: 'Lato', sans-serif;
-    color: inherit;
+    color: #000;
 }
 
 .navbar-items {
@@ -89,6 +89,15 @@ nav a {
     margin-right: 8vw;
     padding: 3vh 2vh 1vh 0;
     text-decoration: underline;
+}
+
+.navbar-items:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover {
+    color: gray;
 }
 
 
@@ -183,3 +192,11 @@ header {
     border-color: rgb(202, 206, 214);
 }
 
+small   {
+    color: #fff;
+    display: block;
+}
+
+.align-right {
+    text-align: right;
+}
