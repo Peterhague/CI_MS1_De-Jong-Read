@@ -5,20 +5,24 @@ body {
 }
 .title-subtitle {
     font-family: 'Lato', sans-serif;
-    color: #2c2b2b;    
+    color: #2c2b2c;  
 }
 
 .title  {
-    font-size: x;
+    font-size: 60px;
+    margin-bottom: 0;
 }
 
 .subtitle {
     font-style: italic;
+    font-size: 30px;
 }
 
 .paras {
     font-family: 'Lato', sans-serif;
-    color: #fafafa;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
 }
 
 .para-one {
@@ -61,90 +65,44 @@ body {
 }
 
 .break-home-top {
-    height: 15vh;
+    height: 7vh;
 }
 
 nav a {
-    text-decoration: none;
+    text-decoration: none !important;
     font-family: 'Lato', sans-serif;
+    color: inherit;
 }
 
-.navbar-item {
-    border-style: solid;
-    background-color: rgba(0, 0, 0, 0.25);
-    color: #fafafa;
-    padding-top: 1vh;
+.navbar-items {
+    border-style: sold;
+    color: #000000;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    white-space: nowrap;
+    display: inline;
+    margin-right: 8vw;
+    padding: 3vh 2vh 1vh 0;
+    text-decoration: underline;
 }
 
 
 header {
-    height: 22vh;
+    height: 24vh;
     padding-bottom: 3vh;
     padding-top: 1vh;
     border-bottom: black;
     border-width: 10px;
-}
-
-.background-paras-small-tl {
-    display: inline-block;
-    width: 25vw;
-    background-color: salmon;
-    
-}
-
-.background-paras-small-tr {
-    display: inline-block;
-    width: 25vw;
-    background-color: rgb(60, 143, 92);
-    
-}
-
-.background-paras-small-bl  { 
-    display: inline-block;
-    width: 25vw;
-}
-.background-paras-small-br {
-    display: inline-block;
-    width: 25vw;
-    background-color: yellow;
-    
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 
-.paras-container {
+.paras-container-inner {
     position: relative;
-}
-
-.spana {
-    width: 35vw;
-    height: 35vh;
-    background-color: yellow;
-}
-
-.spanb {
-    position: relative;
-    left: 35vw;
-    bottom: 35vh;
-    height: 35vh;
-    width: 35vw;
-    background-color: violet;
-}
-
-.spanc {
-    position: relative;
-    bottom: 35vh;
-    width: 35vw;
-    height: 35vh;
-    background-color: red;
-}
-
-.spand {
-    position: relative;
-    left: 35vw;
-    bottom: 70vh;
-    width: 35vw;
-    height: 35vh;
-    background-color: royalblue;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding-top: 2vh;
+    border-radius: 2%;
 }
 
 .bg-colors-small {
@@ -204,6 +162,7 @@ header {
     bottom: 0;
 }
 
+
 .footer-test {
     background-color: rgba(0, 0, 0, 0.75);
     height: 10vh;
@@ -219,3 +178,4 @@ header {
     border-bottom: solid;
     border-color: rgb(202, 206, 214);
 }
+
