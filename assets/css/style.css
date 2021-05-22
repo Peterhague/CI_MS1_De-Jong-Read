@@ -5,7 +5,8 @@ body {
 }
 .title-subtitle {
     font-family: 'Lato', sans-serif;
-    color: #2c2b2c;  
+    color: #2c2b2c; 
+    text-decoration: none;
 }
 
 .title  {
@@ -100,6 +101,10 @@ a:hover {
     color: gray;
 }
 
+.home:hover {
+    color: inherit;
+}
+
 
 header {
     height: 24vh;
@@ -108,6 +113,7 @@ header {
     border-bottom: black;
     border-width: 10px;
     background-color: rgba(255, 255, 255, 0.3);
+    z-index: 2;
 }
 
 
@@ -123,21 +129,10 @@ header {
     top: -30vh;
 }
 
-#test {
-    position: relative;
-    z-index: 1;
-}
-
 #position {
     position:fixed;
     top: 50%;
     left: 50%;
-}
-
-#test-two {
-    position: absolute;
-    left: 13vw;
-    z-index: 2;
 }
 
 .yellow-square  {
@@ -164,6 +159,7 @@ header {
     background-image: linear-gradient(to top, rgba(204, 27, 130, 0.2), rgba(204, 27, 130, 0));
     left: 0;
     top: 0;
+    z-index: -1;
 }
 
 .orange-square {
@@ -208,4 +204,9 @@ small   {
 .footer-left {
     font-style: italic;
     display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
