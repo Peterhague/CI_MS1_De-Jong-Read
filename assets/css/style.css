@@ -183,20 +183,29 @@ header {
     position: fixed;
     bottom: 0;
     left: 0;
+    color: white;
+    font-style: italic;
     
 }
 
-.nabar {
-    color: crimson;
-    border-bottom: solid;
-    border-color: rgb(202, 206, 214);
-}
-
 small   {
-    color: #fff;
     display: block;
 }
 
-.align-right {
+.footer-right {
     text-align: right;
+    font-style: italic;
+    padding-right: 1%;
+    display: inline-block;
+}
+
+.footer-icons {
+    font-size: 5vh;
+    text-align: center;
+    letter-spacing: 1vh;
+}
+
+.footer-left {
+    font-style: italic;
+    display: inline-block;
 }
