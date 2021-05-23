@@ -69,9 +69,6 @@ body {
     to {opacity: 1;}
 }
 
-.break-home-top {
-    height: 7vh;
-}
 
 nav a {
     text-decoration: none !important;
@@ -107,13 +104,14 @@ a:hover {
 
 
 header {
-    height: 24vh;
+    height: 18vh;
     padding-bottom: 3vh;
     padding-top: 1vh;
     border-bottom: black;
     border-width: 10px;
     background-color: rgba(255, 255, 255, 0.3);
     z-index: 2;
+    position: relatives;
 }
 
 
@@ -209,4 +207,63 @@ small   {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.burger-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 5vw;
+}
+
+.burger-icon {
+    font-size: 5vh;
+    margin-top: 2vh;
+    margin-right: 1vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 35px;
+    }
+    .subtitle {
+        font-size: 12px;
+    }
+    header  {
+        height: 12vh;
+        background-color: #fff;
+    }
+    .paras-container-inner {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 8%;
+        height: 75vh;
+    }
+
+    .paras {
+        font-size: 2.5vh;
+        height: initial;
+    }
+
+    .footer-mobile {
+        margin-top: 5vh;
+        position: initial;
+        height: initial;
+        display: block;
+    }
+
+    .footer-left {
+        text-align: center;
+    }
+
+    .footer-icons {
+        display: block;
+    }
+
+    .footer-right {
+        display: block;
+        text-align: center;
+    }
+
+    
 }
