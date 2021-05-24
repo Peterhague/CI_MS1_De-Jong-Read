@@ -1,4 +1,4 @@
-bdy {
+body {
     background-attachment: fixed;
     background-image: url("../images/hero-image-two.jpg");
     background-size: cover;
@@ -392,14 +392,30 @@ a {
 
 .news-items {
     background-color: rgba(0, 0, 0, 0.75);
-    margin-top: 15vh;
-    margin-bottom: 15vh;
     color: #fff;
-    padding: 2%;
 }
 
-.container .row {
-    margin-right: 0;
-    margin-left: 0;
+.news {
+    margin-top: 20vh;
+    margin-bottom: 15vh;
 }
 
+.news-images {
+    width: 100%;
+}
+
+.news-items p {
+   padding: 1vw; 
+}
+
+h4 {
+    text-align: center;
+}
+
+.news-header {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 2vh;
+}
