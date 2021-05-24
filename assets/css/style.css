@@ -291,7 +291,7 @@ header {
 
 
 .footer-test {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.85);
     height: 10vh;
     width: 100%;
     position: fixed;
@@ -467,4 +467,17 @@ h4 {
        background-color: black;
    }
 
+}
+
+.staff-photo img {
+    width: 100%;
+}
+
+.staff-profiles {
+    margin-bottom: 15vh;
+    
+}
+
+.staff-bio {
+    background-color: rgba(0, 0, 0, 0.85);
 }
