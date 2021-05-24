@@ -469,30 +469,13 @@ h4 {
 
 }
 
-.staff-photo-pd {
-    background-image: url(../images/dejong.jpg);
+.staff-photo img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
-.staff-photo-lr {
-    background-image: url(../images/read.jpg);
-}
-
-.staff-photo-nj {
-    background-image: url(../images/jenkins.jpg);
-}
-
-.staff-photo-rt {
-    background-image: url(../images/travers.jpg);
-}
-
-.staff-photo-gr {
-    background-image: url(../images/roberts.png);
-}
-
-
-.staff-photo {
-    background-size: cover;
-}
 
 .staff-profiles {
     margin-bottom: 15vh;
