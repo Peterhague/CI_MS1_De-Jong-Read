@@ -421,6 +421,14 @@ h4 {
     margin-bottom: 2vh;
 }
 
+.modal-arrow {
+    font-size: 8vw;
+    text-align: right;
+    color: gray;
+}
+
+
+
 @media only screen and (min-width: 600px) {
 
 .modal-title {
@@ -444,5 +452,19 @@ h4 {
     position: absolute;
     left: 10%;
 }
+
+}
+
+@media only screen and (max-width: 599px) {
+
+    .modal-images {
+        max-width: 320px;
+    }
+
+   .modal-footer-sticky {
+       position: fixed;
+       bottom: 0;
+       background-color: black;
+   }
 
 }
