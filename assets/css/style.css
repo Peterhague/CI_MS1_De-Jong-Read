@@ -413,9 +413,31 @@ h4 {
 }
 
 .news-header {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: #fafafa;
     color: #fff;
     text-transform: uppercase;
     font-style: italic;
     margin-bottom: 2vh;
+}
+
+.modal-title {
+    background-color: #fafafa;
+    font-weight: 500;
+    
+}
+
+.modal-body {
+    background-color: #fafafa;
+    
+}
+
+.modal-content {
+    background-color: #fafafa;
+    min-width: 80vw;
+    min-height: 80vh;
+}
+
+.modal-dialog {
+    position: absolute;
+    left: 10%;
 }
