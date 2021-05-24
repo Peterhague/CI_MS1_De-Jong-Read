@@ -114,7 +114,15 @@ body {
 nav a {
     text-decoration: none !important;
     font-family: 'Lato', sans-serif;
-    color: #000
+    color: #000;
+}
+
+#current {
+    color: #fff;
+}
+
+#current-home {
+    color: rgb(112, 108, 108);
 }
 
 .testimnials a {
@@ -123,27 +131,38 @@ nav a {
     color: #fafafa
 }
 
+/*-----------------------------------------------------------------------superseded
+
 .navbar-items {
-    border-style: sold;
+    border-style: solid;
     color: #000000;
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 530;
     white-space: nowrap;
     display: inline;
     margin-right: 8vw;
     padding: 3vh 2vh 1vh 0;
     text-decoration: underline;
 }
+ 
+
 
 .navbar-items:hover {
     text-decoration: none;
     color: gray;
 }
 
+--------------------------------------------------------------------------------------*/
+
 a:hover {
-    color: gray;
+    color: #fff;
 }
+
+#navbar-home a:hover {
+    color: rgb(112, 108, 108);
+}
+
 
 .home:hover {
     color: inherit;
@@ -338,3 +357,4 @@ a {
     }
     
 }
+
