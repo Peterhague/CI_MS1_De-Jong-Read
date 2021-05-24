@@ -387,6 +387,7 @@ a {
         border-bottom: solid;
         border-color: rgba(0, 0, 0, 0.55);
     }
+
     
 }
 
@@ -420,6 +421,8 @@ h4 {
     margin-bottom: 2vh;
 }
 
+@media only screen and (min-width: 600px) {
+
 .modal-title {
     background-color: #fafafa;
     font-weight: 500;
@@ -440,4 +443,6 @@ h4 {
 .modal-dialog {
     position: absolute;
     left: 10%;
+}
+
 }
