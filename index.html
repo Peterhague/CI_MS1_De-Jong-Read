@@ -26,31 +26,31 @@
               </a>  
                 
                 <div class="burger-button">
-                  <button id="burger-button" class="d-md-none d-xs-block navbar-toggler" data-toggle="collapse" data-target="#content">
+                  <button id="burger-button" class="d-lg-none d-xs-block navbar-toggler" data-toggle="collapse" data-target="#content">
                     <span class="navbar-toggler-icon"><i class="burger-icon fas fa-bars"></i></span>
                   </button>
                 </div>
         
             </header>
 
-        <nav class="navbar navbar-expand-md navbar-dar bg-dar"> 
+        <nav class="navbar navbar-expand-lg navbar-dar bg-dar"> 
         <div class="collapse navbar-collapse" id="content">
         
           <ul id="navbar-home" class="navbar-nav">
                 <li class="nav-item">
-                  <a id="current-home" class="nav-link" href="index.html">Home</a>
+                  <a id="current-home" class="nav-link nav-link-header" href="index.html">Home</a>
                 </li>    
                 <li class="nav-item">
-                  <a class="nav-link" href="#" data-toggle="modal" data-target="#contactusModal">Contact Us</a>
+                  <a class="nav-link nav-link-header" href="#" data-toggle="modal" data-target="#contactusModal">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="meet-the-team.html">Meet the Team</a>
+                  <a class="nav-link nav-link-header" href="meet-the-team.html">Meet the Team</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="our-services.html">Our Services</a>
+                  <a class="nav-link nav-link-header" href="our-services.html">Our Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="testimonials.html">Testimonials</a>
+                  <a class="nav-link nav-link-header" href="testimonials.html">Testimonials</a>
                 </li>
           </ul>
       </div>
@@ -68,7 +68,7 @@
                             <p class="para-one paras">Welcome to De Jong-Read, an accountancy and business consultancy with deep foundations in the Lancaster business and agricultural community</p>
                             <p class="para-two paras">Established in the 1960s, we have an intimate knowledge of the local economy and the unique challenges our clients face</p>
                             <p class="para-three paras">Whether it's submitting your tax return or a comprehensive statutory audit, our team of dedicated and experienced professionals can help</p>    
-                            <p class="para-four paras">Get in touch today for your free consultation and start your journey with<br>De Jong-Read Chartered Accountants</p>
+                            <p class="para-four paras">Get in touch today for your free consultation and start your journey with <br id="break-home-page">De Jong-Read Chartered Accountants</p>
                         </div>
                         <div class="col-md-2"></div>
                     </div>
@@ -78,7 +78,7 @@
         </div>
     </section>
 
-    <section class="news">
+    <section id="news">
       
       
       <div class="container news-items">
@@ -95,8 +95,9 @@
               "fudging" the return as result of a technical issue with the software used to prepare it. 
               However, it also confirmed that HMRC can make discovery assessments after initially deciding not to raise an enquiry.
             <br>
-              <a href="" data-toggle="modal" data-target="#headlineoneModal">Read more</a>
+              
           </p>
+          <a class="news-expandable" href="" data-toggle="modal" data-target="#headlineoneModal">Read more</a>
           </div>
           <div class="col-sm-4 news-items">
             <img  class="news-images" src="assets/images/news-item-two.jpg" alt="">
@@ -105,8 +106,9 @@
               today published research by Royal Holloway which finds that many FTSE 350 annual reports downplay the importance of workforce engagement.
             <br>
             <br>
-            <a href="" data-toggle="modal" data-target="#headlinetwoModal">Read more</a>
             </p>
+            <a class="news-expandable" href="" data-toggle="modal" data-target="#headlinetwoModal">Read more</a>
+            
           </div>
           <div class="col-sm-4 news-items">
             <img class="news-images" src="assets/images/news-item-three.jpg" alt="">
@@ -114,8 +116,8 @@
             <p>Farmers are warning of “damage” to UK agriculture if Australian beef and lamb producers are granted 
               tariff-free access to the UK as part of the first major post-Brexit trade deal. The news comes amid reports of a split in the cabinet over whether to approve a wide-ranging free trade deal with Australia.
               <br>
-              <a href="" data-toggle="modal" data-target="#headlinethreeModal">Read more</a>
-            </p>
+              </p>
+              <a class="news-expandable" href="" data-toggle="modal" data-target="#headlinethreeModal">Read more</a>            
             </div>
         </div>
       </div>
@@ -260,7 +262,7 @@
             </button>
           </div>
           <div class="modal-body modal-body-original">
-            <form action="">
+            <form class="form-modal" action="">
               
               <input type="text" id="fname" name="fname" placeholder="First name">
               <br>
