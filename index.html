@@ -251,16 +251,37 @@
     </div>
 
     <div class="modal" tabindex="-1" role="dialog" id="contactusModal">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
+      <div class="modal-dialog modal-dialog-original" role="document">
+        <div class="modal-content modal-content-original">
+          <div class="modal-header modal-header-original">
+            <h5 class="modal-title modal-title-original">Please get in touch - we're happy to help!</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-            <p>hi there</p>
+          <div class="modal-body modal-body-original">
+            <form action="">
+              
+              <input type="text" id="fname" name="fname" placeholder="First name">
+              <br>
+              <br>
+              <input type="text" id="lname" name="lname" placeholder="Last Name">
+              <br>
+              <br>
+              <input type="email" id="email" name="email" placeholder="Email Address">
+              <br>
+              <br>
+              <input type="text" id="phone" name="phone" placeholder="Phone Number">
+              <br>
+              <br>
+              <input type="text" id="poc" name="poc" placeholder="Your Point of Contact">
+              <br>
+              <br>
+              <input type="text" id="subject" name="subject" placeholder="Subject">
+              <br>
+              <br>
+              <input type="textarea" id="message" name="message" placeholder="Your message">
+            </form>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary">Save changes</button>
