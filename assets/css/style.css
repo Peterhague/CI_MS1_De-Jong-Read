@@ -654,6 +654,16 @@ textarea {
         padding-top: 2vh;
         font-weight: 400;
     }
+
+    .test-slides {
+        background-color: rgba(0, 0, 0, 0.85);
+        color: #fafafa;
+        width: 75vw;
+        height: 73vh;
+        text-align: center;
+        font-size: 1.1em;
+        padding-top: 3vh;
+    }
     
 
 }
@@ -802,6 +812,16 @@ textarea {
             padding-top: 1vh;
             font-weight: 400;
             font-size: 0.75em;
+        }
+
+        .test-slides {
+            background-color: rgba(0, 0, 0, 0.85);
+            color: #fafafa;
+            width: 75vw;
+            height: 58vh;
+            text-align: center;
+            font-size: 1.5em;
+            padding-top: 6vh;
         }
     
     }
@@ -971,6 +991,16 @@ textarea {
             padding-top: 1vh;
             font-weight: 400;
             font-size: 0.75em;
+        }
+
+        .test-slides {
+            background-color: rgba(0, 0, 0, 0.85);
+            color: #fafafa;
+            width: 75vw;
+            height: 65vh;
+            text-align: center;
+            font-size: 2.1em;
+            padding-top: 8vh;
         }
         
     }
