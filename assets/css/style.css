@@ -518,4 +518,33 @@ h4 {
     width: 4vw;
 }
 
+.services-panel-title {
+    height: 45vh;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 8vh;
+    border-color: #fafafa;
+    color: #fff;
+    text-align: center;
+    padding-top: 18vh;
+    font-style: italic;
+    font-size: 2.5em;
+    font-weight: 500;
+}
 
+.services-panel-content {
+    height: 45vh;
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 8vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    text-align: center;
+    padding-top: 2vh;
+    font-weight: 400;
+}
+
+.container-services {
+    margin-bottom: 10vh;
+}
