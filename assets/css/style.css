@@ -496,3 +496,15 @@ h4 {
 .staff-bio h3 {
     margin-bottom: 0;
 }
+
+.test-slides {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fafafa;
+    width: 60vw;
+    height: 55vh;
+    text-align: center;
+    font-size: 1.25em;
+    padding-top: 3vh;
+}
+
+
