@@ -507,4 +507,15 @@ h4 {
     padding-top: 3vh;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    filter: invert(100%);
+    opacity: 0.75;
+    font-size: 100%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 4vh;
+    width: 4vw;
+}
+
 
