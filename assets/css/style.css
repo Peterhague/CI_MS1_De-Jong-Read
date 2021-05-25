@@ -568,6 +568,24 @@ input {
     background-color: rgba(0, 0, 0, 0.45);
     color: #fafafa;
 }
+#reset-button {
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    color: #000;
+    background-color: #ddddd9;
+}
+
+#submit-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#reset-button:hover {
+    background-color: #fff;
+}
+
 
 .modal-content-original {
     background-color: rgba(0, 0, 0, 0.65);
@@ -593,3 +611,7 @@ input {
     color: #fafafa;
 }
 
+textarea {
+    background-color: rgba(0, 0, 0, 0.65);
+    color: #fafafa;
+}

@@ -274,18 +274,39 @@
               <input type="text" id="phone" name="phone" placeholder="Phone Number">
               <br>
               <br>
-              <input type="text" id="poc" name="poc" placeholder="Your Point of Contact">
+              <input list="contact" type="text" id="poc" name="poc" placeholder="Your Point of Contact">
+              <datalist id="contact">
+                <option value="Phil De Jong"></option>
+                <option value="Liz Read"></option>
+                <option value="Natalie Jenkins"></option>
+                <option value="Richard Travers"></option>
+                <option value="George Roberts"></option>
+              </datalist>
               <br>
               <br>
-              <input type="text" id="subject" name="subject" placeholder="Subject">
+              <input list="subject-matter" type="text" id="subject" name="subject" placeholder="Subject">
+              <datalist id="subject-matter">
+                <option value="Looking for an accountant"></option>
+                <option value="Requesting a quote"></option>
+                <option value="Personal tax"></option>
+                <option value="Corporate tax"></option>
+                <option value="Accounts and financial analysis"></option>
+                <option value="Software enquiry"></option>
+                <option value="Audit and Assurance"></option>
+              </datalist>
               <br>
               <br>
-              <input type="textarea" id="message" name="message" placeholder="Your message">
+              <textarea id="message" name="message" placeholder="Your message" rows="5" cols="40"></textarea>
+              <br>
+              <br>
+              <br>
+              <input id="reset-button" class="btn btn-primary" type="reset" value="Reset">
+              <input id="submit-button" type="submit" class="btn btn-primary">
             </form>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary">Save changes</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          
+            
+            
           </div>
         </div>
       </div>
