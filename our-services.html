@@ -40,7 +40,7 @@
                   <a class="nav-link" href="index.html">Home</a>
                 </li>    
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="#" data-toggle="modal" data-target="#contactusModal">Contact Us</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="meet-the-team.html">Meet the Team</a>
@@ -147,6 +147,60 @@
 
       </footer>
   
+      <div class="modal" tabindex="-1" role="dialog" id="contactusModal">
+        <div class="modal-dialog modal-dialog-original" role="document">
+          <div class="modal-content modal-content-original">
+            <div class="modal-header modal-header-original">
+              <h5 class="modal-title modal-title-original">Please get in touch - we're happy to help!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body modal-body-original">
+              <form action="">
+                
+                <input type="text" id="fname" name="fname" placeholder="First name">
+                <br>
+                <br>
+                <input type="text" id="lname" name="lname" placeholder="Last Name">
+                <br>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Email Address">
+                <br>
+                <br>
+                <input type="text" id="phone" name="phone" placeholder="Phone Number">
+                <br>
+                <br>
+                <input list="contact" type="text" id="poc" name="poc" placeholder="Your Point of Contact">
+                <datalist id="contact">
+                  <option value="Phil De Jong"></option>
+                  <option value="Liz Read"></option>
+                  <option value="Natalie Jenkins"></option>
+                  <option value="Richard Travers"></option>
+                  <option value="George Roberts"></option>
+                </datalist>
+                <br>
+                <br>
+                <input list="subject-matter" type="text" id="subject" name="subject" placeholder="Subject">
+                <datalist id="subject-matter">
+                  <option value="Looking for an accountant"></option>
+                  <option value="Requesting a quote"></option>
+                  <option value="Personal tax"></option>
+                  <option value="Corporate tax"></option>
+                  <option value="Accounts and financial analysis"></option>
+                  <option value="Software enquiry"></option>
+                  <option value="Audit and Assurance"></option>
+                </datalist>
+                <br>
+                <br>
+                <textarea id="message" name="message" placeholder="Your message" rows="5" cols="40"></textarea>
+                <br>
+                <br>
+                <br>
+                <input id="reset-button" class="btn btn-primary" type="reset" value="Reset">
+                <input id="submit-button" type="submit" class="btn btn-primary">
+              </form>
+            </div>
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>    
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
