@@ -668,41 +668,7 @@ textarea {
 
 }
 
-@media only screen and (min-width: 600px) {
 
-    .modal-title {
-        background-color: #fafafa;
-        font-weight: 500;
-        
-    }
-    
-    .modal-body {
-        background-color: #fafafa;
-        
-    }
-    
-    .modal-content {
-        background-color: #fafafa;
-        min-width: 80vw;
-        min-height: 80vh;
-    }
-    
-    .modal-dialog {
-        position: absolute;
-        left: 10%;
-    }
-    
-    .modal-content-original {
-        min-width: initial;
-        min-height: initial;
-    }
-    
-    .modal-dialog-original {
-        position: initial;
-        left: initial;
-    }
-    
-    }
 
     @media only screen and (max-width: 800px) and (min-width: 601px) {    
 
