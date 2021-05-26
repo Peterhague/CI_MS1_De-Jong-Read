@@ -714,7 +714,6 @@ textarea {
         }
     
         .footer-mobile {
-            position: bottom;
             height: initial;
             display: block;
         }
@@ -837,7 +836,6 @@ textarea {
         }
     
         .footer-mobile {
-            position: bottom;
             height: initial;
             display: block;
         }
@@ -991,6 +989,10 @@ textarea {
         width: 75vw;
     }
 
+    .close {
+        filter: invert(100%);
+    }
+
         
 }
 
@@ -1012,6 +1014,10 @@ textarea {
     .modal-body-news {
         background-color: rgba(0, 0, 0, 0.85);
         width: 90vw;
+    }
+
+    .close {
+        filter: invert(100%);
     }
 
         
