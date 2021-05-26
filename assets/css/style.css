@@ -340,7 +340,7 @@ h4 {
     margin-bottom: 0;
 }
 
-/*------------------------------------------------------------------------------------------------------------------------Testimonials page-------------*/
+/*----------------------------------------------------------------------------------------------------Testimonials page-------------*/
 
 .test-slides {
     background-color: rgba(0, 0, 0, 0.85);
@@ -984,4 +984,11 @@ textarea {
     }
 
         
+}
+
+@media only screen and (max-width: 600px) and (min-height: 750px) {
+    .paras {
+        font-size: 2.25vh;
+        height: initial;
+    }
 }
