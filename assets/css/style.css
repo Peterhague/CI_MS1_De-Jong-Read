@@ -792,7 +792,8 @@ textarea {
     
     }
     
-    @media only screen and (max-width: 1100px) and (min-width: 801px) {
+@media only screen and (max-width: 1100px) and (min-width: 801px) {
+
         .title {
             font-size: 70px;
             font-weight: 500;
@@ -970,3 +971,48 @@ textarea {
         }
         
     }
+
+@media only screen and (min-width: 1101px) {
+
+    .modal-content-news {
+        background-color: rgba(0, 0, 0, 0.85);
+        color: #fafafa;
+        width: 75vw;
+        position: absolute;
+        right: -21.5vw;
+    }
+
+    .modal-title-news {
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+
+    .modal-body-news {
+        background-color: rgba(0, 0, 0, 0.85);
+        width: 75vw;
+    }
+
+        
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1100px) {
+
+    .modal-content-news {
+        background-color: rgba(0, 0, 0, 0.85);
+        color: #fafafa;
+        width: 95vw;
+        height: 63vh;
+        position: absolute;
+        right: -23vw;
+    }
+
+    .modal-title-news {
+        background-color: rgba(0, 0, 0, 0.85);
+    }
+
+    .modal-body-news {
+        background-color: rgba(0, 0, 0, 0.85);
+        width: 90vw;
+    }
+
+        
+}
