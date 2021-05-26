@@ -1,3 +1,6 @@
+
+/*---------------------------------------------------------------------------Background images-----------------------------------------------------------------------*/
+
 body {
     background-attachment: fixed;
     background-image: url("../images/hero-image-two.jpg");
@@ -131,29 +134,6 @@ nav a {
     color: #fafafa
 }
 
-/*-----------------------------------------------------------------------superseded
-
-.navbar-items {
-    border-style: solid;
-    color: #000000;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 530;
-    white-space: nowrap;
-    display: inline;
-    margin-right: 8vw;
-    padding: 3vh 2vh 1vh 0;
-    text-decoration: underline;
-}
- 
-
-
-.navbar-items:hover {
-    text-decoration: none;
-    color: gray;
-}
-
---------------------------------------------------------------------------------------*/
 
 a:hover {
     color: #fff;
@@ -534,21 +514,14 @@ textarea {
     color: #fafafa;
 }
 
-@media only screen and (max-width: 599px) {
+/*---------------------------------------------------------------------------Media Queries XS-----------------------------------------------------------------------*/
 
+@media only screen and (max-width: 600px) {
+    
     .modal-images {
         max-width: 320px;
     }
-
-   .modal-footer-sticky {
-       position: fixed;
-       bottom: 0;
-       background-color: black;
-   }
-
-}
-
-@media only screen and (max-width: 600px) {
+    
     .title {
         font-size: 39px;
     }
@@ -668,7 +641,7 @@ textarea {
 
 }
 
-
+/*---------------------------------------------------------------------------Media Queries Sm-----------------------------------------------------------------------*/
 
     @media only screen and (max-width: 800px) and (min-width: 601px) {    
 
@@ -790,6 +763,8 @@ textarea {
         }
     
     }
+
+/*---------------------------------------------------------------------------Media Queries Md-----------------------------------------------------------------------*/
     
 @media only screen and (max-width: 1100px) and (min-width: 801px) {
 
@@ -969,6 +944,8 @@ textarea {
         }
         
     }
+
+/*---------------------------------------------------------------------------Modal Media Queries for > md -----------------------------------------------------------------------*/
 
 @media only screen and (min-width: 1101px) {
 
