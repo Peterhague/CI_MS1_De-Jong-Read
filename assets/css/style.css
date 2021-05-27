@@ -414,16 +414,16 @@ a:hover {
 }
 
 .btn-book-desktop:hover {
-    background-color: #1dbb25;
-    padding: 0.5vw;
-    color: fff;
-    margin-right: 1vw;
-    border-radius: 5%;
-    font-weight: 500;
-    text-transform: uppercase;
-    transition: 1s;
-    
+        background-color: rgba(32, 165, 83, 0.8);
+        padding: 0.3vw 1vw;
+        color: white;
+        margin-right: 1vw;
+        border-radius: 5%;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 1vh;    
 }
+
 
 /*--------------------------------------------------------------------------------------------------------Collapsible Navbar--------------------*/
 
@@ -472,12 +472,13 @@ a {
 
 .btn-book-desktop {
     background-color: rgb(32, 165, 83);
-    padding: 0.5vw;
+    padding: 0.3vw 1vw;
     color: white;
     margin-right: 1vw;
     border-radius: 5%;
-    font-weight: 500;
-    text-transform: uppercase;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 1vh;
 
 }
 
