@@ -413,6 +413,18 @@ a:hover {
     text-decoration: none;
 }
 
+.btn-book-desktop:hover {
+    background-color: #1dbb25;
+    padding: 0.5vw;
+    color: fff;
+    margin-right: 1vw;
+    border-radius: 5%;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 1s;
+    
+}
+
 /*--------------------------------------------------------------------------------------------------------Collapsible Navbar--------------------*/
 
 a {
@@ -434,7 +446,15 @@ a {
 }
 
 /*--------------------------------------------------------------------------------------------------------Contact Us modal--------------------*/
-#book-button {
+.book-button-mobile {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 4vw;
+    font-weight: 500;
+}
+
+.book-button-desktop {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -447,7 +467,18 @@ a {
     padding: 1.25vw;
     color: white;
     margin-right: 1vw;
-    border-radius: 0%;
+    border-radius: 5%;
+}
+
+.btn-book-desktop {
+    background-color: rgb(32, 165, 83);
+    padding: 0.5vw;
+    color: white;
+    margin-right: 1vw;
+    border-radius: 5%;
+    font-weight: 500;
+    text-transform: uppercase;
+
 }
 
 form {
