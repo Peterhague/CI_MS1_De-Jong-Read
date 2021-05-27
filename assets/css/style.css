@@ -400,7 +400,9 @@ h4 {
     border-bottom-right-radius: 10px;
     text-align: left;
     position: relative;
-    height: 52vh;
+    height: 60vh;
+    font-weight: 500;
+    font-size: 17px;
 }
 
 .newsletter-top h3 {
