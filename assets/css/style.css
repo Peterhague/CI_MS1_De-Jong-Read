@@ -352,8 +352,14 @@ h4 {
     padding-top: 1vh;
 }
 
+.portal-top h4 {
+    margin-top: 0;
+    font-style: italic;
+}
+
 .portal-top h2 {
     text-transform: capitalize;
+    margin-bottom: 0;
 }
 
 .newsletter-bottom-left {
@@ -370,6 +376,9 @@ h4 {
     border-bottom-left-radius: 10px;
     text-align: left;
     position: relative;
+    padding-left: 8vw;
+    font-weight: 500;
+    font-size: 17px;
 }
 
 .newsletter-bottom-left p {
