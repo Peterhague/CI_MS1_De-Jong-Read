@@ -25,6 +25,12 @@ body {
     background-size: cover;
 }
 
+.contact-us {
+    background-attachment: fixed;
+    background-image: url("../images/hero-image-cu.jpeg");
+    background-size: cover;
+}
+
 .bg-colors-small {
     position: absolute;
     top: -30vh;
@@ -90,6 +96,15 @@ body {
     height: 50vh;
     width: 50%;
     background-image: linear-gradient(to top, rgba(204, 27, 130, 0.2), rgba(204, 27, 130, 0));
+    left: 0;
+    top: 0;
+}
+
+.green-square {
+    position: fixed;
+    height: 50vh;
+    width: 50%;
+    background-image: linear-gradient(to top, rgba(121, 204, 27, 0.2), rgba(204, 27, 130, 0));
     left: 0;
     top: 0;
 }
@@ -310,6 +325,41 @@ h4 {
     color: gray;
 }
 
+/*-------------------------------------------------------------------------------------------------------------------Contact Us page-----------------------*/
+
+.newsletter {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+    height: 50vh;
+}
+
+.newsletter h3 {
+    margin-bottom: 0;
+}
+
+.newsletter h4 {
+    margin-top: 0;
+    text-align: left;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.newsletter-inputs {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.newsletter-email {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    columns: #fff;
+}
+
  /*------------------------------------------------------------------------------------------------------------------Meet the team page--------------------*/
 
  .staff-photo img {
@@ -395,7 +445,6 @@ h4 {
 .container-services {
     margin-bottom: 10vh;
 }
-
 
 /*---------------------------------------------------------------------------------------------------------Pseudo classes--------------------*/
 
