@@ -429,11 +429,26 @@ a {
 
 .burger-icon {
     font-size: 5vh;
-    margin-top: 2vh;
+    margin-top: 1vh;
     margin-right: 1vw;
 }
 
 /*--------------------------------------------------------------------------------------------------------Contact Us modal--------------------*/
+#book-button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 4vw;
+    font-weight: 500;
+}
+
+.btn {
+    background-color: rgb(32, 165, 83);
+    padding: 1.25vw;
+    color: white;
+    margin-right: 1vw;
+    border-radius: 0%;
+}
 
 form {
     position: relative;
