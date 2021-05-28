@@ -437,6 +437,7 @@ h4 {
     text-transform: capitalize;
 }
 
+
 .newsletter-bottom-right .button-go {
     border-radius: 50%;
     margin-bottom: 2vh;
@@ -518,6 +519,7 @@ h4 {
 .reset-button {
     background-color: #c9b7b7;
     color: #000;
+    font-weight: 600;
     border: none;
     width: 9vh;
     height: 5vh;
@@ -528,6 +530,7 @@ h4 {
 .submit-button {
     background-color: rgba(32, 165, 83, 0.8);
     color: #fff;
+    font-weight: 600;
     border: none;
     width: 9vh;
     height: 5vh;
@@ -547,6 +550,10 @@ h4 {
     color: #000;
     font-weight: 500;
     width: 13.5vmax;
+}
+
+::-webkit-input-placeholder {
+    color: reds;
 }
 
 #form-portal-left label {
