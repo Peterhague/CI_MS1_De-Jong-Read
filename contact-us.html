@@ -17,7 +17,7 @@
   <div class="green-square"></div>    
   <div class="blue-square"></div>        
     <header>              
-      <h1 class="title"><a class="home" href="index.html">De Jong-Read</h1></a>
+      <h1 class="title"><a class="home" href="index.html">De Jong-Read</a></h1>
       <h2 class="subtitle"><a class="home" href="index.html">Chartered Accountants & <br class="d-sm-none">Agribusiness Consultants</a></h2>              
       <div class="burger-button">
         <button id="burger-button" class="d-lg-none d-xs-block navbar-toggler" data-toggle="collapse" data-target="#content">
@@ -25,7 +25,7 @@
         </button>      
       </div>
       <div class="book-button-mobile d-lg-none">
-        <button class="btn btn nav-link nav-link-header" href="#" data-toggle="modal" data-target="#contactusModal">LOG IN</button> 
+        <button class="btn btn nav-link nav-link-header" data-toggle="modal" data-target="#contactusModal">LOG IN</button> 
       </div> 
     </header>
         <nav class="navbar navbar-expand-lg navbar-dar bg-dar"> 
@@ -174,13 +174,9 @@
                         <br>
                         <div class="gap-small"></div>
                         <div class="reg-buttons">
-                        <button type="submit" class="reset-button">
-                            reset
-                        </button>  
-                        <button type="reset" class="submit-button">
-                          submit</i>
-                      </button>
-                    </div>
+                        <button type="reset" class="reset-button" form="registration">reset</button>
+                        <button type="submit" class="submit-button">submit</button> 
+                        </div>                       
                     </form>                        
                 </div>
                 <div class="col-1"></div>                
@@ -188,6 +184,99 @@
         </div>
         
     </section>
+
+    <section class="registration">
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-1"></div>
+              <div class="col-10 portal-top">
+                  <h2>register for our secure online portal</h3>
+                  <h4>A single secure location to access all your records, send and receive messages, and so much more</h4> 
+              </div>
+              <div class="col-1"></div>
+          </div>
+          <div class="row">
+              <div class="col-1"></div>
+              <div class="col-10" id="portal-bottom"> 
+                <div>               
+                  <br>
+                  <form action="post">
+                    <div id="form-portal-left">
+                            <br>
+                            <label for="fname">First Name</label>
+                            <input class="form-registration-inputs" id=fname type="text" placeholder="first name" style="position: absolute; right: 0; margin-right: 5%;">
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="lname">Last Name</label>
+                            <input class="form-registration-inputs id="lname" type="text" placeholder="last name">
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="dob">Date of Birth</label>
+                            <input class="form-registration-inputs id="dob" type="email" placeholder="date of birth">
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="phone">Phone Number</label>
+                            <input class="form-registration-inputs id="phone" type="text" placeholder="phone number">
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="email">Email Address</label>
+                            <input class="form-registration-inputs id="email" type="text" placeholder="email address">
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="partner">Partner in Charge</label>
+                            <input class="form-registration-inputs id="partner" type="email" placeholder="partner in charge">
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="manager">Manager in Charge</label>
+                            <input class="form-registration-inputs id="manager" type="text" placeholder="manager in charge">
+                            <br>
+                            <div class="gap-small"></div>            
+                    </div>
+                      <div id="form-portal-right">
+                          <br>
+                          <label for="poc-other">Other Point of Contact</label>
+                          <input class="form-registration-inputs id="poc-other" type="text" placeholder="other point of contact">
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="industry-sector">Industry Sector</label>
+                          <input class="form-registration-inputs id="industry-sector" type="text" placeholder="industry sector">
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="company-name">Company Name</label>
+                          <input class="form-registration-inputs id="company name" type="email" placeholder="company name">
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="company-number">Company Number</label>
+                          <input class="form-registration-inputs id="company-number" type="text" placeholder="company number">
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="client-ref">Client Reference</label>
+                          <input class="form-registration-inputs id="client-ref" type="text" placeholder="client reference">
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="username">Username</label>
+                          <input class="form-registration-inputs id="username" type="email" placeholder="username">
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="password">Password</label>
+                          <input class="form-registration-inputs id="password" type="text" placeholder="password">
+                          <br>
+                          <div class="gap-small"></div>
+                          
+                      </div>
+                      <div id="portal-footer">
+                        <button class="reset-button" type="reset">reset</button>
+                        <button class="submit-button" type="submit">submit</button> 
+                        
+                      </div>                           
+                  </form>                        
+              </div>
+            </div>
+              <div class="col-1"></div>  
+          </div>              
+      </div>
+      
+  </section>
 
     <footer class="footer-test footer-mobile">              
         <div class="container-fluid">
