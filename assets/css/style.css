@@ -342,6 +342,43 @@ h4 {
     padding-top: 1vh;
 }
 
+.registration {
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+}
+
+.container-maps {
+    background-color: rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.container-map {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    padding-right: 3vh;
+}
+
+.container-directions {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fafafa;
+    padding-top: 2vh;
+    padding-left: 3vh;
+    font-size: 1.2em;
+}
+
+.container-directions h3 {
+    text-decoration: underline;
+}
+
+.map-directions{
+    margin-bottom: 30vh;
+}
+
+iframe {
+    width: 100%;
+}
+
 .portal-top {
     background-color: rgba(0, 0, 0, 0.95);
     color: #fff;
@@ -552,9 +589,6 @@ h4 {
     width: 13.5vmax;
 }
 
-::-webkit-input-placeholder {
-    color: reds;
-}
 
 #form-portal-left label {
     color: #fafafa;
@@ -1301,7 +1335,3 @@ textarea {
     }
 }
 
-.registration {
-    margin-top: 30vh;
-    margin-bottom: 50vh;
-}
