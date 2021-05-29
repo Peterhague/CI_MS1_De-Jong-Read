@@ -280,60 +280,55 @@
       <div class="modal-dialog modal-dialog-original" role="document">
         <div class="modal-content modal-content-original">
           <div class="modal-header modal-header-original">
-            <h5 class="modal-title modal-title-original">Please get in touch - we're happy to help!</h5>
+            <h5 class="modal-title modal-title-original">Sign in to your account</h5>
             <button type="button" class="close close-contact-us" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
+          
           <div class="modal-body modal-body-original">
             <form class="form-modal" action="post">
+              <label class="label-modal-login" for="uname">Username</label>
+              <input type="text" id="uname" class="form-login-inputs" name="uname" placeholder="Username" required>
+              <br>
+              <div class="gap-small"></div>
+              <label class="label-modal-login" for="pword">Password</label>
+              <input type="text" id="pword" class="form-login-inputs" name="pword" placeholder="Password" required>
+              <br>
+              <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#reminderModal" style="position: absolute; bottom: 20%;">Forgotten your login details?</a>
               
-              <input type="text" id="fname" name="fname" placeholder="First name">
-              <br>
-              <br>
-              <input type="text" id="lname" name="lname" placeholder="Last Name">
-              <br>
-              <br>
-              <input type="email" id="email" name="email" placeholder="Email Address">
-              <br>
-              <br>
-              <input type="text" id="phone" name="phone" placeholder="Phone Number">
-              <br>
-              <br>
-              <input list="contact" type="text" id="poc" name="poc" placeholder="Your Point of Contact">
-              <datalist id="contact">
-                <option value="Phil De Jong"></option>
-                <option value="Liz Read"></option>
-                <option value="Natalie Jenkins"></option>
-                <option value="Richard Travers"></option>
-                <option value="George Roberts"></option>
-              </datalist>
-              <br>
-              <br>
-              <input list="subject-matter" type="text" id="subject" name="subject" placeholder="Subject">
-              <datalist id="subject-matter">
-                <option value="Looking for an accountant"></option>
-                <option value="Requesting a quote"></option>
-                <option value="Personal tax"></option>
-                <option value="Corporate tax"></option>
-                <option value="Accounts and financial analysis"></option>
-                <option value="Software enquiry"></option>
-                <option value="Audit and Assurance"></option>
-              </datalist>
-              <br>
-              <br>
-              <textarea id="message" name="message" placeholder="Your message" rows="5" cols="40"></textarea>
-              <br>
-              <br>
-              <br>
-              <input id="reset-button" class="btn btn-primary" type="reset" value="Reset">
-              <input id="submit-button" type="submit" class="btn btn-primary">
+              <div id="portal-footer">
+                <button class="reset-button-login" type="reset">Reset</button>
+                <button class="submit-button-login" type="submit">Submit</button>                         
+              </div>       
             </form>
           </div>
-          
-            
-            
+         </div>
+        </div>
+    </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="reminderModal">
+      <div class="modal-dialog modal-dialog-original" role="document">
+        <div class="modal-content modal-content-original">
+          <div class="modal-header modal-header-original">
+            <h5 class="modal-title modal-title-original">Request a Password Reminder</h5>
+            <button type="button" class="close close-contact-us" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
+          
+          <div class="modal-body modal-body-original">
+            <form class="form-modal" action="post">
+              <label class="label-modal-login" for="reminder-email">Your email address</label>
+              <input type="email" id="reminder-email" class="form-login-inputs" name="email" placeholder="Email Address" required>
+              <br>              
+              <div id="portal-footer">
+                <small class="left-align" style="position: absolute; bottom: 23%;">Click on the link in the email to reset your password</small>
+                <button class="submit-button-login" type="submit">Submit</button>                         
+              </div>       
+            </form>
+          </div>
+         </div>
         </div>
     </div>
   
