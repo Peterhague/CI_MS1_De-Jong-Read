@@ -347,27 +347,33 @@ h4 {
     margin-bottom: 30vh;
 }
 
-.container-maps {
-    background-color: rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
-}
-
 .container-map {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.85);
     padding-bottom: 3vh;
     padding-top: 3vh;
     padding-right: 3vh;
 }
 
 .container-directions {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.9);
     color: #fafafa;
     padding-top: 2vh;
-    padding-left: 3vh;
     font-size: 1.2em;
 }
 
-.container-directions h3 {
+.contact-details {
+    font-size: 1.2em;
+}
+
+.social-media {
+    font-size: 1.4em;
+}
+
+.icon-contact-us {
+    margin-right: 2vmin;
+}
+
+.container-directions h2 {
     text-decoration: underline;
 }
 
