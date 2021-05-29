@@ -121,6 +121,7 @@ body {
     position: fixed;
     background-color:rgba(184, 196, 26, 0.1);
     padding: 0;
+    z-index: -1;
 }
 
 .blue-square {
@@ -130,6 +131,7 @@ body {
     background-image: linear-gradient(to bottom, rgba(30, 152, 209, 0.2), rgba(30, 152, 209, 0));
     left: 0;
     bottom: 0;
+    z-index: -2;
 }
 
 .pink-square {
@@ -139,6 +141,7 @@ body {
     background-image: linear-gradient(to top, rgba(204, 27, 130, 0.2), rgba(204, 27, 130, 0));
     left: 0;
     top: 0;
+    z-index: -3;
 }
 
 .green-square {
@@ -158,6 +161,7 @@ body {
     right: 0;
     bottom: 0;
     background-attachment: inherit;
+    z-index: -4;
 }
 
 /*-------------------------------------------------------------------------------------------------------Title/Header/Navbar-------------*/
