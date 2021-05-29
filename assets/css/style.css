@@ -4,6 +4,26 @@
     height: 1.5vh;
 }
 
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
 /*---------------------------------------------------------------------------Background appearance-----------------------------------------------------------------------*/
 
 body {
@@ -694,6 +714,13 @@ iframe {
     margin-bottom: 10vh;
 }
 
+.container-table {
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    opacity: 0.9;
+    color: white;
+}
+
 td .fa-check {
     color: green;
 }
@@ -703,13 +730,41 @@ td .fa-times {
 }
 table {
     font-size: 1.25em;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.table-header {
+    font-family: 'Lato', sans-serif;
+}
+
+.table-row-one {
+    font-size: 1.3em;
 }
 
 td {
-    width: 10%;
+    width: 18%;
+
 }
 tr {
-    margin-bottom: 5vh;
+    line-height: 5vh;
+}
+
+.col-first {
+    width: 30%;
+}
+
+.medal-silver {
+    color: silver;
+}
+
+.medal-gold {
+    color: gold;
+}
+
+.medal-platinum {
+    color: #e5e4e2;
 }
 
 /*---------------------------------------------------------------------------------------------------------Pseudo classes--------------------*/
