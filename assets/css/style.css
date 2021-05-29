@@ -694,6 +694,24 @@ iframe {
     margin-bottom: 10vh;
 }
 
+td .fa-check {
+    color: green;
+}
+
+td .fa-times {
+    color: red;
+}
+table {
+    font-size: 1.25em;
+}
+
+td {
+    width: 10%;
+}
+tr {
+    margin-bottom: 5vh;
+}
+
 /*---------------------------------------------------------------------------------------------------------Pseudo classes--------------------*/
 
 a:hover {
