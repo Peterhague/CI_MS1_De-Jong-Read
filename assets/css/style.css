@@ -8,6 +8,10 @@
     text-align: left;
 }
 
+.right-align {
+    text-align: right;
+}
+
 .center-align {
     text-align: center;
 }
@@ -962,6 +966,21 @@ textarea {
 /*---------------------------------------------------------------------------Media Queries XS-----------------------------------------------------------------------*/
 
 @media only screen and (max-width: 600px) {
+
+    .form-login-inputs {
+        width: 20vmax;
+    }
+
+    .submit-button-login {
+        background-color: rgba(32, 165, 83, 0.8);
+        color: #fff;
+        font-weight: 600;
+        border: none;
+        width: 10vh;
+        height: 5vh;
+        border-radius: 5%;
+    }
+    
     
     .modal-images {
         max-width: 320px;
