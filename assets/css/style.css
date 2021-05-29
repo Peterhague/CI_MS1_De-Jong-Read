@@ -32,6 +32,14 @@
     margin-left: 2vmin;
 }
 
+.p-rel {
+    position: relative;
+}
+
+.p-abs {
+    position: absolute;
+}
+
 /*---------------------------------------------------------------------------Background appearance-----------------------------------------------------------------------*/
 
 body {
@@ -262,6 +270,10 @@ small   {
 }
 
 /*-------------------------------------------------------------------------------------------------------Home Page--------------------*/
+
+.carousel-home {
+    margin-bottom: 30vh;
+}
 
 .para-one {
     animation-name: fadein;
@@ -832,9 +844,7 @@ a {
 
 /*--------------------------------------------------------------------------------------------------------Contact Us modal--------------------*/
 .book-button-mobile {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    text-align: center;
     font-size: 4vw;
     font-weight: 500;
 }
@@ -967,6 +977,10 @@ textarea {
 
 @media only screen and (max-width: 600px) {
 
+    .carousel-home {
+        margin-bottom :0vh;
+    }
+
     .form-login-inputs {
         width: 20vmax;
     }
@@ -979,6 +993,15 @@ textarea {
         width: 10vh;
         height: 5vh;
         border-radius: 5%;
+    }
+
+    .login-button-mobile {
+        background-color: rgb(12, 183, 226);
+        color: #fff;
+        border: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        border-radius: 10px;
     }
     
     
@@ -1096,9 +1119,9 @@ textarea {
         background-color: rgba(0, 0, 0, 0.85);
         color: #fafafa;
         width: 75vw;
-        height: 73vh;
+        height: 65vh;
         text-align: center;
-        font-size: 1.1em;
+        font-size: 1em;
         padding-top: 3vh;
     }
     
