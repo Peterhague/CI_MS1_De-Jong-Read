@@ -55,16 +55,16 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-2"></div>
-                <div class="col-8 newsletter-top">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 newsletter-top">
                     <h3>Sign up for our free weekly newsletter!</h3>
                     <h4>Get all the latest financial and local business news straight to your inbox</h4> 
                 </div>
-                <div class="col-2"></div>
+                <div class="col-md-2"></div>
             </div>
             <div class="row">
-                <div class="col-2"></div>
-                <div class="col-4 newsletter-bottom-left">
+                <div class="col-md-2"></div>
+                <div class="col-6 col-md-4 newsletter-bottom-left">
                     <br>
                     <p>sign up now for all the best local business information, tax tips, financial
                         news and the latest developments in the world of accounting and agriculture.
@@ -72,7 +72,7 @@
                         news and the latest developments in the world of accounting and agriculture.
                     
                 </div>
-                <div class="col-4 newsletter-bottom-right">
+                <div class="col-6 col-md-4 newsletter-bottom-right">
                     <br>
                     <form action="post">
                         <input class="newsletter-email" type="text" placeholder="first name">
@@ -92,7 +92,7 @@
                         </button>                       
                     </form>                        
                 </div>
-                <div class="col-2"></div>                
+                <div class="col-md-2"></div>                
             </div>
         </div>
         
@@ -102,7 +102,7 @@
       <div class="container-fluid">
           <div class="row">
               <div class="col-1"></div>
-              <div class="col-10 portal-top">
+              <div class="col-12 col-md-10 portal-top">
                   <h2>register for our secure online portal</h3>
                   <h4>A single secure location to access all your records, send and receive messages, and so much more</h4> 
               </div>
@@ -110,10 +110,10 @@
           </div>
           <div class="row">
               <div class="col-1"></div>
-              <div class="col-10" id="portal-bottom"> 
+              <div class="col-md-10" id="portal-bottom"> 
                 <div>               
                   <br>
-                  <form action="post">
+                  <form action="post" class="d-none d-md-block">
                     <div id="form-portal-left">
                             <br>
                             <label for="fname">First Name</label>
@@ -202,6 +202,93 @@
                           <div class="gap-small"></div>
                           
                       </div>
+                      <div id="portal-footer">
+                        <button class="reset-button" type="reset">Reset</button>
+                        <button class="submit-button" type="submit">Submit</button>                         
+                      </div>                           
+                  </form>
+                  <form action="post" class="d-md-none form-registration-mobile">
+                            <br>
+                            <label for="fname">First Name</label>
+                            <input class="form-registration-inputs" id=fname type="text" placeholder="first name" required>
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="lname">Last Name</label>
+                            <input class="form-registration-inputs" id="lname" type="text" placeholder="last name" required>
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="dob">Date of Birth</label>
+                            <input class="form-registration-inputs" id="dob" type="date" placeholder="date of birth" style="text-transform: uppercase;" required>
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="phone">Phone Number</label>
+                            <input class="form-registration-inputs" id="phone" type="tel" placeholder="phone number" required>
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="email">Email Address</label>
+                            <input class="form-registration-inputs" id="email" type="text" placeholder="email address">
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="partner">Partner in Charge</label>
+                            <select class="form-registration-inputs" id="partner">
+                                <option value="NA">Please select</option>
+                                <option value="Phil De Jong">Phil De Jong</option>
+                                <option value="Liz Read">Liz Read</option>
+                              </select>
+                            <br>
+                            <div class="gap-small"></div>
+                            <label for="manager">Manager in Charge</label>
+                            <select class="form-registration-inputs" id="manager">
+                              <option value="NA">Please select</option>
+                              <option value="Natalie_Jenkins">Natalie Jenkins</option>
+                              <option value="richard_travers">Richard Travers</option>
+                              <option value="george_roberts">George Roberts</option>
+                            </select>
+                            <div class="gap-small"></div>
+                          <label for="poc-other">Other Point of Contact</label>
+                          <select class="form-registration-inputs" id="poc-other">
+                            <option value="NA">Please select</option>
+                            <option value="trent_bindle">Trent Bindle</option>
+                            <option value="corey_jones">Corey Jones</option>
+                            <option value="fatima_hughes">Fatima Hughes</option>
+                            <option value="rupesh_manvi">Rupesh Manvi</option>
+                            <option value="collette_small">Collette Small</option>
+                            <option value="joan_di_angelo">Joan Di Angelo</option>
+                          </select>
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="industry-sector">Industry Sector</label>
+                          <select class="form-registration-inputs" id="poc-other">
+                            <option value="NA">Please select</option>
+                            <option value="agriculture">Agriculture</option>
+                            <option value="retail">Retail</option>
+                            <option value="professional_services">Professional Services</option>
+                            <option value="manufacturing">Manufacturing</option>
+                            <option value="leisure">Leisure</option>
+                            <option value="other">Other</option>
+                          </select>
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="company-name">Company Name</label>
+                          <input class="form-registration-inputs" id="company name" type="email" placeholder="company name">
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="company-number">Company Number</label>
+                          <input class="form-registration-inputs" id="company-number" type="text" placeholder="company number">
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="client-ref">Client Reference</label>
+                          <input class="form-registration-inputs" id="client-ref" type="text" placeholder="client reference" required>
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="username">Select a Username</label>
+                          <input class="form-registration-inputs" id="username" type="email" placeholder="username" required>
+                          <br>
+                          <div class="gap-small"></div>
+                          <label for="password">Create a Paswword</label>
+                          <input class="form-registration-inputs" id="password" type="password" placeholder="password" required>
+                          <br>
+                          <div class="gap-small"></div>
                       <div id="portal-footer">
                         <button class="reset-button" type="reset">Reset</button>
                         <button class="submit-button" type="submit">Submit</button>                         

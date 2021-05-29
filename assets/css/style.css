@@ -596,6 +596,10 @@ iframe {
     padding-left: 3vw;
 }
 
+.form-registration-mobile {
+    color: #fafafa;
+}
+
 #portal-footer {
     padding-bottom: 4vh;
     text-align: right;
@@ -1006,6 +1010,7 @@ textarea {
         font-size: 1.1em;
         font-weight: 500;
         border-radius: 10px;
+        width: 20vw;
     }
     
     
