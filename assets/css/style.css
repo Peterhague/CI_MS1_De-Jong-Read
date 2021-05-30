@@ -376,6 +376,28 @@ h4 {
 
 /*-------------------------------------------------------------------------------------------------------------------Contact Us page-----------------------*/
 
+.submit-button-reg-mobile {
+    background-color: rgba(32, 165, 83, 0.8);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    width: 10vh;
+    height: 5vh;
+    border-radius: 5%;
+    margin-right: 1vmax;
+}
+
+.reset-button-reg-mobile {
+    background-color: #c9b7b7;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    width: 10vh;
+    height: 5vh;
+    border-radius: 5%;
+    margin-right: 1vw;
+}
+
 .newsletter-top {
     background-color: rgba(0, 0, 0, 0.85);
     color: #fff;
@@ -1016,7 +1038,7 @@ textarea {
 
     .go-button {
         position: absolute;
-        right: 28vmin;
+        right: 31vmin;
         margin-top: 3vmin;
         background-color: rgba(32, 165, 83, 0.8);
         color: #fff;
@@ -1024,6 +1046,45 @@ textarea {
         width: 8vh;
         height: 8vh;
         border-radius: 50%;
+    }
+
+    #form-portal-mobile {
+        color: #fff;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        position: relative;
+        padding-top: 1vh;
+        text-align: left;
+    }
+
+    #form-portal-mobile .form-registration-inputs {
+        width: 18vmax;
+        font-size: 0.8em;
+    }
+
+    #form-portal-mobile label {
+        font-size: 0.9em;
+    }
+
+    #portal-footer {
+        padding-bottom: 4vh;
+        text-align: right;
+        padding-top: 3vh;
+        padding-right: 1vh;
+    }
+
+    .registration {
+        margin-bottom: 20vh;
+        margin-top: 5vh;
+    }
+
+    .portal-top {
+        background-color: rgba(0, 0, 0, 0.85);
+        color: #fff;
+        border-radius: 10px;
+        text-align: center;
+        position: relative;
+        padding-top: 1vh;
     }
 
     .carousel-home {
