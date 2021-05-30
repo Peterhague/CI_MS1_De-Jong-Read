@@ -759,9 +759,6 @@ iframe {
 
 /*------------------------------------------------------------------------------------------------------Our Services page--------------------*/
 
-#navbar-svcs-mob {
-    margin-bottom: 0;
-}
 
 #services-panel-title-mob-agri {
     height: 10vh;
@@ -1115,6 +1112,11 @@ textarea {
         position: relative;
         padding-top: 1vh;
     }
+
+    #navbar-svcs-mob {
+        margin-bottom: 0;
+    }
+    
 
     .carousel-home {
         margin-bottom :0vh;
