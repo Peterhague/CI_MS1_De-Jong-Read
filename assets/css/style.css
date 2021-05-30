@@ -413,14 +413,8 @@ h4 {
     margin-bottom: 30vh;
 }
 
-.container-map {
-    background-color: rgba(0, 0, 0, 0.85);
-    padding-bottom: 3vh;
-    padding-top: 3vh;
-    padding-right: 3vh;
-}
 
-.container-map-mobile {
+.contaier-map-mobile {
     background-color: rgba(0, 0, 0, 0.85);
     padding-bottom: 3vh;
     padding-top: 3vh;
@@ -435,10 +429,15 @@ h4 {
 }
 
 .container-directions-mobile {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fafafa;
     padding-top: 2vh;
     font-size: 1em;
+    padding-left: 3vh;
+}
+
+.contaner-directions-mobile h2 {
+    padding-left: 2vh;
 }
 
 .contact-details {
