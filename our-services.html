@@ -27,12 +27,9 @@
                     <span class="navbar-toggler-icon"><i class="burger-icon fas fa-bars"></i></span>
                   </button>
                 </div>
-                <div class="book-button-mobile d-lg-none">
-                  <button class="btn btn nav-link nav-link-header" data-toggle="modal" data-target="#contactusModal">LOG IN</button> 
-                </div>
             </header>
 
-              <nav class="navbar navbar-expand-md navbar-dar bg-dar"> 
+              <nav id="navbar-svcs-mob" class="navbar navbar-expand-md navbar-dar bg-dar"> 
               <div class="collapse navbar-collapse" id="content">
         
             <ul class="navbar-nav">
@@ -57,10 +54,11 @@
         <button class="btn btn-book-desktop nav-link nav-link-header" href="#" data-toggle="modal" data-target="#contactusModal">sign in</button> 
       </div>
     </nav>
+    
 
     <section>
       <div class="container-fluid container-services">
-        <div class="row no gutters">
+        <div class="row no gutters d-none d-md-block">
           <div class="col-md-1"></div>
           <div class="col-md-5 services-panel-title">Agribusiness</div>
           <div class="col-md-5 services-panel-content">To remain competitive in the complex agribusiness marketplace,
@@ -72,6 +70,21 @@
             <br><br>Our wealth of experice in local and national agriculture ensures we provide you with the freshest ideas
             and wisest advice to help achieve your dreams.</div>
           <div class="col-md-1"></div>
+        </div>
+        <div class="row no gutters d-md-none">
+          <div class="col-md-1"></div>
+          <div class="col-md-5 services-panel-title" id="services-panel-title-mob-agri">Agribusiness</div>
+          <div class="col-md-5 services-panel-content-agri">To remain competitive in the complex agribusiness marketplace,
+            your business, we help our clients to economise, streamline processes, and minimise future tax liabilities.
+            <br><br>
+            Our professionals are passionate about realising the growth you want to see.
+            Instead of merely identifying problems, we recognise the imporatance of spotting opportunities and planning accordingly.
+            <br><br>Our wealth of experice in local and national agriculture ensures we provide you with the freshest ideas
+            and wisest advice to help achieve your dreams.</div>
+          <div class="col-md-1"></div>
+        </div>
+        <div class="d-md-none book-button-mobile" style="display: flex; justify-content: center; margin-top: 3vh; margin-bottom: 10vh; z-index: 3;">
+          <button class="btn btn login-button-mobile" href="#" data-toggle="modal" data-target="#contactusModal">Sign in</button> 
         </div>
         <div class="row no gutters">
           <div class="col-md-1"></div>
@@ -98,7 +111,7 @@
             smooth and mutually beneficial as possible. We understand that clients' main focus will always be their operations, so we plan our work accordingly to cause minimum disruption.
             <br>
             <br>
-            We are firm believer in the vaule of a proactive audit approach and have seen this yield benefits for numerous clients over the years.
+            We are firm believers in the vaule of a proactive audit approach and have seen this yield benefits for numerous clients over the years.
           </div>
           <div class="col-md-1"></div>
         </div>
@@ -120,7 +133,7 @@
       </div>
     </section>
 
-    <section class="membership-benefits">      
+    <section class="membership-benefits d-none d-md-block">      
       <div class="container">
         <div class="row">
           <div class="col-1"></div>
@@ -206,6 +219,91 @@
             </table>
           </div>
           <div class="col-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="membership-benefits d-md-none">      
+      <div class="container">
+        <div class="row">
+          <div class="col container-table">
+            <div class="table-header center-align">
+            <h3 class="uppercase">client membership programme</h3>  
+            <h4>Silver, Gold, or Platinum</h4>
+            <h5 class="italic">Excellent benefits and enhanced service from just £40 a month</h5>
+          </div>          
+            <table class="table-membership-mobile">
+              <tr class="table-header table-row-one-mobile">
+                <th class="left-align col-first-mobile underline">benefits</th>
+                <th>
+                  <i class="fas fa-medal medal-silver center-align"></i></th>
+                <th>
+                  <i class="fas fa-medal medal-gold"></i></th>
+                <th>
+                  <i class="fas fa-medal medal-platinum"></i></th>
+              </tr>
+              <tr>
+                <td class="left-align col-first-mobile">Extra months' credit</td>
+                <td>3</td>
+                <td>6</td>
+                <td>9</td>
+              </tr>
+                <td class="left-align col-first-mobile">free cloud software</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+              </tr>
+              <div class="gap-small"></div>
+              <tr>
+                <td class="left-align col-first-mobile">monthly coaching session</td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+              </tr>
+              <tr>
+                <td class="left-align col-first-mobile">weekly coaching session</td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+              </tr>
+              <tr>
+                <td class="left-align col-first-mobile">Ad-hoc work discount</td>
+                <td>15%</td>
+                <td>30%</td>
+                <td>50%</td>
+              </tr>
+              <tr>
+                <td class="left-align col-first-mobile">tax investigation insurance</td>
+                <td>£200</td>
+                <td>£100</td>
+                <td>free</td>
+              </tr>
+              <tr>
+                <td class="left-align col-first-mobile">Job turnaround (days)</td>
+                <td>42</td>
+                <td>28</td>
+                <td>14</td>
+              </tr>
+              <tr>
+                <td class="left-align col-first-mobile">introduction fees</td>
+                <td>£350</td>
+                <td>£600</td>
+                <td>£1,000</td>
+              </tr>
+              <tr>
+                <td class="left-align col-first-mobile">free internal audit service</td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-check"></i></td>
+              </tr>
+              <tr>
+                <td class="left-align col-first-mobile">free IT support</td>
+                <td><i class="fas fa-times"></i></td>
+                <td><i class="fas fa-check"></i></td>
+                <td><i class="fas fa-check"></i></td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </section>

@@ -759,6 +759,15 @@ iframe {
 
 /*------------------------------------------------------------------------------------------------------Our Services page--------------------*/
 
+#navbar-svcs-mob {
+    margin-bottom: 0;
+}
+
+#services-panel-title-mob-agri {
+    height: 10vh;
+    padding-top: 0vh;
+}
+
 .services-panel-title {
     height: 45vh;
     border-style: solid;
@@ -826,6 +835,10 @@ table {
     font-size: 1.3em;
 }
 
+.table-row-one-mobile {
+    font-size: 0.9em;
+}
+
 td {
     width: 18%;
 
@@ -836,6 +849,14 @@ tr {
 
 .col-first {
     width: 30%;
+}
+
+.col-first-mobile {
+    width: 50%;
+}
+
+.table-membership-mobile td {
+    font-size: 0.75em;
 }
 
 .medal-silver {
@@ -1233,6 +1254,19 @@ textarea {
         padding-top: 2vh;
         font-weight: 400;
     }
+
+    .services-panel-content-agri {
+        height: 60vh;
+        border-style: solid;
+        border-width: 1px;
+        background-color: rgba(0, 0, 0, 0.75);
+        border-color: rgba(0, 0, 0, 0.75);
+        color: #fff;
+        text-align: center;
+        padding-top: 2vh;
+        font-weight: 400;
+    }
+
 
     .test-slides {
         background-color: rgba(0, 0, 0, 0.85);
