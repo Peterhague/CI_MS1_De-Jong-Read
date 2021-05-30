@@ -1003,6 +1003,29 @@ textarea {
 
 @media only screen and (max-width: 600px) {
 
+    .newsletter-email {
+        position: absolute;
+        right: 7vw;
+        columns: #fff;
+        border: none;
+        background-color: #fafafa;
+        border-radius: 25px;
+        padding-left: 0.75vw;
+        width: 60vw;
+    }
+
+    .go-button {
+        position: absolute;
+        right: 28vmin;
+        margin-top: 3vmin;
+        background-color: rgba(32, 165, 83, 0.8);
+        color: #fff;
+        border: none;
+        width: 8vh;
+        height: 8vh;
+        border-radius: 50%;
+    }
+
     .carousel-home {
         margin-bottom :0vh;
     }
