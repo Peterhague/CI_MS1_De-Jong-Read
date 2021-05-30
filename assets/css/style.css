@@ -376,6 +376,15 @@ h4 {
 
 /*-------------------------------------------------------------------------------------------------------------------Contact Us page-----------------------*/
 
+.container-map {
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.map-desktop {
+    width: 100%;
+    margin-top: 6vh;
+}
+
 .submit-button-reg-mobile {
     background-color: rgba(32, 165, 83, 0.8);
     color: #fff;
@@ -1031,7 +1040,7 @@ textarea {
         border: none;
         background-color: #fafafa;
         border-radius: 25px;
-        padding-left: 0.75vw;
+        padding-left: 5vw;
         width: 60vw;
     }
 
