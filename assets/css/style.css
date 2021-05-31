@@ -1409,25 +1409,41 @@ textarea {
             right: 1.5vw;
         }
 
+        .staff-profile-skew-left-mobile .staff-title-ipad-left {
+            display: inline-block;
+            position: absolute;
+            left: 1.5vw;
+        }
+
+        .staff-title-ipad-left h4 {
+            text-align: left;
+        }
+
+
         .staff-profile-skew-right-image-mobile {
             display: inline-block;
             position: absolute;
-            left: 14vw;
+            left: 8vw;
             transform: skew(7deg);
             height: 100%;
             width: 15vh;
             background-size: cover;
         }
 
-        .staff-profile-skew-right-image-mobile {
+        .staff-profile-skew-left-image-mobile {
             display: inline-block;
             position: absolute;
-            left: 14vw;
-            transform: skew(7deg);
+            left: 48vw;
+            transform: skew(-7deg);
             height: 100%;
             width: 15vh;
             background-size: cover;
         }
+
+        .staff-profile-skew-left-mobile {
+            position: relative;
+        }
+
 
         .registration {
             margin-top: 20vh;
@@ -1602,7 +1618,46 @@ textarea {
     
 @media only screen and (max-width: 1100px) and (min-width: 800px) {
 
-        
+    .staff-profile-skew-right-mobile .staff-title-ipad {
+        display: inline-block;
+        position: absolute;
+        right: 1.5vw;
+    }
+
+    .staff-profile-skew-left-mobile .staff-title-ipad-left {
+        display: inline-block;
+        position: absolute;
+        left: 1.5vw;
+    }
+
+    .staff-title-ipad-left h4 {
+        text-align: left;
+    }
+
+
+    .staff-profile-skew-right-image-mobile {
+        display: inline-block;
+        position: absolute;
+        left: 8vw;
+        transform: skew(7deg);
+        height: 100%;
+        width: 15vh;
+        background-size: cover;
+    }
+
+    .staff-profile-skew-left-image-mobile {
+        display: inline-block;
+        position: absolute;
+        left: 48vw;
+        transform: skew(-7deg);
+        height: 100%;
+        width: 15vh;
+        background-size: cover;
+    }
+
+    .staff-profile-skew-left-mobile {
+        position: relative;
+    } 
         
 
         .newsletter-top h3 {
