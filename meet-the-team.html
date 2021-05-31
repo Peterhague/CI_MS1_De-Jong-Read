@@ -198,6 +198,9 @@
             </p>
       </div>
     </div>
+    <div class="d-md-none book-button-mobile" style="display: flex; justify-content: center; margin-top: 3vh; margin-bottom: 10vh; z-index: 3;">
+      <button class="btn btn login-button-mobile" href="#" data-toggle="modal" data-target="#contactusModal">Sign in</button> 
+    </div>
     <div class="row staff-profiles-mobile no-gutters" style="margin-bottom: 0;">
       <div class="col staff-bio staff-profile-skew-left-mobile" style="height: 30vh; border-style: solid;">        
           <div class="staff-profile-skew-left-image-mobile" style="background-image: url(assets/images/read.jpg);"></div>
@@ -324,60 +327,59 @@
 </div>
   
 <div class="modal" tabindex="-1" role="dialog" id="contactusModal">
-      <div class="modal-dialog modal-dialog-original" role="document">
-        <div class="modal-content modal-content-original">
-          <div class="modal-header modal-header-original">
-            <h5 class="modal-title modal-title-original">Sign in to your account</h5>
-            <button type="button" class="close close-contact-us" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+  <div class="modal-dialog modal-dialog-original" role="document">
+    <div class="modal-content modal-content-original">
+      <div class="modal-header modal-header-original">
+        <h5 class="modal-title modal-title-original">Sign in to your account</h5>
+        <button type="button" class="close close-contact-us" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>          
+      <div class="modal-body modal-body-original">
+        <form class="form-modal" action="post">
+          <label class="label-modal-login" for="uname">Username</label>
+          <input type="text" id="uname" class="form-login-inputs" name="uname" placeholder="Username" required>
+          <br>
+          <div class="gap-small"></div>
+          <label class="label-modal-login" for="pword">Password</label>
+          <input type="text" id="pword" class="form-login-inputs" name="pword" placeholder="Password" required>
+          <br d-md-none>
+          <a class="d-none d-md-inline" href="#" data-dismiss="modal" data-toggle="modal" data-target="#reminderModal" style="position: absolute; bottom: 20%;">Forgotten your login details?</a>
+          <div id="portal-footer">
+            <button class="reset-button-login" type="reset">Reset</button>
+            <button class="submit-button-login" type="submit">Submit</button>                         
           </div>
-          
-          <div class="modal-body modal-body-original">
-            <form class="form-modal" action="post">
-              <label class="label-modal-login" for="uname">Username</label>
-              <input type="text" id="uname" class="form-login-inputs" name="uname" placeholder="Username" required>
-              <br>
-              <div class="gap-small"></div>
-              <label class="label-modal-login" for="pword">Password</label>
-              <input type="text" id="pword" class="form-login-inputs" name="pword" placeholder="Password" required>
-              <br>
-              <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#reminderModal" style="position: absolute; bottom: 20%;">Forgotten your login details?</a>
-              
-              <div id="portal-footer">
-                <button class="reset-button-login" type="reset">Reset</button>
-                <button class="submit-button-login" type="submit">Submit</button>                         
-              </div>       
-            </form>
-          </div>
-         </div>
-        </div>
+          <a class="d-md-none right-align" href="#" data-dismiss="modal" data-toggle="modal" data-target="#reminderModal" style="position: absolute; bottom: 0;">Forgotten your login details?</a>       
+        </form>
+      </div>
+     </div>
     </div>
+</div>
 
-    <div class="modal" tabindex="-1" role="dialog" id="reminderModal">
-      <div class="modal-dialog modal-dialog-original" role="document">
-        <div class="modal-content modal-content-original">
-          <div class="modal-header modal-header-original">
-            <h5 class="modal-title modal-title-original">Request a Password Reminder</h5>
-            <button type="button" class="close close-contact-us" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
+<div class="modal" tabindex="-1" role="dialog" id="reminderModal">
+  <div class="modal-dialog modal-dialog-original" role="document">
+    <div class="modal-content modal-content-original">
+      <div class="modal-header modal-header-original">
+        <h5 class="modal-title modal-title-original">Request a Password Reminder</h5>
+        <button type="button" class="close close-contact-us" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>          
+      <div class="modal-body modal-body-original">
+        <form class="form-modal" action="post">
+          <label class="label-modal-login" for="reminder-email">Your email address</label>
+          <input type="email" id="reminder-email" class="form-login-inputs" name="email" placeholder="Email Address" required>
+          <br>              
+          <div id="portal-footer">
+            <small class="left-align d-none d-md-inline" style="position: absolute; bottom: 23%;">Click on the link in the email to reset your password</small>
+            <button class="submit-button-login" type="submit">Submit</button>                         
           </div>
-          
-          <div class="modal-body modal-body-original">
-            <form class="form-modal" action="post">
-              <label class="label-modal-login" for="reminder-email">Your email address</label>
-              <input type="email" id="reminder-email" class="form-login-inputs" name="email" placeholder="Email Address" required>
-              <br>              
-              <div id="portal-footer">
-                <small class="left-align" style="position: absolute; bottom: 23%;">Click on the link in the email to reset your password</small>
-                <button class="submit-button-login" type="submit">Submit</button>                         
-              </div>       
-            </form>
-          </div>
-         </div>
-        </div>
+          <small class="left-align d-md-none" style="position: absolute; bottom: 0;">Click on the link in the email to reset your password</small>       
+        </form>
+      </div>
+     </div>
     </div>
+</div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>    
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
