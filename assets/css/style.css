@@ -576,7 +576,6 @@ iframe {
 .newsletter-email {
     position: absolute;
     right: 2vw;
-    columns: #fff;
     border: none;
     background-color: #fafafa;
     border-radius: 25px;
@@ -1320,7 +1319,6 @@ textarea {
     .newsletter-email {
         position: absolute;
         right: 7vw;
-        columns: #fff;
         border: none;
         background-color: #fafafa;
         border-radius: 25px;
@@ -1566,7 +1564,6 @@ textarea {
             top: 0;
             font-size: 5vw;
             border: none;
-            background-color: none;
         }
 
         .staff-profile-skew-right-mobile .staff-title-ipad {
