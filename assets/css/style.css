@@ -1693,9 +1693,6 @@ textarea {
             background-color: #ddddd9;
         }
     
-        .form-modal {
-            height: 75vh;
-        }
     
         .staff-bio p {
             font-size: 0.9em;
@@ -1746,6 +1743,21 @@ textarea {
         .container-services {
             margin-top: 15vh;
         }
+
+        #portal-footer small {
+            left: 0;
+        }
+
+        .submit-button-login, .reset-button-login {
+            width: 7vh;
+            height: 3vh;
+        }
+
+        #portal-footer {
+            padding-right: 3vh;
+            padding-bottom: 3vh;
+        }
+
     
     }
 
@@ -1919,8 +1931,18 @@ textarea {
             background-color: #ddddd9;
         }
     
-        .form-modal {
-            height: 50vh;
+        .reset-button-login, .submit-button-login {
+            width: 5vh;
+            height: 3vh;
+        }
+
+        #portal-footer small {
+            left: 0;
+        }
+
+        #portal-footer {
+            padding-bottom: 3vh;
+            padding-right: 2vh;
         }
 
         .modal-content-original {
