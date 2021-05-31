@@ -1365,6 +1365,13 @@ textarea {
         padding-right: 1vh;
     }
 
+    #portal-footer-two {
+        padding-bottom: 4vh;
+        text-align: right;
+        padding-top: 3vh;
+        padding-right: 1vh;
+    }
+
     .registration {
         margin-bottom: 20vh;
         margin-top: 5vh;
@@ -1786,6 +1793,11 @@ textarea {
             padding-bottom: 3vh;
         }
 
+        #portal-footer-two {
+            padding-right: 3vh;
+            padding-bottom: 3vh;
+        }
+
     
     }
 
@@ -1969,6 +1981,11 @@ textarea {
         }
 
         #portal-footer {
+            padding-bottom: 3vh;
+            padding-right: 2vh;
+        }
+
+        #portal-footer-two {
             padding-bottom: 3vh;
             padding-right: 2vh;
         }
