@@ -49,26 +49,28 @@
         <button class="btn btn-book-desktop nav-link nav-link-header" href="#" data-toggle="modal" data-target="#contactusModal">sign in</button> 
       </div>
     </nav>  
-    <section class="d-none d-md-block">
+    <section class="d-none d-md-block margin-bottom-medium">
         <div class="container">
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 newsletter-top">
+                <div class="col-md-1 col-lg-2"></div>
+                <div class="col-md-10 col-lg-8 newsletter-top">
                     <h3>Sign up for our free weekly newsletter!</h3>
+                    <div class="gap-small d-none d-md-block d-lg-none"></div>
                     <h4>Get all the latest financial and local business news straight to your inbox</h4> 
                 </div>
-                <div class="col-md-2"></div>
+                <div class="col-md-1 col-lg-2"></div>
             </div>
             <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-4 newsletter-bottom-left">
+                <div class="col-md-1 col-lg-2"></div>
+                <div class="col-md-5 col-lg-4 newsletter-bottom-left">
                     <br>
                     <p>Sign up now for all the best local business information, tax tips, financial
                         news and the latest developments in the world of accounting and agriculture.
+                        <br class="d-none d-md-block d-lg-none"><br class="d-none d-md-block d-lg-none">
                         Stay informed on the issues crucial to you and your business.
                     
                 </div>
-                <div class="col-md-4 newsletter-bottom-right">
+                <div class="col-md-5 col-lg-4 newsletter-bottom-right">
                     <br>
                     <form action="post">
                         <input class="newsletter-email" type="text" placeholder="first name">
@@ -88,7 +90,7 @@
                         </button>                       
                     </form>                        
                 </div>
-                <div class="col-md-2"></div>                
+                <div class="col-md-1 col-lg-2"></div>                
             </div>
         </div>
         
@@ -128,7 +130,7 @@
       </div>
       
   </section>
-  <div class="d-md-none book-button-mobile" style="display: flex; justify-content: center; margin-top: 3vh; margin-bottom: 10vh; z-index: 3;">
+  <div class="d-lg-none book-button-mobile" style="display: flex; justify-content: center; margin-top: 3vh; margin-bottom: 10vh; z-index: 3;">
     <button class="btn btn login-button-mobile" href="#" data-toggle="modal" data-target="#contactusModal">Sign in</button> 
   </div>
     
@@ -170,7 +172,7 @@
                             <input class="form-registration-inputs" id="email" type="text" placeholder="email address">
                             <br>
                             <div class="gap-small"></div>
-                            <label for="partner">Partner in Charge</label>
+                            <label for="partner">Partner<span class="d-md-none d-lg-inline"> in Charge</span></label>
                             <select class="form-registration-inputs" id="partner">
                                 <option value="NA">Please select</option>
                                 <option value="Phil De Jong">Phil De Jong</option>
@@ -178,7 +180,7 @@
                               </select>
                             <br>
                             <div class="gap-small"></div>
-                            <label for="manager">Manager in Charge</label>
+                            <label for="manager">Manager<span class="d-md-none d-lg-inline"> in Charge</span></label>
                             <select class="form-registration-inputs" id="manager">
                               <option value="NA">Please select</option>
                               <option value="Natalie_Jenkins">Natalie Jenkins</option>
@@ -190,7 +192,7 @@
                     </div>
                       <div id="form-portal-right">
                           <br>
-                          <label for="poc-other">Other Point of Contact</label>
+                          <label for="poc-other">Other<span class="d-lg-none"> contact</span><span class="d-md-none d-lg-inline> of Contact"></span></label>
                           <select class="form-registration-inputs" id="poc-other">
                             <option value="NA">Please select</option>
                             <option value="trent_bindle">Trent Bindle</option>
