@@ -734,6 +734,44 @@ iframe {
     margin-bottom: 0;
 }
 
+.staff-profile-skew-right {
+    transform: skew(-15deg);
+    padding-left: 2vw !important;
+    padding-right: 2vw;
+    display: inline-block;
+    position: relative;
+}
+
+.staff-profile-skew-right-image {
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    top: 0;
+    transform: skew(15deg);
+    height: 43vh;
+    width: 37vh;
+    background-size: cover;
+}
+
+.staff-profile-skew-left {
+    transform: skew(15deg);
+    padding-right: 2vw;
+    display: inline-block;
+    position: relative;
+    height: 53vh;
+}
+
+.staff-profile-skew-left-image {
+    display: inline-block;
+    position: absolute;
+    left: 8%;
+    bottom: 0;
+    transform: skew(-15deg);
+    height: 43vh;
+    width: 37vh;
+    background-size: cover;
+}
+
 /*----------------------------------------------------------------------------------------------------Testimonials page-------------*/
 
 .test-slides {
