@@ -809,10 +809,10 @@ iframe {
 .staff-profile-skew-left-image-mobile {
     display: inline-block;
     position: absolute;
-    left: 17vw;
+    left: 13vw;
     transform: skew(-7deg);
     height: 100%;
-    width: 22vh;
+    width: 25vh;
     background-size: cover;
 }
 
