@@ -29,9 +29,6 @@
                     <span class="navbar-toggler-icon"><i class="burger-icon fas fa-bars"></i></span>
                   </button>
                 </div>
-                <div class="book-button-mobile d-lg-none">
-                  <button class="btn btn nav-link nav-link-header" data-toggle="modal" data-target="#contactusModal">LOG IN</button> 
-                </div> 
         
             </header>
 
@@ -62,10 +59,10 @@
     </nav>
   
 
-    <section> 
-      <div class="container">
+    <section class="d-none d-md-block"> 
+      <div class="container" style="border-bottom: 50vh;">
         <div id="staff-profile-one" class="row staff-profiles no-gutters">
-          <div class="col-12 col-md-6 col-lg-12 staff-bio" style="transform: skew(-15deg); padding-left: 2vw; padding-right: 2vw; display: inline-block; position: relative;">
+          <div class="col-12 col-md-6 col-lg-12 staff-bio staff-profile-skew-right">
             <div style="width: 40vw;">
             <h3 style="transform: skew(15deg);">Phil De Jong ACA<a href="https://www.linkedin.com" target="_blank" class="margin-left-small"><i class="fab fa-linkedin"></i></a></h3>
             <h4 style="transform: skew(15deg);">Partner</h4>
@@ -82,13 +79,13 @@
               coast - sometimes as far afield as Scotland. Anything to avoid doing the dishes!
             </p>
           </div>
-          <div style="display: inline-block; position: absolute; right: 10%; top: 0; transform: skew(15deg); height: 43vh; width: 37vh; background-image: url(assets/images/dejong.jpg); background-size: cover;">
+          <div class="staff-profile-skew-right-image" style="background-image: url(assets/images/dejong.jpg);">
                 
           </div>
           </div>      
         </div>
-        <div i="staff-profile-one" class="row staff-profiles no-gutters">
-          <div class="col-12 col-md-6 col-lg-12 staff-bio" style="transform: skew(15deg); padding-right: 2vw; position: relative; height: 53vh;">
+        <div id="staff-profile-one" class="row staff-profiles no-gutters">
+          <div class="col-12 col-md-6 col-lg-12 staff-bio staff-profile-skew-left">
             <div style="width: 43vw; position: absolute; right: 2%;">
               <h3 style="transform: skew(-15deg);">Liz Read FCA<a href="https://www.linkedin.com" target="_blank" class="margin-left-small"><i class="fab fa-linkedin"></i></a></h3>
               <h4 style="transform: skew(-15deg);">Partner</h4>
@@ -106,13 +103,13 @@
                 I'm also a mum to two teenage daughters, neither of whom have any interest in cricket!
               </p>
           </div>
-          <div style="display: inline-block; position: absolute; left: 8%; bottom: 0; transform: skew(-15deg); height: 43vh; width: 37vh; background-image: url(assets/images/read.jpg); background-size: cover;">
+          <div class="staff-profile-skew-left-image" style="background-image: url(assets/images/read.jpg);">
                 
           </div>  
           </div>      
         </div>
         <div id="staff-profile-one" class="row staff-profiles no-gutters">
-          <div class="col-12 col-md-6 col-lg-12 staff-bio" style="transform: skew(-15deg); padding-left: 2vw; padding-right: 2vw; display: inline-block; position: relative;">
+          <div class="col-12 col-md-6 col-lg-12 staff-bio staff-profile-skew-right">
             <div style="width: 40vw;">
               <h3 style="transform: skew(15deg);">Natalie Jenkins ACA<a href="https://www.linkedin.com" target="_blank" class="margin-left-small"><i class="fab fa-linkedin"></i></a></h3>
               <h4 style="transform: skew(15deg);">Audit & Assurance Manager</h4>
@@ -129,13 +126,13 @@
                 gardening and decorating, and a bit of DIY. We like to cook a lot and eat out as much as possible.
               </p>
           </div>
-                <div style="display: inline-block; position: absolute; right: 10%; top: 0; transform: skew(15deg); height: 43vh; width: 37vh; background-image: url(assets/images/jenkins.jpg); background-size: cover;">
+                <div class="staff-profile-skew-right-image" style="background-image: url(assets/images/jenkins.jpg);">
                 
                 </div>
           </div>      
         </div>
         <div i="staff-profile-one" class="row staff-profiles no-gutters">
-          <div class="col-12 col-md-6 col-lg-12 staff-bio" style="transform: skew(15deg); padding-right: 2vw; position: relative; height: 53vh;">
+          <div class="col-12 col-md-6 col-lg-12 staff-bio staff-profile-skew-left">
             <div style="width: 42vw; position: absolute; right: 2%;">
               <h3 style="transform: skew(-15deg);">Richard Travers FCCA CTA<a href="https://www.linkedin.com" target="_blank" class="margin-left-small"><i class="fab fa-linkedin"></i></a></h3>
               <h4 style="transform: skew(-15deg);">Head of Tax</h4>
@@ -150,13 +147,13 @@
                 high standard. I also volunteer for various charities connected to our village community.
               </p>
           </div>
-          <div style="display: inline-block; position: absolute; left: 8%; bottom: 0; transform: skew(-15deg); height: 43vh; width: 37vh; background-image: url(assets/images/travers.jpg); background-size: cover;">
+          <div class="staff-profile-skew-left-image" style="background-image: url(assets/images/travers.jpg);">
                 
           </div>  
           </div>      
         </div>
         <div id="staff-profile-one" class="row staff-profiles no-gutters">
-          <div class="col-12 col-md-6 col-lg-12 staff-bio" style="transform: skew(-15deg); padding-left: 2vw; padding-right: 2vw; display: inline-block; position: relative;">
+          <div class="col-12 col-md-6 col-lg-12 staff-bio staff-profile-skew-right">
             <div style="width: 42vw;">
               <h3 style="transform: skew(15deg);">George Roberts MAAT<a href="https://www.linkedin.com" target="_blank" class="margin-left-small"><i class="fab fa-linkedin"></i></a></h3>
               <h4 style="transform: skew(15deg);">Client Relationship Mananger</h4>        
@@ -170,12 +167,125 @@
               </p>
               <p style="transform: skew(15deg);">In my free time I'm a keen swimmer and hockey player, and enjoy going on walking tours with my partner and our local Church group.</p>
           </div>
-          <div style="display: inline-block; position: absolute; right: 10%; top: 0; transform: skew(15deg); height: 43vh; width: 37vh; background-image: url(assets/images/roberts.png); background-size: cover;">
+          <div class="staff-profile-skew-right-image" style="background-image: url(assets/images/roberts.png);">
                 
           </div>
           </div>      
         </div>
     </div>
+</section>
+
+<section class="d-md-none"> 
+  <div class="container" style="border-bottom: 50vh; width: 80vw;">
+    <div class="row staff-profiles-mobile no-gutters" style="margin-bottom: 0;">
+      <div class="col staff-bio staff-profile-skew-right-mobile" style="height: 30vh;">        
+          <div class="staff-profile-skew-right-image-mobile" style="background-image: url(assets/images/dejong.jpg);"></div>
+      </div>
+    </div>
+    <div class="row staff-profiles-mobile no-gutters">
+      <div class="col staff-bio staff-profile-skew-right-mobile" style="height: 35vh;"> 
+      <h3 style="transform: skew(7deg);">Phil De Jong ACA<a href="https://www.linkedin.com" target="_blank" class="margin-left-small"><i class="fab fa-linkedin"></i></a></h3>
+            <h4 style="transform: skew(7deg);">Partner</h4>
+            <p style="transform: skew(7deg);">I have been with De Jong-Read for nearly 35 years, after joining from university.
+              The firm was established by my father and he mentored me in the profession, and together
+              we nurtured our client relationships and grew the practice until his retirement.
+            </p>
+            <p style="transform: skew(7deg);">I direct the agribusiness side of the practice, and have been lucky enough to establish
+              very strong links with our local community, as well as with many agricultural clients acorss the North West.
+            </p>
+            <p style="transform: skew(7deg);">I have a little more free time now my children are grown up: I'm a keen gardener and DIY enthusiast, and also enjoy the occasional sailing escapade along the local
+              coast - sometimes as far afield as Scotland. Anything to avoid doing the dishes!
+            </p>
+      </div>
+    </div>
+    <div class="row staff-profiles-mobile no-gutters" style="margin-bottom: 0;">
+      <div class="col staff-bio staff-profile-skew-left-mobile" style="height: 30vh; border-style: solid;">        
+          <div class="staff-profile-skew-left-image-mobile" style="background-image: url(assets/images/read.jpg);"></div>
+      </div>
+    </div>
+    <div class="row staff-profiles-mobile no-gutters">
+      <div class="col staff-bio staff-profile-skew-left-mobile" style="height: 36vh; border-style: solid;"> 
+        <h3 style="transform: skew(-10deg);">Liz Read FCA<a href="https://www.linkedin.com" target="_blank" class="margin-left-small"><i class="fab fa-linkedin"></i></a></h3>
+        <h4 style="transform: skew(-10deg);">Partner</h4>
+        <p style="transform: skew(-10deg);">I joined the firm around 20 years ago as Corporate Services Manager, having 
+          qualified as a Charered Accountant with a Big Four firm in 1996, becoming Partner
+          in 2005.
+        </p>
+        <p style="transform: skew(-10deg);">My main area of responsibilty is directing the Audit and Assurance department.
+          I have over 25 years' experience in audit and have helped grow the De Jong-Read business by
+          more than 200%, turning it into a significant local audit and assurance brand.
+        </p>
+        <p style="transform: skew(-10deg);">Outside of work I'm something of a cricket fanatic, as my husband and I attend test and county matches as often as possible. 
+          I'm also a mum to two teenage daughters, neither of whom have any interest in cricket!
+        </p>
+      </div>
+    </div>
+    <div class="row staff-profiles-mobile no-gutters" style="margin-bottom: 0;">
+      <div class="col staff-bio staff-profile-skew-right-mobile" style="height: 27vh;">        
+          <div class="staff-profile-skew-right-image-mobile" style="background-image: url(assets/images/dejong.jpg);"></div>
+      </div>
+    </div>
+    <div class="row staff-profiles-mobile no-gutters">
+      <div class="col staff-bio staff-profile-skew-left-mobile" style="height: 36vh;"> 
+      <h3 style="transform: skew(-7deg);">Phil De Jong ACA<a href="https://www.linkedin.com" target="_blank" class="margin-left-small"><i class="fab fa-linkedin"></i></a></h3>
+            <h4 style="transform: skew(-7deg);">Partner</h4>
+            <p style="transform: skew(-7deg);">I have been with De Jong-Read for nearly 35 years, after joining from university.
+              The firm was established by my father and he mentored me in the profession, and together
+              we nurtured our client relationships and grew the practice until his retirement.
+            </p>
+            <p style="transform: skew(-7deg);">I direct the agribusiness side of the practice, and have been lucky enough to establish
+              very strong links with our local community, as well as with many agricultural clients acorss the North West.
+            </p>
+            <p style="transform: skew(-7deg);">I have a little more free time now my children are grown up: I'm a keen gardener and DIY enthusiast, and also enjoy the occasional sailing escapade along the local
+              coast - sometimes as far afield as Scotland. Anything to avoid doing the dishes!
+            </p>
+      </div>
+    </div>
+    <div class="row staff-profiles-mobile no-gutters" style="margin-bottom: 0;">
+      <div class="col staff-bio staff-profile-skew-right-mobile" style="height: 27vh;">        
+          <div class="staff-profile-skew-right-image-mobile" style="background-image: url(assets/images/dejong.jpg);"></div>
+      </div>
+    </div>
+    <div class="row staff-profiles-mobile no-gutters">
+      <div class="col staff-bio staff-profile-skew-left-mobile" style="height: 36vh;"> 
+      <h3 style="transform: skew(-7deg);">Phil De Jong ACA<a href="https://www.linkedin.com" target="_blank" class="margin-left-small"><i class="fab fa-linkedin"></i></a></h3>
+            <h4 style="transform: skew(-7deg);">Partner</h4>
+            <p style="transform: skew(-7deg);">I have been with De Jong-Read for nearly 35 years, after joining from university.
+              The firm was established by my father and he mentored me in the profession, and together
+              we nurtured our client relationships and grew the practice until his retirement.
+            </p>
+            <p style="transform: skew(-7deg);">I direct the agribusiness side of the practice, and have been lucky enough to establish
+              very strong links with our local community, as well as with many agricultural clients acorss the North West.
+            </p>
+            <p style="transform: skew(-7deg);">I have a little more free time now my children are grown up: I'm a keen gardener and DIY enthusiast, and also enjoy the occasional sailing escapade along the local
+              coast - sometimes as far afield as Scotland. Anything to avoid doing the dishes!
+            </p>
+      </div>
+    </div>
+    <div class="row staff-profiles-mobile no-gutters" style="margin-bottom: 0;">
+      <div class="col staff-bio staff-profile-skew-right-mobile" style="height: 27vh;">        
+          <div class="staff-profile-skew-right-image-mobile" style="background-image: url(assets/images/dejong.jpg);"></div>
+      </div>
+    </div>
+    <div class="row staff-profiles-mobile no-gutters">
+      <div class="col staff-bio staff-profile-skew-left-mobile" style="height: 36vh;"> 
+      <h3 style="transform: skew(-7deg);">Phil De Jong ACA<a href="https://www.linkedin.com" target="_blank" class="margin-left-small"><i class="fab fa-linkedin"></i></a></h3>
+            <h4 style="transform: skew(-7deg);">Partner</h4>
+            <p style="transform: skew(-7deg);">I have been with De Jong-Read for nearly 35 years, after joining from university.
+              The firm was established by my father and he mentored me in the profession, and together
+              we nurtured our client relationships and grew the practice until his retirement.
+            </p>
+            <p style="transform: skew(-7deg);">I direct the agribusiness side of the practice, and have been lucky enough to establish
+              very strong links with our local community, as well as with many agricultural clients acorss the North West.
+            </p>
+            <p style="transform: skew(-7deg);">I have a little more free time now my children are grown up: I'm a keen gardener and DIY enthusiast, and also enjoy the occasional sailing escapade along the local
+              coast - sometimes as far afield as Scotland. Anything to avoid doing the dishes!
+            </p>
+      </div>
+    </div>
+  </div> 
+  
+  
 </section>
 
 <footer class="footer-test footer-mobile">
