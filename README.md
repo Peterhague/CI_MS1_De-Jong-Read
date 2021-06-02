@@ -329,19 +329,37 @@ The mobile configuration displays the items top to bottom, rather than left to r
 
 <h5>Feature 9: News section with modal functionality</h5>
 
-<p></p>
+<p>The news section features three stories each accessible as a full screen modal via underlined "Read more" calls to action. The modals are Bootstrap components, and feature a white background as I decided that the pervasive dark containers of the website were not suitable for reading extended content. On mobile devices the modals require scrolling, so I added anchor elements with "up" arrow icons to allow users to instantly return to the top of the story, and therefore to be able to access the close button without scrolling.</p>
+
+<h5>User stories covered by this feature:</h5>
+<p>User story 11, as a current stakeholder, I want to see what the latest industry news is.</p>
+<p>User story 16, as a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</p>
 
 <h5>Feature 10: Newsletter call to action with form</h5>
 
-<p></p>
+<p>This component features a fully functional form that will not be submitted until all mandatory fields are completed in the appropriate format. The container is responsive for all screens and becomes centre-aligned on mobile devices.</p>
+
+<h5>User stories covered by this feature:</h5>
+<p>User story 10, as a current stakeholder, I want to be able to easily sign up for the firm's weekly newsletter.</p>
+<p>User story 16, as a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</p>
 
 <h5>Feature 11: Portal registration call to action with form</h5>
 
-<p></p>
+<p>This component includes a long, fully-functional form with various input types. It uses the standard Bootstrap grid system to align two columns cleanly. It displays differently on mobile screens but retains all the same fields. The buttons required granular editing for size and placement on the various screen sizes.</p>
+
+<h5>User stories covered by this feature:</h5>
+<p>User story 8, as a current stakeholder, I want to be able to sign up to use the client portal.</p>
+<p>User story 15, as a site owner, I want existing clients to be able to register for and log in to our client portal.</p>
+<p>User story 16, a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</p>
 
 <h5>Feature 12: Table of Membership Programme benefits</h5>
 
-<p></p>
+<p>This component also uses Bootstrap grid system to produce a responsive design for tablet and mobile. The headings feature colourful, attractive icons, and data is displayed in large, easily legible fonts for maximal accessibility.</p>
+
+<h5>User stories covered by this feature:</h5>
+<p>User story 3, as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
+<p>User story 5, as a potential stakeholder, I want to find out about the firm's membership scheme and its benefits.</p>
+
 
 
 
