@@ -226,7 +226,7 @@ the input fields only very slightly rounded, because that seemed to better suit 
 <p>This means that the section is fully responsive for mobile and tablet, with smaller screens adopting a single column configuration, with the map beneath the directions. This has been fine-tuned
 via media queries so that the directions and the map are visible on a mobile's roughly 9:16 aspect ratio without the need to scroll.</p>
 
-<p>I chose the black, slightly opaque background, for consistency with the overall design philosophy mentioned above. I unrounded corners for this component, as that was a better fit as a frame for the map.</p>
+<p>I chose the black, slightly opaque background, for consistency with the overall design philosophy mentioned above. I chose unrounded corners for this component, as that was a better fit as a frame for the map.</p>
 
 <h5>User stories covered by this feature:</h5>
 <p>User story 1: as a potential stakeholder, I want to know where the firm is located.</p>
@@ -244,6 +244,8 @@ desktop format, and two rows for mobile and tablet.</p>
 to each of the classes as necessary. I did this because the designs were different enough that this was quicker than writing media queries (e.g. the name of the staff member is in a different row depending on the screen size).</p>
 
 <p>The slanted boxes on this page were achieved via transform:skew CSS rules, and chosen to add variety and visual dynamism to the website.</p>
+
+<p>I chose the black, slightly opaque background, for consistency with the overall design philosophy mentioned above.</p>
 
 <p>The page is fully responsive on mobile and tablet screen sizes.</p>
 
@@ -267,9 +269,14 @@ to each of the classes as necessary. I did this because the designs were differe
 <p>The responsive design was achieved by writing one section for desktop and then copying and editing that for mobile and tablet. Different display classes were then applied
 to each of the sections as necessary. I did this because the designs were different enough that this was quicker than writing media queries (e.g. the left hand panes on desktop are resized and become headings on mobile and tablet).</p>
 
+<p>I chose the black, slightly opaque background, for consistency with the overall design philosophy mentioned above. I opted for strict rectangles with no rounding because I wanted the title
+panels to evoke the feeling of peering through windows to the scenery behind, and their counterpart descriptive panels therefore had to be the same shape for a pleasing symmetry.</p>
+
 <p>All copy on the page was written by me.</p>
 
-<p>The table was also duplicated for mobile and tablet, simply in order to display on smaller screens as a fluid container spanning the entire viewport. This was sufficient for the table to display in a legible and uncluttered manner, viewable without scrolling on most mobile devices. Various media queries and edits to the narrative contractions were made for some of the smaller and more unusual screen sizes and aspect ratios.</p>
+<h5>Section 2: table summarising membership benefits</h5>
+
+<p>The table was also duplicated for mobile and tablet, simply in order to display on smaller screens as a fluid container spanning the entire viewport. This was sufficient for the table to display in a legible and uncluttered manner, viewable without scrolling on most mobile devices. Various media queries narrative contractions were made for some of the smaller and more unusual screen sizes and aspect ratios.</p>
 
 <p>The icons in the table were sourced from Font Awesome's library.</p>
 
