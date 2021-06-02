@@ -255,7 +255,7 @@ to each of the classes as necessary. I did this because the designs were differe
 <p>User story 6, as a potential stakeholder, I want to discover the firm's culture and the personalities of the KMP.</p>
 <p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
 
-<h5> Feature 4: Our Services page</h5>
+<h5>Feature 4: Our Services page</h5>
 
 <p>The Our Services page has two sections:
 
@@ -280,7 +280,68 @@ panels to evoke the feeling of peering through windows to the scenery behind, an
 
 <p>The icons in the table were sourced from Font Awesome's library.</p>
 
+<h5>User stories covered by this feature:</h5>
+<p>User story 3: as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
+<p>User story 5: as a potential stakeholder, I want to fidn out about the firm's membership scheme and its benefits.</p>
+<p>User story 8, as a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</p>
+<p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
 
+<h5>Feature 5: Navigation bar</h5>
+
+<p>The navigation bar is displayed across the four pages consistently, with some minor changes to colour scheme in order that text always contrasts fully with the backgrounds specific to each page.</p>
+
+<p>It uses the Bootstrap navbar component to leverage Javascript functionality to collapse the bar on mobile and tablet devices and replace with a "burger bar" toggle button.</p>
+
+<p>The desktop configuration also features a right-aligned (and therefore prominently isolated) "Sign In" call to action button. In mobile and tablet configurations, this button appears near the bottom of the viewport of each page's display on loading. This aids visibility, and also selection without the need to for users to obscure any of the page with their hand.</p>
+
+<h5>User stories covered by this feature:</h5>
+<p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
+<p>User story 15, as a site owner, I want existing clients to be able to register for and log in to our client portal.</p>
+
+<h5>Feature 6: Footer</h5>
+
+<p>The footer is displayed at the bottom of all the website's pages. It is fixed to the bottom of the viewport on desktop and tablet devices.
+The mobile configuration displays the items top to bottom, rather than left to right.</p>
+
+<p>The footer displays mandatory statutory information related to the firm's professional registrations, its address, and social media links.</p>
+
+<h5>User stories covered by this feature:</h5>
+<p>User story 1, as a potential stakeholder, I want to know where the firm is located.</p>
+<p>User story 16, as a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</p>
+
+<h5>Feature 7: Sign In modal</h5>
+
+<p>This feature is accessed via Bootstrap data-toggle buttons, and displays a form requiring users to submit their login details. There is an optional additional modal for users who have forgotten their details, which works via Bootstrap's data-dismiss class. The modal content is responsive to all screen sizes and required some granular tuning of button size and placement for some of the smaller devices.</p>
+
+<h5>User stories covered by this feature:</h5>
+<p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
+<p>User story 15, as a site owner, I want existing clients to be able to register for and log in to our client portal.</p>
+<p>User story 16, as a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</p>
+
+<h5>Feature 8: Testimonials carousel</h5>
+
+<p>This has been produced by editing Bootstrap's carousel component, by resizing the data indicators for enhanced visibility. It features three different slides each displaying three testimonies from DJR's satisfied clients. It is displayed prominently on the home page as an attractive first impression for new users, as well as to provide an immediate advertisment of the firm's qualities.</p>
+
+<h5>User stories covered by this feature:</h5>
+<p>User story 7, as a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</p>
+<p>User story 12, as a site owner, I want potential stakeholders to understand what my firm does and eoncourage them to become clients or employees.</p>
+<p>User story 13, as a site owner, I want potential stakeholders to understand that existing clients are happy and receive an excellent service.</p>
+
+<h5>Feature 9: News section with modal functionality</h5>
+
+<p></p>
+
+<h5>Feature 10: Newsletter call to action with form</h5>
+
+<p></p>
+
+<h5>Feature 11: Portal registration call to action with form</h5>
+
+<p></p>
+
+<h5>Feature 12: Table of Membership Programme benefits</h5>
+
+<p></p>
 
 
 
