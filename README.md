@@ -180,7 +180,7 @@ background and dark text. I chose this because the dark theme seemed too oppresi
 
 <h5>Feature 2: Contact Us page</h5>
 
-<p>The home page has three sections:
+<p>The Contact Us page has three sections:
 
 <ol>
     <li>A call to action to users to sign up to the firm's weekly newsletter, with an embedded form to input the necessary details.</li>
@@ -198,13 +198,67 @@ The copy for the two calls to action was written by me.
 
 <h5>Section 1: the newsletter call to action</h5>
 
-<p>This component was taken from the Bootstrap CDN, and then tailored for size, background colour, position on the page, and prominence of the left and right indicators.</p>
+<p>This component includes a title and subtitle, calling to action and explaining the imperative, and a longer summary of the benefits of the newsletter, and finally a simple form.
+The form is fully functional and won't submit until all the necessary fields are completed.</p>
 
-<p>I chose the black, slightly opaque background, and the hard rectangle container, for consistency with the overall design philosophy mentioned above.</p>
+<p>The submit button is deliberately large and prominent and I chose a circular form to try to convey a relatively fun, informal tone, which seemed appropriate for a free newsletter.
+The inpput fields are rounded to continue that theme.</p>
 
-<h5>Section 2: Latest Industry News</h5>
-<p>This section consists of three relevant news stories, with informative headlines and images, accessed by collapsible modals, which display full screen on mobiles and tablets with a light
-background and dark text. I chose this because the dark theme seemed too oppresive when fully covering a smaller screen.</p>
+<p>I chose the black, slightly opaque background, for consistency with the overall design philosophy mentioned above. I used slightly rounded corners for this componentto achieve a
+slightly softer look.</p>
+
+<p>The form maintains its basic structure across all devices sizes, albeit moves to a portrait format on mobiles and tablets. This is achieved by it populating more Bootstrap columns as the 
+screen size reduces, as well as some fine-tuning via CSS media queries.</p>
+
+<h5>Section 2: portal registration call to action</h5>
+<p>This component includes a title and subtitle, calling to action and explaining the imperative, and a form with fourteen fields.
+The form is fully functional and won't submit until all the necessary fields are completed, and it includes various different input types, such as date, text, email, password etc.</p>
+
+<p>I chose the black, slightly opaque background, for consistency with the overall design philosophy mentioned above. I again used slightly rounded corners for this component, but made
+the input fields only very slightly rounded, because that seemed to better suit the more business-like function of the form.</p>
+
+<p>The form maintains its two-column structure on tablets, but becomes a single column on mobile: this is achieved via the Bootstrap responsive grid system, as well as some fine-tuning via CSS media queries.</p>
+
+<h5>Section 3: contact information</h5>
+
+<p>This component consists of a Bootstrap-defined container with two columnar sections: left for the directions and contact information, and right for the map embedded via an iframe element.</p>
+
+<p>This means that the section is fully responsive for mobile and tablet, with smaller screens adopting a single column configuration, with the map beneath the directions. This has been fine-tuned
+via media queries so that the directions and the map are visible on a mobile's roughly 9:16 aspect ratio without the need to scroll.</p>
+
+<p>I chose the black, slightly opaque background, for consistency with the overall design philosophy mentioned above. I unrounded corners for this component, as that was a better fit as a frame for the map.</p>
+
+<h5>User stories covered by this feature:</h5>
+<p>User story 1: as a potential stakeholder, I want to know where the firm is located.</p>
+<p>User story 2: as a potential stakeholder, I want to know how to contact the firm and its key management personnel ("KMP").</p>
+<p>User story 8: as a current stakeholder, I want to be able to sign up to use the client portal.</p>
+<p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
+<p>User story 10, as a current stakeholder, I want to be able to easily sign up for the firm's weekly newsletter.</p>
+
+<h5>Feature 3: Meet the Team page</h5>
+
+<p>The meet the Team page has one section: it introduces users to the firm's five key members of staff. This is written as a single Bootstrap container, with one row for each of the staff in
+desktop format, and two rows for mobile and tablet.</p>
+
+<p>The responsive design was achieved by writing one section for desktop and then copying and editing that for mobile, and then again for tablet. Different display classes were then applied
+to each of the classes as necessary. I did this because the designs were different enough that this was quicker than writing media queries (e.g. the name of the staff member is in a different row depending on the screen size).</p>
+
+<p>The slanted boxes on this page were achieved via transform:skew CSS rules, and chosen to add variety and visual dynamism to the website.</p>
+
+<p>The page is fully responsive on mobile and tablet screen sizes.</p>
+
+<h5> Feature 4: Our Services page</h5>
+
+<p>The Our Services page has two sections:
+
+<ol>
+    <li>A section describing the four broad categories of services the firm provides</li>
+    <li>A table detailing the firm's membership programme, and the benefits attached to its three different levels.</li>
+</ol>
+
+
+
+
 
 
 
