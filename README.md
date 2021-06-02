@@ -155,11 +155,12 @@ in order to contrast with the colourful background.</p>
     <li>A news section with three stories from related to the accountancy industry</li>
 </ol>
 
-The page is fully responsive on mobile and tablet screen sizes.
-
+The page is fully responsive on mobile and tablet screen sizes.</p>
+<p>
 The news stories were taken from similar websites and then tailored to the needs of the website - in terms of length, and content.
 The testimonials were written by me.
 </p>
+<p>This page, like all the pages, was constructed using Bootstrap grids, to aid responsiveness to various screen sizes.</p>
 
 <h5>Section 1: the carousel</h5>
 
@@ -167,6 +168,43 @@ The testimonials were written by me.
 
 <p>I chose the black, slightly opaque background, and the hard rectangle container, for consistency with the overall design philosophy mentioned above.</p>
 
+<h5>Section 2: Latest Industry News</h5>
+<p>This section consists of three relevant news stories, with informative headlines and images, accessed by collapsible modals, which display full screen on mobiles and tablets with a light
+background and dark text. I chose this because the dark theme seemed too oppresive when fully covering a smaller screen.</p>
+
+<h5>User stories covered by this feature:
+<p>User story 3: as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
+<p>User story 7: as a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</p>
+<p>User story 9: as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
+<p>User story 11, as a current stakeholder, I want to see what the latest industry news is.</p>
+
+<h5>Feature 2: Contact Us page</h5>
+
+<p>The home page has three sections:
+
+<ol>
+    <li>A call to action to users to sign up to the firm's weekly newsletter, with an embedded form to input the necessary details.</li>
+    <li>A call to action to users to sign up tot he firm's cloud-based client portal. This has a much longer and more sophisticated embedded form.</li>
+    <li>A section detailing all relevant contact information, including directions, and an embedded Google Map.</li>
+</ol>
+
+The page is fully responsive on mobile and tablet screen sizes.</p>
+<p>
+The copy for the two calls to action was written by me.
+</p>
+
+<p>The social media and other icons were taken from the FontAwesome library.</p>
+<p>This page, like all the pages, was constructed using Bootstrap grids, to aid responsiveness to various screen sizes.</p>
+
+<h5>Section 1: the newsletter call to action</h5>
+
+<p>This component was taken from the Bootstrap CDN, and then tailored for size, background colour, position on the page, and prominence of the left and right indicators.</p>
+
+<p>I chose the black, slightly opaque background, and the hard rectangle container, for consistency with the overall design philosophy mentioned above.</p>
+
+<h5>Section 2: Latest Industry News</h5>
+<p>This section consists of three relevant news stories, with informative headlines and images, accessed by collapsible modals, which display full screen on mobiles and tablets with a light
+background and dark text. I chose this because the dark theme seemed too oppresive when fully covering a smaller screen.</p>
 
 
 
