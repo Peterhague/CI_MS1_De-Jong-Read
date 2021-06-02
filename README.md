@@ -81,14 +81,15 @@ There are two main types of user anticipated for the website: potential clients 
 <li>Navigation bar to allow users to navigate the site quickly and easily, with contrasting text to show them which page they are currently looking at.</li>
 <li>A footer (fixed to bottom on larger devices) with the firm's address, some statutory information, and links to the firm's social media pages.</li>
 <li>Modal allowing users to sign in to the client portal, accessed via a "Sign In" button.</li>
+<li>A home page with testimonials and a news section, from which users can easily navigate the site</li>
 <li>Carousel on the home page with three slides each giving three different testimonies from satisfied current clients.</li>
-<li>Latest Industry News section with headlines, summaries, and full stories expandable via "Read more" buttons and full page modals.</li>
+<li>"Latest Industry News" section with headlines, summaries, and full stories expandable via "Read more" buttons and full page modals.</li>
+<li>A "Contact Us" page with all relevant information on how to find the firm, including an embedded Google map, directions to the office, and contact details.</li>
 <li>A prominently displayed form calling users to sign up for the firm's free weekly newsletter</li>
 <li>A large but easily readable form calling users to sign up for the firm's secure online portal.</li>
-<li>A section with all relevant information on how to find the firm, including an embedded Google map, directions to the office, and contact details.</li>
-<li>A section with biographies of the key individuals of the firm, along with prominent and attractve photographs, displayed in "dynamic", angular, slanted containers, to give the impression of a modern and progressive firm.</li>
-<li>A section describing the different services the firm provides, in four broad categories. These are presented as simple rectangles for a modern, minimalist aesthetic, but with
-this effect contrasted with the transparency of the title "panes", providing a window to the beautiful background image. This is designed to convey the firm's perceptiveness and insight, but also to reinforce its local foundations via the choice of picturesque local imagery.</li>
+<li>A "Meet the Team" page with biographies of the key individuals of the firm, along with prominent and attractve photographs, displayed in "dynamic", angular, slanted containers, to give the impression of a modern and progressive firm.</li>
+<li>An "Our Services" page describing the different services the firm provides, in four broad categories. These are presented as simple rectangles for a modern, minimalist aesthetic, but with
+this effect contrasted with the transparency of the title "panes", providing a window to the beautiful background image.</li>
 <li>A table advertising the firm's membership scheme, with a list of benefits cross-referenced to three different membership levels.</li>
 </ul>
 
@@ -138,6 +139,38 @@ in order to contrast with the colourful background.</p>
 <p>All images are fully licensed.</p>
 
 <h3>Wireframes</h3>
+
+<h3>Features</h3>
+
+<p>The website has twelve features across four pages.</p>
+
+<h4>Current Features</h4>
+
+<h5>Feature 1: Home Page</h5>
+
+<p>The home page has two sections:
+
+<ol>
+    <li>A carousel with various testimonies from DJR's current clients praising the firm</li>
+    <li>A news section with three stories from related to the accountancy industry</li>
+</ol>
+
+The page is fully responsive on mobile and tablet screen sizes.
+
+The news stories were taken from similar websites and then tailored to the needs of the website - in terms of length, and content.
+The testimonials were written by me.
+</p>
+
+<h5>Section 1: the carousel</h5>
+
+<p>This component was taken from the Bootstrap CDN, and then tailored for size, background colour, position on the page, and prominence of the left and right indicators.</p>
+
+<p>I chose the black, slightly opaque background, and the hard rectangle container, for consistency with the overall design philosophy mentioned above.</p>
+
+
+
+
+
 
 
 
