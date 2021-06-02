@@ -172,7 +172,7 @@ The testimonials were written by me.
 <p>This section consists of three relevant news stories, with informative headlines and images, accessed by collapsible modals, which display full screen on mobiles and tablets with a light
 background and dark text. I chose this because the dark theme seemed too oppresive when fully covering a smaller screen.</p>
 
-<h5>User stories covered by this feature:
+<h5>User stories covered by this feature:</h5>
 <p>User story 3: as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
 <p>User story 7: as a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</p>
 <p>User story 9: as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
