@@ -262,6 +262,16 @@ to each of the classes as necessary. I did this because the designs were differe
     <li>A table detailing the firm's membership programme, and the benefits attached to its three different levels.</li>
 </ol>
 
+<h5>Section 1: the firm's services</h5>
+
+<p>The responsive design was achieved by writing one section for desktop and then copying and editing that for mobile and tablet. Different display classes were then applied
+to each of the sections as necessary. I did this because the designs were different enough that this was quicker than writing media queries (e.g. the left hand panes on desktop are resized and become headings on mobile and tablet).</p>
+
+<p>All copy on the page was written by me.</p>
+
+<p>The table was also duplicated for mobile and tablet, simply in order to display on smaller screens as a fluid container spanning the entire viewport. This was sufficient for the table to display in a legible and uncluttered manner, viewable without scrolling on most mobile devices. Various media queries and edits to the narrative contractions were made for some of the smaller and more unusual screen sizes and aspect ratios.</p>
+
+<p>The icons in the table were sourced from Font Awesome's library.</p>
 
 
 
