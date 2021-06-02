@@ -247,6 +247,12 @@ to each of the classes as necessary. I did this because the designs were differe
 
 <p>The page is fully responsive on mobile and tablet screen sizes.</p>
 
+<h5>User stories covered by this feature:</h5>
+<p>User story 3: as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
+<p>User story 4: as a potential stakeholder, I want to know who the KMP are, what their skills and experience are, and links to their social media presence.</p>
+<p>User story 6, as a potential stakeholder, I want to discover the firm's culture and the personalities of the KMP.</p>
+<p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
+
 <h5> Feature 4: Our Services page</h5>
 
 <p>The Our Services page has two sections:
