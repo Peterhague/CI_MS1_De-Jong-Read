@@ -1032,13 +1032,6 @@ a {
     font-weight: 500;
 }
 
-.btn {
-    background-color: rgb(32, 165, 83);
-    padding: 1.25vw;
-    color: white;
-    margin-right: 1vw;
-    border-radius: 5%;
-}
 
 .btn-book-desktop {
     background-color: rgba(226, 12, 190, 1);
