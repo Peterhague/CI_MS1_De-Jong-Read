@@ -382,11 +382,13 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <ol>
 <li>Git
 </li>
+</ol>
 <ul><li>Git was used for version control within VSCode to push the code to GitHub.</li></ul>
+<ol start="2">
 <li>GitHub</li>
+</ol>
 <ul><li>GitHub was used as a repository to stroe the project code.</li></ul>
 
-</ol>
 
 
 
