@@ -405,13 +405,25 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </ol>
 <ul><li>Bootstrap's grid system was used to aid layout and responsiveness on each page. I also used Bootstrap's navigation bar, carousel, and modal components.</li></ul>
 <ol start="7">
-<li>GitHub</li>
+<li>Am I Responsive</li>
 </ol>
-<ul><li>GitHub was used as a repository to stroe the project code.</li></ul>
+<ul><li>Am I Resoinsive was used to create the multi-device mock-up image at the top of this README.</li></ul>
 <ol start="8">
-<li>GitHub</li>
+<li>ImageResizer.com</li>
 </ol>
-<ul><li>GitHub was used as a repository to stroe the project code.</li></ul>
+<ul><li>ImageResizer.com was used to compress image files in order to reduce the load on browsers.</li></ul>
+<ol start="9">
+<li>FreeConvert.com</li>
+</ol>
+<ul><li>FreeConvert.com was used to convert PNG image files to WEBP format to improve site performance.</li></ul>
+<ol start="10">
+<li>Visual Studio Code (VSCode)</li>
+</ol>
+<ul><li>VSCode was the IDE used for writing the project code.</li></ul>
+<ol start="11">
+<li>Google Maps</li>
+</ol>
+<ul><li>I used Google Maps to creat the map embedded on the Contact Us page.</li></ul>
 
 
 
