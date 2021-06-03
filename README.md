@@ -388,6 +388,30 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <li>GitHub</li>
 </ol>
 <ul><li>GitHub was used as a repository to stroe the project code.</li></ul>
+<ol start="3">
+<li>Balsamiq</li>
+</ol>
+<ul><li>Balsamiq was used to create all the wireframes for the site.</li></ul>
+<ol start="4">
+<li>Font Awesome</li>
+</ol>
+<ul><li>All the icoons on the site were sourced from the Font Awesome library.</li></ul>
+<ol start="5">
+<li>Google Fonts</li>
+</ol>
+<ul><li>Lato from font Awesome was used for the heading on each page, and the membership benefits table, and Quattrocento was used for the rest of the text on the site.</li></ul>
+<ol start="6">
+<li>Bootstrap v 4.13</li>
+</ol>
+<ul><li>Bootstrap's grid system was used to aid layout and responsiveness on each page. I also used Bootstrap's navigation bar, carousel, and modal components.</li></ul>
+<ol start="7">
+<li>GitHub</li>
+</ol>
+<ul><li>GitHub was used as a repository to stroe the project code.</li></ul>
+<ol start="8">
+<li>GitHub</li>
+</ol>
+<ul><li>GitHub was used as a repository to stroe the project code.</li></ul>
 
 
 
