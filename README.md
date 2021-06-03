@@ -825,6 +825,31 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <li><strong>Fix:</strong>Optimised the images, making the sizes smaller.</li>
 </ul>
 
+<h2>Deployment</h2>
+
+<h3>GitHub Pages</h3>
+
+This website has been deployed using GitHub pages. The process is as follows:
+
+<ol>
+<li>Log in to your GitHub account and find the <a>repository</a></li>
+<li>Click on 'Settings' once in the repository</li>
+<li>Click 'Pages' in the menu on the left</li>
+<li>click 'Source'</li>
+<li>Open the dropdown menu 'None', and select 'Master Branch'</li>
+<li>The page shold refresh automatically</li>
+<li>Under GitHub pages there should now be a link to the published live website.</li>
+</ol>
+
+<h3>Forking the GitHub Repository</h3>
+
+<p>Forking the repository will make a copy of the original. This fork is viewable and editable without changing the original. This can be done as follows:</p>
+
+<ol>
+<li>Log in to your GitHub account and find the repository</li>
+<li>Once in the repository, click the 'Fork' button at the top right of page</li>
+<li>This copy of the repository will now appear in your own account</li>
+</ol>
 
 
 
