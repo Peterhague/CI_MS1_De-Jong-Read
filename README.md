@@ -2,7 +2,7 @@
 
 https://peterhague.github.io/De-Jong-Read/
 
-Project Goals
+<h1>Project Goals</h1>
 
 The business goals of De Jong-Read Chartered Accountants and Agribusiness Consultants (DJR) are as follows:
 
@@ -423,7 +423,7 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <ol start="11">
 <li>Google Maps</li>
 </ol>
-<ul><li>I used Google Maps to creat the map embedded on the Contact Us page.</li></ul>
+<ul><li>I used Google Maps to create the map embedded on the Contact Us page.</li></ul>
 
 
 
