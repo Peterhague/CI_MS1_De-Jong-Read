@@ -800,6 +800,31 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </tr>
 </table>
 
+<h2>Bugs found and resolved during development</h2>
+
+<ul>
+<li><strong>Bug:</strong></li>
+<li><strong>Fix:</strong></li>
+<li><strong>Bug:</strong></li>
+<li><strong>Fix:</strong></li>
+<li><strong>Bug:</strong></li>
+<li><strong>Fix:</strong></li>
+<li><strong>Bug:</strong></li>
+<li><strong>Fix:</strong></li>
+<li><strong>Bug:</strong></li>
+<li><strong>Fix:</strong></li>
+<li><strong>Bug:</strong></li>
+<li><strong>Fix:</strong></li>
+<li><strong>Bug:</strong></li>
+<li><strong>Fix:</strong></li>
+<li><strong>Bug:</strong></li>
+<li><strong>Fix:</strong></li>
+<li><strong>Bug:</strong></li>
+<li><strong>Fix:</strong></li>
+<li><strong>Bug:</strong></li>
+<li><strong>Fix:</strong></li>
+</ul>
+
 
 
 
