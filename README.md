@@ -803,25 +803,25 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <h2>Bugs found and resolved during development</h2>
 
 <ul>
-<li><strong>Bug:</strong></li>
+<li><strong>Bug:</strong>The indciators on the testimonials carousel were not very visible against the background</li>
 <li><strong>Fix:</strong></li>
-<li><strong>Bug:</strong></li>
+<li><strong>Bug:</strong>The carousel text was overflowing the container on smaller screens</li>
 <li><strong>Fix:</strong></li>
-<li><strong>Bug:</strong></li>
+<li><strong>Bug:</strong>The sign in button was not clickable</li>
 <li><strong>Fix:</strong></li>
-<li><strong>Bug:</strong></li>
+<li><strong>Bug:</strong>The modals that were edited for a dark backgorund had 'cross' close buttons that were no longer contrasted with the background and had poor visibility</li>
 <li><strong>Fix:</strong></li>
-<li><strong>Bug:</strong></li>
+<li><strong>Bug:</strong>The text in the password reminder modal was encroaching on the submit button</li>
 <li><strong>Fix:</strong></li>
-<li><strong>Bug:</strong></li>
+<li><strong>Bug:</strong>The reset and submit buttons on the sign in modal were poorly aligned with the input fields on smaller screens</li>
 <li><strong>Fix:</strong></li>
-<li><strong>Bug:</strong></li>
+<li><strong>Bug:</strong>The lack of labels on the newsletter form (by design) failed WAVE accessibility standards</li>
 <li><strong>Fix:</strong></li>
-<li><strong>Bug:</strong></li>
+<li><strong>Bug:</strong>The input fields on the portal registration form were of inconsistent heights</li>
 <li><strong>Fix:</strong></li>
-<li><strong>Bug:</strong></li>
+<li><strong>Bug:</strong>The staff photos were overflowing their containers on very large screens (tested on 1920 x 1080px)</li>
 <li><strong>Fix:</strong></li>
-<li><strong>Bug:</strong></li>
+<li><strong>Bug:</strong>The Our Servies page was loading slowly due to large background image file</li>
 <li><strong>Fix:</strong></li>
 </ul>
 
