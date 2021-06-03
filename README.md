@@ -557,7 +557,6 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <td>Find out who the KMP are and what their experience is.</td>
 <td>works as expected.</td>
 </tr>
-</tr>
 </table>
 
 <p><em>5. As a potential stakeholder, I want to find out about the firm's membership scheme and its benefits.</em></p>
@@ -661,10 +660,10 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Newsletter sign up form on Contact Us page</td>
+<td>Click on 'Contact Us' in the navigation bar and the container including the newsletter sign up form is prominently displayed</td>
+<td>Find out how to sign up for the firm's newsletter</td>
+<td>Works as expected</td>
 </tr>
 </table>
 
@@ -677,26 +676,32 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Latest Industry News section on home page</td>
+<td>Click on 'home' in the navigation bar or on the title on any of the pages and scroll down to find the news section</td>
+<td>Find out the latest industry news</td>
+<td>Works as expected</td>
 </tr>
 </table>
 
-<p><em>12. As a site owner, I want potential stakeholders to understand what my firm does and eoncourage them to become clients or employees.</em></p>
+<p><em>12. As a site owner, I want potential stakeholders to understand what my firm does and encourage them to become clients or employees.</em></p>
 <table>
 <tr>
-<th>Feature</th>
-<th>Action</th>
-<th>Expected result</th>
-<th>Actual result</th>
+<td>Our Services page explaining the firm's services</td>
+<td>Click on 'Our Services' in the navigation bar and scroll down to discover each of four broad services categories. Scroll to the end to find details of the firm's membership programme.</td>
+<td>Find out what the firm doess.</td>
+<td>Works as expected.</td>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Testimonials carousel on home page</td>
+<td>Click on 'home' in the navigation bar or on the title on any of the pages and the carousel will be immediately displayed.</td>
+<td>Encourage potential clients to sign up</td>
+<td>Works as expected</td>
+</tr>
+<tr>
+<td>Staff profiles on Meet the Team page</td>
+<td>Click on 'Meet the Team' in the navigation bar and find the linkedin icon next to the name of all key team members, along with a sumamry of professional history.</td>
+<td>Encourage potential employees to consider working for the firm</td>
+<td>works as expected.</td>
 </tr>
 </table>
 
@@ -709,14 +714,14 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Testimonials carousel on home page</td>
+<td>Click on 'home' in the navigation bar or on the title on any of the pages and the carousel will be immediately displayed.</td>
+<td>Assure potential clients that existing clients are satisfied</td>
+<td>Works as expected</td>
 </tr>
 </table>
 
-<p><em>14. As a site owner, I want potential and existing stakeholders to understand that my firm plays an active part int the local business community and that its main specialism is agribusiness.</em></p>
+<p><em>14. As a site owner, I want potential and existing stakeholders to understand that my firm plays an active part in the local business community and that its main specialism is agribusiness.</em></p>
 <table>
 <tr>
 <th>Feature</th>
@@ -725,10 +730,16 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Testimonials carousel on home page</td>
+<td>Click on 'home' in the navigation bar or on the title on any of the pages and the carousel will be immediately displayed.</td>
+<td>Show potential clients that we play an active roles in the business community</td>
+<td>Works as expected</td>
+</tr>
+<tr>
+<td>Biography of Phil De Jong, specialist in Agribusiness</td>
+<td>Click on 'Meet the Team' in the navigation bar and the biography is displayed immediately</td>
+<td>Show potential clients that the firm's main specialism is agribusiness</td>
+<td>Works as expected</td>
 </tr>
 </table>
 
@@ -740,11 +751,24 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Expected result</th>
 <th>Actual result</th>
 </tr>
+</tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Sign in button for the client portal in the navigation bar</td>
+<td>Click on the 'Sign In' button to the right of the navigation bar and fill in the fields of the form in the modal that is triggered.</td>
+<td>Allows clients to easily log in to the client portal</td>
+<td>Works as expected</td>
+</tr>
+<tr>
+<td>Sign in button for the client portal displayed prominently on page load (mpbile and tablet)</td>
+<td>Click on the 'Sign In' button displayed near the bottom of all pages on load and fill in the fields of the form in the modal that is triggered.</td>
+<td>Allows clients to easily log in to the client portal</td>
+<td>Works as expected</td>
+</tr>
+<tr>
+<td>Registration form for client portal on Contact Us page</td>
+<td>Click on 'Contact Us' in the navigation bar and scroll down to the second container including the registration form.</td>
+<td>Allows clients to register to use the client portal</td>
+<td>Works as expected</td>
 </tr>
 </table>
 
@@ -757,10 +781,22 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Latest Industry News section on home page</td>
+<td>Click on 'home' in the navigation bar or on the title on any of the pages and scroll down to find the news section</td>
+<td>Encourages stakeholder engagement by providing an up-to-date news section</td>
+<td>Works as expected</td>
+</tr>
+<tr>
+<td>Newsletter and portal sign up forms on Contact Us page</td>
+<td>Click on 'Contact Us' in the navigation form. Newsletter form is immediately displayed; scroll down for form enabling sign up to the portal</td>
+<td>Encourages stakeholder engagement by allowing them to sign up for services</td>
+<td>Works as expected</td>
+</tr>
+<tr>
+<td>Social media links in footer section of every page</td>
+<td>Load any page by clicking the links in the navigation bar and the footer and the social media links will be displayed on desktop and tablet. Scroll to the bottom on mobile</td>
+<td>Encourages stakeholder engagement by prompting them to interact with the firm's social media presence</td>
+<td>Works as expected</td>
 </tr>
 </table>
 
