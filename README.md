@@ -804,25 +804,25 @@ The mobile configuration displays the items top to bottom, rather than left to r
 
 <ul>
 <li><strong>Bug:</strong>The indciators on the testimonials carousel were not very visible against the background</li>
-<li><strong>Fix:</strong></li>
+<li><strong>Fix:</strong>Created style rules for the previous and next icons and gave them larger width and height properties</li>
 <li><strong>Bug:</strong>The carousel text was overflowing the container on smaller screens</li>
-<li><strong>Fix:</strong></li>
+<li><strong>Fix:</strong>Created multiple media queries to adjust the container size and font-size on smaller devices</li>
 <li><strong>Bug:</strong>The sign in button was not clickable</li>
-<li><strong>Fix:</strong></li>
+<li><strong>Fix:</strong>After significant investigation, this turned out to be a z-index issue, with the button being 'behind' the background. Assigned the background a negative z-index property</li>
 <li><strong>Bug:</strong>The modals that were edited for a dark backgorund had 'cross' close buttons that were no longer contrasted with the background and had poor visibility</li>
-<li><strong>Fix:</strong></li>
-<li><strong>Bug:</strong>The text in the password reminder modal was encroaching on the submit button</li>
-<li><strong>Fix:</strong></li>
+<li><strong>Fix:</strong>Searched Google for the issue and discovered that this can be solved by assigning the elements a CSS property of filter and a value of invert(100%)</li>
+<li><strong>Bug:</strong>The text in the password reminder modal was encroaching on the submit button on mobile devices</li>
+<li><strong>Fix:</strong>Inserted a br element in the text with a Bootstrap classe "d-md-none" to display the text on two lines on small and extra small devices</li>
 <li><strong>Bug:</strong>The reset and submit buttons on the sign in modal were poorly aligned with the input fields on smaller screens</li>
-<li><strong>Fix:</strong></li>
+<li><strong>Fix:</strong>Wrote various media queries for different screen sizes to fine tune the alignment</li>
 <li><strong>Bug:</strong>The lack of labels on the newsletter form (by design) failed WAVE accessibility standards</li>
-<li><strong>Fix:</strong></li>
+<li><strong>Fix:</strong>Created labels but declared that they should not be displayed, so still there for screen readers etc</li>
 <li><strong>Bug:</strong>The input fields on the portal registration form were of inconsistent heights</li>
-<li><strong>Fix:</strong></li>
+<li><strong>Fix:</strong>This was caused by the different input types defaulting inconsistently. Wrote CSS rule with a specific height to override the defaults.</li>
 <li><strong>Bug:</strong>The staff photos were overflowing their containers on very large screens (tested on 1920 x 1080px)</li>
-<li><strong>Fix:</strong></li>
-<li><strong>Bug:</strong>The Our Servies page was loading slowly due to large background image file</li>
-<li><strong>Fix:</strong></li>
+<li><strong>Fix:</strong>Wrote a media query for min-width of 1400px with a max-width property to ensure no overflow regardless of screen pixel count</li>
+<li><strong>Bug:</strong>The Our Services page was loading slowly due to large background image file</li>
+<li><strong>Fix:</strong>Optimised the images, making the sizes smaller.</li>
 </ul>
 
 
