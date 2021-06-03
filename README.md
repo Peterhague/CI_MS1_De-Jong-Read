@@ -428,11 +428,57 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </ol>
 <ul><li>I used Google Maps to create the map embedded on the Contact Us page.</li></ul>
 
+<h2>Testing</h2>
 
+<h3>HTML Validation</h3>
 
+<p>The <a>W3C Markup Validation Service</a> was used for HTML validation of the site. All pages passed with 0 errors. The Index and Contact Us pages have warnings for lack of section headings, which is a stylistic choice.</p>
+<p>Please follow the relevant link for the associated results: <a>Home</a> <a>Contact Us</a> <a>Meet the Team</a> <a>Our Services</a></p>
 
+<h3>CSS Validation</h3>
 
+<p>The <a>W3C CSS Validation Service</a> was used for CSS validation of the site.</p>
+<p>The CSS passed with zero errors.</p>
 
+<h3>Accessibility</h3>
+
+<p></p>
+<p></p>
+
+<h3>Performance</h3>
+
+<p></p>
+<p></p>
+
+<h3>Performing tests on various devices</h3>
+<h4>Devices tested:</h4>
+<ul>
+<li>Samsung Galaxy A7</li>
+<li>HP laptop</li>
+<li>Motorolla</li>
+<li>Ipad Pro</li>
+</ul>
+<h4>Tests performed:</h4>
+<ul>
+<li>Page links in the navigation bar work as advertised, all links work correctly in the static navbar and the collapsible mobile configuration.</li>
+<li>The testimonials carousel displays appropriately, and the indicators are visible and work correctly.</li>
+<li>The news stories open in modals as intended, with no scrolling on larger screens and full screen display and scrolling on mobile. The "top of page" arrow button works correctly on these devices, and the close button dismisses the modal.</li>
+<li>The "Sign In" modal opens up correctly closes on a click outside the content or the cross button. The "forgotten details" link opens the subsequent modal and closes the first, as intended.</li>
+<li>The "Sign In" modal form blocks submission when a mandatory field has not been completed in the required format - error message displays as intended.</li>
+<li>Footer links to external websites work correctly, and open in new tabs.</li>
+<li>The footer content spans the screen on larger devices, and collapses to stack on mobiles, as intended.</li>
+<li>The newsletter sign up form container displays appropriately on all devices, remaining attractive and legible. The form blocks submission where any mandatory field is left unpopulated. An appropriate error message is displayed.</li>
+<li>The portal registration form displays in two columns on larger screens and a single column, as intended. Content is legible and uncluttered across all devices tested.</li>
+<li>The portal registration form will not submit unless all mandatory fields are completed. An error message displays as intended when triggered.</li>
+<li>The contact details container displays as two columns on larger devices and one column on mobile. The content is legible and uncluttered across devices.</li>
+<li>The staff profile containers display as intended on desktop, tablet, and mobile: there are three different layouts. This content needed to be resized on mobile layout to make it more legible.</li>
+<li>The services containers display as intended as side by side on desktop and tablet and columnar on mobile. The content and headings are legible and attractive in all configurations.</li>
+<li>The membership benefits table retains its integrity on mobile, with slightly contracted wording where required and the sacrifice of horizontal margins. Table on mobile remains legible and largely viewable without scrolling, as intended.</li>
+<li>Buttons have the intended softening in colour when hovered over, as intended.</li>
+<li>Page header redirects to home page on all pages</li>
+</ul>
+
+<p>All pages worked as intended on all devices. The one major change necessitated was to move the sign in button up a little in mobile mode, as I had not accounted for the screen real estate taken up by the browser elements.</p>
 
 
 
