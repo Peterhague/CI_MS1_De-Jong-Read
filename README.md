@@ -41,13 +41,13 @@ The first goal is achieved via prominent branding and information about the comp
     <li>Local businesspeople</li>
 </ul>
 
-<h4>User Stories</h4>
+<h3>User Stories</h3>
 <p>
 There are two main types of user anticipated for the website: potential clients and employees (henceforth "potential stakeholders"), and existing clients and interested local businesspeople
 (henceforth "current stakeholders").
 </p>
 
-<h5>Potential Stakeholders</h5>
+<h4>Potential Stakeholders</h4>
 
 <ol>
     <li>As a potential stakeholder, I want to know where the firm is located.</li>
@@ -59,7 +59,7 @@ There are two main types of user anticipated for the website: potential clients 
     <li>As a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</li>
 </ol>
 
-<h5>Current Stakeholders</h5>
+<h4>Current Stakeholders</h4>
 
 <ol start="8">
     <li>As a current stakeholder, I want to be able to sign up to use the client portal.</li>
@@ -68,7 +68,7 @@ There are two main types of user anticipated for the website: potential clients 
     <li>As a current stakeholder, I want to see what the latest industry news is.</li>    
 </ol>
 
-<h5>Site Owner</h5>
+<h4>Site Owner</h4>
 
 <ol start="12">
     <li>As a site owner, I want potential stakeholders to understand what my firm does and eoncourage them to become clients or employees.</li>
@@ -78,7 +78,7 @@ There are two main types of user anticipated for the website: potential clients 
     <li>As a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</li>
 </ol>
 
-<h3>Scope</h3>
+<h2>Scope</h2>
 <p>The project's scope in its initial release is limited to the following features:</p>
 <ul>
 <li>Navigation bar to allow users to navigate the site quickly and easily, with contrasting text to show them which page they are currently looking at.</li>
@@ -107,7 +107,7 @@ this effect contrasted with the transparency of the title "panes", providing a w
     further familiarise users with all aspects of the firm and partly to encourage prospective trainees to join the firm.
 </ul>
 
-<h3>Design</h3>
+<h2>Design</h2>
 
 <p>The general aesthetic is designed to be a mix of the modern and traditional, to reflect the nature of a dynamic professional practice
 which has deep roots in a legacy industry like agriculture.</p>
@@ -115,7 +115,7 @@ which has deep roots in a legacy industry like agriculture.</p>
 <p>As such, there are minimalist and modern elements, such as the simple logo, and the extended use of angular containers, contrasted
 with background images of attractive local environments. These are in turn filtered through opaque coloured squares arranged in a four-pane window pattern as a deliberate homage to the famous Microsoft logo, to subtly impress on the user that this is a technologically fluent practice.</p>
 
-<h4>Colour Scheme</h4>
+<h3>Colour Scheme</h3>
 
 <p>There is a deliberate contrast of austere black backgrounds and white text (and occasionally vice versa) with colourful backgrounds,
 to continue the "old and new" motif.</p>
@@ -124,14 +124,14 @@ to continue the "old and new" motif.</p>
 motivated by a desire to provide a source of colour, and to evoke a traditional tartan design: a visual language practically synonymous with
 countryside life.</p>
 
-<h4>Typography</h4>
+<h3>Typography</h3>
 
 <p>For the heading, I used Lato from Google Fonts, and for most of the other text I used Quattrocento, also from Google Fonts</p>
 
 <p>I chose Quattrocento because it seemed modern without being too rounded, to convery a relatively serious tone. I chose Lato in order to give a contrast from the main
 body of the page, and also because it is rather less plain than Quattrocento, and stylish enough to draw the eye to the business name.</p>
 
-<h4>Imagery</h4>
+<h3>Imagery</h3>
 
 <p>The images on the website are of two kinds: four different background images showing scenes of Lancaster and the surrounding countryside, and black and white
 photgraphs of the key team members.</p>
@@ -141,15 +141,15 @@ in order to contrast with the colourful background.</p>
 
 <p>All images are fully licensed.</p>
 
-<h3>Wireframes</h3>
+<h2>Wireframes</h2>
 
-<h3>Features</h3>
+<h2>Features</h2>
 
 <p>The website has twelve features across four pages.</p>
 
-<h4>Current Features</h4>
+<h3>Current Features</h3>
 
-<h5>Feature 1: Home Page</h5>
+<h4>Feature 1: Home Page</h4>
 
 <p>The home page has two sections:
 
@@ -165,23 +165,23 @@ The testimonials were written by me.
 </p>
 <p>This page, like all the pages, was constructed using Bootstrap grids, to aid responsiveness to various screen sizes.</p>
 
-<h5>Section 1: the carousel</h5>
+<h4>Section 1: the carousel</h4>
 
 <p>This component was taken from the Bootstrap CDN, and then tailored for size, background colour, position on the page, and prominence of the left and right indicators.</p>
 
 <p>I chose the black, slightly opaque background, and the hard rectangle container, for consistency with the overall design philosophy mentioned above.</p>
 
-<h5>Section 2: Latest Industry News</h5>
+<h4>Section 2: Latest Industry News</h4>
 <p>This section consists of three relevant news stories, with informative headlines and images, accessed by collapsible modals, which display full screen on mobiles and tablets with a light
 background and dark text. I chose this because the dark theme seemed too oppresive when fully covering a smaller screen.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 3: as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
 <p>User story 7: as a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</p>
 <p>User story 9: as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
 <p>User story 11, as a current stakeholder, I want to see what the latest industry news is.</p>
 
-<h5>Feature 2: Contact Us page</h5>
+<h4>Feature 2: Contact Us page</h4>
 
 <p>The Contact Us page has three sections:
 
@@ -199,7 +199,7 @@ The copy for the two calls to action was written by me.
 <p>The social media and other icons were taken from the FontAwesome library.</p>
 <p>This page, like all the pages, was constructed using Bootstrap grids, to aid responsiveness to various screen sizes.</p>
 
-<h5>Section 1: the newsletter call to action</h5>
+<h4>Section 1: the newsletter call to action</h4>
 
 <p>This component includes a title and subtitle, calling to action and explaining the imperative, and a longer summary of the benefits of the newsletter, and finally a simple form.
 The form is fully functional and won't submit until all the necessary fields are completed.</p>
@@ -213,7 +213,7 @@ slightly softer look.</p>
 <p>The form maintains its basic structure across all devices sizes, albeit moves to a portrait format on mobiles and tablets. This is achieved by it populating more Bootstrap columns as the 
 screen size reduces, as well as some fine-tuning via CSS media queries.</p>
 
-<h5>Section 2: portal registration call to action</h5>
+<h4>Section 2: portal registration call to action</h4>
 <p>This component includes a title and subtitle, calling to action and explaining the imperative, and a form with fourteen fields.
 The form is fully functional and won't submit until all the necessary fields are completed, and it includes various different input types, such as date, text, email, password etc.</p>
 
@@ -222,7 +222,7 @@ the input fields only very slightly rounded, because that seemed to better suit 
 
 <p>The form maintains its two-column structure on tablets, but becomes a single column on mobile: this is achieved via the Bootstrap responsive grid system, as well as some fine-tuning via CSS media queries.</p>
 
-<h5>Section 3: contact information</h5>
+<h4>Section 3: contact information</h4>
 
 <p>This component consists of a Bootstrap-defined container with two columnar sections: left for the directions and contact information, and right for the map embedded via an iframe element.</p>
 
@@ -231,14 +231,14 @@ via media queries so that the directions and the map are visible on a mobile's r
 
 <p>I chose the black, slightly opaque background, for consistency with the overall design philosophy mentioned above. I chose unrounded corners for this component, as that was a better fit as a frame for the map.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 1: as a potential stakeholder, I want to know where the firm is located.</p>
 <p>User story 2: as a potential stakeholder, I want to know how to contact the firm and its key management personnel ("KMP").</p>
 <p>User story 8: as a current stakeholder, I want to be able to sign up to use the client portal.</p>
 <p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
 <p>User story 10, as a current stakeholder, I want to be able to easily sign up for the firm's weekly newsletter.</p>
 
-<h5>Feature 3: Meet the Team page</h5>
+<h4>Feature 3: Meet the Team page</h4>
 
 <p>The meet the Team page has one section: it introduces users to the firm's five key members of staff. This is written as a single Bootstrap container, with one row for each of the staff in
 desktop format, and two rows for mobile and tablet.</p>
@@ -252,13 +252,13 @@ to each of the classes as necessary. I did this because the designs were differe
 
 <p>The page is fully responsive on mobile and tablet screen sizes.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 3: as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
 <p>User story 4: as a potential stakeholder, I want to know who the KMP are, what their skills and experience are, and links to their social media presence.</p>
 <p>User story 6, as a potential stakeholder, I want to discover the firm's culture and the personalities of the KMP.</p>
 <p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
 
-<h5>Feature 4: Our Services page</h5>
+<h4>Feature 4: Our Services page</h4>
 
 <p>The Our Services page has two sections:
 
@@ -267,7 +267,7 @@ to each of the classes as necessary. I did this because the designs were differe
     <li>A table detailing the firm's membership programme, and the benefits attached to its three different levels.</li>
 </ol>
 
-<h5>Section 1: the firm's services</h5>
+<h4>Section 1: the firm's services</h4>
 
 <p>The responsive design was achieved by writing one section for desktop and then copying and editing that for mobile and tablet. Different display classes were then applied
 to each of the sections as necessary. I did this because the designs were different enough that this was quicker than writing media queries (e.g. the left hand panes on desktop are resized and become headings on mobile and tablet).</p>
@@ -277,19 +277,19 @@ panels to evoke the feeling of peering through windows to the scenery behind, an
 
 <p>All copy on the page was written by me.</p>
 
-<h5>Section 2: table summarising membership benefits</h5>
+<h4>Section 2: table summarising membership benefits</h4>
 
 <p>The table was also duplicated for mobile and tablet, simply in order to display on smaller screens as a fluid container spanning the entire viewport. This was sufficient for the table to display in a legible and uncluttered manner, viewable without scrolling on most mobile devices. Various media queries narrative contractions were made for some of the smaller and more unusual screen sizes and aspect ratios.</p>
 
 <p>The icons in the table were sourced from Font Awesome's library.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 3: as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
 <p>User story 5: as a potential stakeholder, I want to fidn out about the firm's membership scheme and its benefits.</p>
 <p>User story 8, as a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</p>
 <p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
 
-<h5>Feature 5: Navigation bar</h5>
+<h4>Feature 5: Navigation bar</h4>
 
 <p>The navigation bar is displayed across the four pages consistently, with some minor changes to colour scheme in order that text always contrasts fully with the backgrounds specific to each page.</p>
 
@@ -297,69 +297,69 @@ panels to evoke the feeling of peering through windows to the scenery behind, an
 
 <p>The desktop configuration also features a right-aligned (and therefore prominently isolated) "Sign In" call to action button. In mobile and tablet configurations, this button appears near the bottom of the viewport of each page's display on loading. This aids visibility, and also selection without the need to for users to obscure any of the page with their hand.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
 <p>User story 15, as a site owner, I want existing clients to be able to register for and log in to our client portal.</p>
 
-<h5>Feature 6: Footer</h5>
+<h4>Feature 6: Footer</h4>
 
 <p>The footer is displayed at the bottom of all the website's pages. It is fixed to the bottom of the viewport on desktop and tablet devices.
 The mobile configuration displays the items top to bottom, rather than left to right.</p>
 
 <p>The footer displays mandatory statutory information related to the firm's professional registrations, its address, and social media links.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 1, as a potential stakeholder, I want to know where the firm is located.</p>
 <p>User story 16, as a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</p>
 
-<h5>Feature 7: Sign In modal</h5>
+<h4>Feature 7: Sign In modal</h4>
 
 <p>This feature is accessed via Bootstrap data-toggle buttons, and displays a form requiring users to submit their login details. There is an optional additional modal for users who have forgotten their details, which works via Bootstrap's data-dismiss class. The modal content is responsive to all screen sizes and required some granular tuning of button size and placement for some of the smaller devices.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
 <p>User story 15, as a site owner, I want existing clients to be able to register for and log in to our client portal.</p>
 <p>User story 16, as a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</p>
 
-<h5>Feature 8: Testimonials carousel</h5>
+<h4>Feature 8: Testimonials carousel</h4>
 
 <p>This has been produced by editing Bootstrap's carousel component, by resizing the data indicators for enhanced visibility. It features three different slides each displaying three testimonies from DJR's satisfied clients. It is displayed prominently on the home page as an attractive first impression for new users, as well as to provide an immediate advertisment of the firm's qualities.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 7, as a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</p>
 <p>User story 12, as a site owner, I want potential stakeholders to understand what my firm does and eoncourage them to become clients or employees.</p>
 <p>User story 13, as a site owner, I want potential stakeholders to understand that existing clients are happy and receive an excellent service.</p>
 
-<h5>Feature 9: News section with modal functionality</h5>
+<h4>Feature 9: News section with modal functionality</h4>
 
 <p>The news section features three stories each accessible as a full screen modal via underlined "Read more" calls to action. The modals are Bootstrap components, and feature a white background as I decided that the pervasive dark containers of the website were not suitable for reading extended content. On mobile devices the modals require scrolling, so I added anchor elements with "up" arrow icons to allow users to instantly return to the top of the story, and therefore to be able to access the close button without scrolling.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 11, as a current stakeholder, I want to see what the latest industry news is.</p>
 <p>User story 16, as a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</p>
 
-<h5>Feature 10: Newsletter call to action with form</h5>
+<h4>Feature 10: Newsletter call to action with form</h4>
 
 <p>This component features a fully functional form that will not be submitted until all mandatory fields are completed in the appropriate format. The container is responsive for all screens and becomes centre-aligned on mobile devices.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 10, as a current stakeholder, I want to be able to easily sign up for the firm's weekly newsletter.</p>
 <p>User story 16, as a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</p>
 
-<h5>Feature 11: Portal registration call to action with form</h5>
+<h4>Feature 11: Portal registration call to action with form</h4>
 
 <p>This component includes a long, fully-functional form with various input types. It uses the standard Bootstrap grid system to align two columns cleanly. It displays differently on mobile screens but retains all the same fields. The buttons required granular editing for size and placement on the various screen sizes.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 8, as a current stakeholder, I want to be able to sign up to use the client portal.</p>
 <p>User story 15, as a site owner, I want existing clients to be able to register for and log in to our client portal.</p>
 <p>User story 16, a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</p>
 
-<h5>Feature 12: Table of Membership Programme benefits</h5>
+<h4>Feature 12: Table of Membership Programme benefits</h4>
 
 <p>This component also uses Bootstrap grid system to produce a responsive design for tablet and mobile. The headings feature colourful, attractive icons, and data is displayed in large, easily legible fonts for maximal accessibility.</p>
 
-<h5>User stories covered by this feature:</h5>
+<h4>User stories covered by this feature:</h4>
 <p>User story 3, as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
 <p>User story 5, as a potential stakeholder, I want to find out about the firm's membership scheme and its benefits.</p>
 
