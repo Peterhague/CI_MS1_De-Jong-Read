@@ -381,11 +381,11 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <h4>Frameworks, libraries and other tools</h4>
 <ol>
 <li>Git
+</li>
 <ul><li>Git was used for version control within VSCode to push the code to GitHub.</li></ul>
-</li>
-<li>GitHub
+<li>GitHub</li>
 <ul><li>GitHub was used as a repository to stroe the project code.</li></ul>
-</li>
+
 </ol>
 
 
