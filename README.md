@@ -360,6 +360,35 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <p>User story 3, as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
 <p>User story 5, as a potential stakeholder, I want to find out about the firm's membership scheme and its benefits.</p>
 
+<h4>Features for Future Releases</h4>
+
+<ol>
+<li>A section on the homepage with case studies of work done for clients, detailing how specific problems were solved.</li>
+<li>A button in the navigation bar allowing users to book appointments with different team members, via a live calendar.</li>
+<li>A dynamic landing page which would load once on the first visit to the website in any one session, with animated elements giving a welcome and a brief summary of the firm and its unique offerings.</li>
+<li>A section about the firm's trainees and more junior staff, providing updates on their qualification progress and the support the firm offers, partly to further familiarise users with all aspects of the firm and partly to encourage prospective trainees to join the firm.</li>
+</ol>
+
+<h3>Technologies Used</h3>
+
+<h4>Languages</h4>
+
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+</ul>
+
+<h4>Frameworks, libraries and other tools</h4>
+<ol>
+<li>Git
+<ul><li>Git was used for version control within VSCode to push the code to GitHub.</li></ul>
+</li>
+<li>GitHub
+<ul><li>GitHub was used as a repository to stroe the project code.</li></ul>
+</li>
+</ol>
+
+
 
 
 
