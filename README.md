@@ -851,7 +851,18 @@ This website has been deployed using GitHub pages. The process is as follows:
 <li>This copy of the repository will now appear in your own account</li>
 </ol>
 
+<h3>Making a Local Clone</h3>
 
+<ol>
+<li>Log in to your GitHub account and find the repository</li>
+<li>Click the 'Code' button</li>
+<li>Copy the link under 'clone with HTTPS'</li>
+<li>Open Git Bash</li>
+<li>Change the current working direcotry to your desired directory for the clone</li>
+<li>Type 'git clone' and then paste the URL in your IDE's terminal</li>
+<li>Press Return</li>
+<li>The local clone should now have been created</li>
+</ol>
 
 
 
