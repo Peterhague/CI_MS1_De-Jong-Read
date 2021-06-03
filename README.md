@@ -5,22 +5,25 @@ https://peterhague.github.io/De-Jong-Read/
 <h2>Project Goals</h2>
 
 The business goals of De Jong-Read Chartered Accountants and Agribusiness Consultants (DJR) are as follows:
-
-To evidence that DJR is an integral part of the local busienss community
-Explain the firm's unique services and offerings to potential clients
-Introduce potential clients and employees to its key people in an attractive and no-nonsense manner
-Provide an easy way for their existing clients to log on to the firm's cloud-based portal
-Provide key contact information for interested parties
+<ul>
+<li>To evidence that DJR is an integral part of the local busienss community</li>
+<li>Explain the firm's unique services and offerings to potential clients</li>
+<li>Introduce potential clients and employees to its key people in an attractive and no-nonsense manner</li>
+<li>Provide an easy way for their existing clients to log on to the firm's cloud-based portal</li>
+<li>To evidence that DJR is an integral part of the local busienss community</li>
+<li>Provide key contact information for interested parties</li>
+</ul>
 
 The user goals:
+<ul>
+<li>To find out what services the firm offers</li>
+<li>To discover where DJR is based and how to get there</li>
+<li>To be able to log in to the client portal easily and quickly</li>
+<li>To understand the benefits of becoming a member at the various different membership levels</li>
+<li>To be assured that DJR is a professional firm which provides excellent outcomes for its clients</li>
+</ul>
 
-To find out what services the firm offers
-To discover where DJR is based and how to get there
-To be able to log in to the client portal easily and quickly
-To understand the benefits of becoming a member at the various different membership levels
-To be assured that DJR is a professional firm which provides excellent outcomes for its clients
-
-<h3>User Experience</h3>
+<h2>User Experience</h2>
 
 The website is designed for ease of use on any screen size, with clearly separated and unluttered content.
 This has been achieved by avoiding long chunks of text and by keeping the pages short: auxillary content can be accessed via modals ad different carousel slides.
@@ -29,7 +32,7 @@ The main goals of the user experience are firstly, to attract them to become cli
 
 The first goal is achieved via prominent branding and information about the company and its services as the first content of every page. The second goal is achieved by a prominent "Sign in" button call to action visible on every page load, on every device.
 
-<h4>Target Audience</h4>
+<h3>Target Audience</h3>
 
 <ul>
     <li>Existing clients</li>
