@@ -480,7 +480,17 @@ The mobile configuration displays the items top to bottom, rather than left to r
 
 <p>All pages worked as intended on all devices. The one major change necessitated was to move the sign in button up a little in mobile mode, as I had not accounted for the screen real estate taken up by the browser elements.</p>
 
+<h3>Browser compatability</h3>
+<ul>
+<li><strong>Google Chrome:</strong>Website and user stories perform as intended.</li>
+<li><strong>Firefox:</strong>Website and user stories perform as intended</li>
+<li><strong>Opera:</strong>Website and user stories perform as intended</li>
+<li><strong>Samsung Internet Browser:</strong>Website and user stories perform as intended.</li>
+</ul>
 
+<h3>Testing user stories</h3>
+
+<p><em>As a potential stakeholder, I want to know where the firm is located.</em></p>
 
 
 
