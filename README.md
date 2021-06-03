@@ -490,7 +490,260 @@ The mobile configuration displays the items top to bottom, rather than left to r
 
 <h3>Testing user stories</h3>
 
-<p><em>As a potential stakeholder, I want to know where the firm is located.</em></p>
+<p><em>1. As a potential stakeholder, I want to know where the firm is located.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>2. As a potential stakeholder, I want to know how to contact the firm and its key management personnel ("KMP").</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+<p><em>3. As a potential stakeholder, I want to find out what the firm does and what it can offer me.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>4. As a potential stakeholder, I want to know who the KMP are, what their skills and experience are, and links to their social media presence.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>5. As a potential stakeholder, I want to find out about the firm's membership scheme and its benefits.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>6. As a potential stakeholder, I want to discover the firm's culture and the personalities of the KMP.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>7. As a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>8. As a current stakeholder, I want to be able to sign up to use the client portal.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>9. As a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>10. As a current stakeholder, I want to be able to easily sign up for the firm's weekly newsletter.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>11. As a current stakeholder, I want to see what the latest industry news is.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>12. As a site owner, I want potential stakeholders to understand what my firm does and eoncourage them to become clients or employees.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>13. As a site owner, I want potential stakeholders to understand that existing clients are happy and receive an excellent service.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>14. As a site owner, I want potential and existing stakeholders to understand that my firm plays an active part int the local business community and that its main specialism is agribusiness.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>15. As a site owner, I want existing clients to be able to register for and log in to our client portal.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<p><em>16. As a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</em></p>
+<table>
+<tr>
+<th>Feature</th>
+<th>Action</th>
+<th>Expected result</th>
+<th>Actual result</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
 
 
