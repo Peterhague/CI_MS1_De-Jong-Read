@@ -2,7 +2,7 @@
 
 https://peterhague.github.io/De-Jong-Read/
 
-<h1>Project Goals</h1>
+<h2>Project Goals</h2>
 
 The business goals of De Jong-Read Chartered Accountants and Agribusiness Consultants (DJR) are as follows:
 
