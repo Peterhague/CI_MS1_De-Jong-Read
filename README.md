@@ -552,10 +552,11 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Links to KMP linkedin profiles on Meet the Team page</td>
+<td>Click on 'Meet the Team' in the navigation bar and find the linkedin icon next to the name of all key team members, along with a sumamry of professional history.</td>
+<td>Find out who the KMP are and what their experience is.</td>
+<td>works as expected.</td>
+</tr>
 </tr>
 </table>
 
@@ -568,10 +569,10 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Table listing the benefits of membership across the 3 different levels</td>
+<td>Click on 'Our Services' in the navigation bar and scroll down to find the table.</td>
+<td>Find out about the membership scheme and its benefits</td>
+<td>Works as expected</td>
 </tr>
 </table>
 
@@ -584,10 +585,10 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Staff biographies on Meet the Team page</td>
+<td>Click on 'Meet the Team' in the navigation bar and the appropriate section will be displayed. Scroll down to read each biography in turn.</td>
+<td>Find out about the firm's key team members' personalities and the culture of the firm.</td>
+<td>Works as expected</td>
 </tr>
 </table>
 
@@ -600,10 +601,16 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Our Services page explaining the firm's services</td>
+<td>Click on 'Our Services' in the navigation bar and scroll down to discover each of four broad services categories. Scroll to the end to find details of the firm's membership programme.</td>
+<td>Find out what the firm offers.</td>
+<td>Works as expected.</td>
+</tr>
+<tr>
+<td>Testimonials carousel on home page</td>
+<td>Click on 'home' in the navigation bar or on the title on any of the pages and the carousel will be immediately displayed.</td>
+<td>Find out how the firm's clients view its services</td>
+<td>Works as expected</td>
 </tr>
 </table>
 
@@ -616,10 +623,10 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Registration form for client portal on Contact Us page</td>
+<td>Click on 'Contact Us' in the navigation bar and scroll down to the second container including the registration form.</td>
+<td>Find out how to sign up for the client portal</td>
+<td>Works as expected</td>
 </tr>
 </table>
 
@@ -632,10 +639,16 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Sign in button for the client portal in the navigation bar</td>
+<td>Click on the 'Sign In' button to the right of the navigation bar and fill in the fields of the form in the modal that is triggered.</td>
+<td>Find out how to log in to the client portal</td>
+<td>Works as expected</td>
+</tr>
+<tr>
+<td>Sign in button for the client portal displayed prominently on page load (mpbile and tablet)</td>
+<td>Click on the 'Sign In' button displayed near the bottom of all pages on load and fill in the fields of the form in the modal that is triggered.</td>
+<td>Find out how to log in to the client portal</td>
+<td>Works as expected</td>
 </tr>
 </table>
 
