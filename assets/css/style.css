@@ -251,6 +251,16 @@ nav a {
     color: rgb(112, 108, 108);
 }
 
+.login-button-mobile {
+    background-color: rgb(226,12,190);
+    color: #fff;
+    border: none;
+    font-size: 0.7em;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 15vw;
+}
+
 /*--------------------------------------------------------------------------------------------------------Footer------------------*/
 
 .footer-test {
