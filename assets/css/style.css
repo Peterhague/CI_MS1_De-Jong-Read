@@ -56,6 +56,10 @@
     position: absolute;
 }
 
+.black-opaque {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 
 
 /*---------------------------------------------------------------------------Background appearance-----------------------------------------------------------------------*/
@@ -241,14 +245,23 @@ nav a {
 
 #current {
     color: #fff;
+    font-size: 110%;
+}
+
+#current-cus {
+    color: rgb(226,12,90);
+    font-weight: 700;
+    font-size: 110%;
 }
 
 #current-meet-the-team {
     color: #fff;
+    font-size: 150%;
 }
 
 #current-home {
     color: rgb(112, 108, 108);
+    font-size: 110%;
 }
 
 .login-button-mobile {
@@ -499,7 +512,8 @@ iframe {
     border-bottom-right-radius: 10px;
     text-align: left;
     position: relative;
-    height: 40vh;
+    height: 37vh;
+    max-height: 400px;
 }
 
 .portal-bottom-right {
@@ -692,6 +706,7 @@ iframe {
     color: #000;
     font-weight: 500;
     width: 13.5vmax;
+    height: 2vmax;
 }
 
 
@@ -852,6 +867,7 @@ iframe {
     color: #fafafa;
     width: 60vw;
     height: 55vh;
+    max-height: 450px;
     text-align: center;
     font-size: 1.25em;
     padding-top: 3vh;
@@ -1265,7 +1281,7 @@ textarea {
 
 /*---------------------------------------------------------------------------Media Queries long mobiles----------------------------*/
 
-@media only screen and (min-height:801px) and (max-height:880px) {
+@media only screen and (min-height:801px) and (max-height:880px) and (max-width:500px) {
     
     #reminderModal {
         font-size: 0.85em;
@@ -1367,8 +1383,9 @@ textarea {
     }
 
     #form-portal-mobile .form-registration-inputs {
-        width: 18vmax;
+        width: 16vmax;
         font-size: 0.8em;
+        height: 2.7vmax;
     }
 
     #form-portal-mobile label {
