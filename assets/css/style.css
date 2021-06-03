@@ -986,7 +986,7 @@ a:hover {
 }
 
 .btn-book-desktop:hover {
-        background-color: rgba(32, 165, 83, 0.8);
+        background-color: rgba(226, 12, 190, 0.6);
         padding: 0.3vw 1vw;
         color: white;
         margin-right: 1vw;
@@ -1041,7 +1041,7 @@ a {
 }
 
 .btn-book-desktop {
-    background-color: #000;
+    background-color: rgba(226, 12, 190, 1);
     padding: 0.3vw 1vw;
     color: white;
     margin-right: 1vw;
