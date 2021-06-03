@@ -459,7 +459,7 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <li>Ipad Pro</li>
 </ul>
 <h4>Tests performed:</h4>
-<ul>
+<ol>
 <li>Page links in the navigation bar work as advertised, all links work correctly in the static navbar and the collapsible mobile configuration.</li>
 <li>The testimonials carousel displays appropriately, and the indicators are visible and work correctly.</li>
 <li>The news stories open in modals as intended, with no scrolling on larger screens and full screen display and scrolling on mobile. The "top of page" arrow button works correctly on these devices, and the close button dismisses the modal.</li>
@@ -476,7 +476,7 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <li>The membership benefits table retains its integrity on mobile, with slightly contracted wording where required and the sacrifice of horizontal margins. Table on mobile remains legible and largely viewable without scrolling, as intended.</li>
 <li>Buttons have the intended softening in colour when hovered over, as intended.</li>
 <li>Page header redirects to home page on all pages</li>
-</ul>
+</ol>
 
 <p>All pages worked as intended on all devices. The one major change necessitated was to move the sign in button up a little in mobile mode, as I had not accounted for the screen real estate taken up by the browser elements.</p>
 
