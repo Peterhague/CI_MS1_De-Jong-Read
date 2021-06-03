@@ -499,10 +499,10 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Address and directions details on Contact Us page</td>
+<td>Click on 'Contact Us' in the navigation bar and scroll down to find the section.</td>
+<td>Find address and directions on Contact Us page</td>
+<td>works ass expected</td>
 </tr>
 </table>
 
@@ -515,10 +515,16 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Contact details on Contact Us page</td>
+<td>Click on 'Contact Us' in the navigation bar and scroll down to find the section.</td>
+<td>Find contact details on Contact Us page</td>
+<td>Works as expected</td>
+</tr>
+<tr>
+<td>Links to KMP linkedin profiles on Meet the Team page</td>
+<td>Click on 'Meet the Team' in the navigation bar and find the linkedin icon next to the name of all key team members. Click on the icon to go to their linkedin profile.</td>
+<td>Find how to contact key management personnel.</td>
+<td>works as exxpected.</td>
 </tr>
 </table>
 <p><em>3. As a potential stakeholder, I want to find out what the firm does and what it can offer me.</em></p>
@@ -530,10 +536,10 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <th>Actual result</th>
 </tr>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Our Services page explaining the firm's services</td>
+<td>Click on 'Our Services' in the navigation bar and scroll down to discover each of four broad services categories. Scroll to the end to find details of the firm's membership programme.</td>
+<td>Find out what the firm offers.</td>
+<td>Works as expected.</td>
 </tr>
 </table>
 
