@@ -363,7 +363,7 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <p>User story 3, as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
 <p>User story 5, as a potential stakeholder, I want to find out about the firm's membership scheme and its benefits.</p>
 
-<h4>Features for Future Releases</h4>
+<h3>Features for Future Releases</h3>
 
 <ol>
 <li>A section on the homepage with case studies of work done for clients, detailing how specific problems were solved.</li>
@@ -372,7 +372,7 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <li>A section about the firm's trainees and more junior staff, providing updates on their qualification progress and the support the firm offers, partly to further familiarise users with all aspects of the firm and partly to encourage prospective trainees to join the firm.</li>
 </ol>
 
-<h3>Technologies Used</h3>
+<h2>Technologies Used</h2>
 
 <h4>Languages</h4>
 
@@ -381,7 +381,7 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <li>CSS3</li>
 </ul>
 
-<h4>Frameworks, libraries and other tools</h4>
+<h3>Frameworks, libraries and other tools</h3>
 <ol>
 <li>Git
 </li>
