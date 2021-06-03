@@ -883,6 +883,7 @@ iframe {
     margin-bottom: 8vh;
     border-color: #fafafa;
     color: #fff;
+    background-color: rgba(10, 10, 10, 0.35);
     text-align: center;
     padding-top: 18vh;
     font-style: italic;
@@ -1500,6 +1501,7 @@ textarea {
         margin-bottom: 1vh;
         border-color: #fafafa;
         color: #fff;
+        background-color: rgba(10, 10, 10, 0.35);
         text-align: center;
         padding-top: 3vh;
         font-style: italic;
@@ -1514,6 +1516,7 @@ textarea {
         margin-bottom: 1vh;
         border-color: #fafafa;
         color: #fff;
+        background-color: rgba(10, 10, 10, 0.35);
         text-align: center;
         padding-top: 0.5vh;
         font-style: italic;
@@ -1739,6 +1742,7 @@ textarea {
             border-width: 3px;
             border-color: #fafafa;
             color: #fff;
+            background-color: rgba(10, 10, 10, 0.35);
             text-align: center;
             padding-top: 13vh;
             font-style: italic;
@@ -2062,6 +2066,7 @@ textarea {
             border-width: 3px;
             border-color: #fafafa;
             color: #fff;
+            background-color: rgba(10, 10, 10, 0.35);
             text-align: center;
             padding-top: 5vh;
             font-style: italic;
