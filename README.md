@@ -185,7 +185,7 @@ in order to contrast with the colourful background.</p>
 
 <h2 id="wireframes">Wireframes</h2>
 
-<p>Wireframes: <a href="docs/wireframes/home-wireframe.png">Home</a><a>Contact Us</a><a>Meet the Team</a><a>Our Services</a></p>
+<p>Wireframes: <a href="docs/wireframes/home-wireframe.png">Home</a><a href="docs/wireframes/contact-us-wireframe.png"> Contact Us</a><a href="docs/wireframes/meet-the-team-wireframe.png"> Meet the Team</a><a href="docs/wireframes/our-services-wireframe.png"> Our Services</a></p>
 
 <h2 id="features">Features</h2>
 
