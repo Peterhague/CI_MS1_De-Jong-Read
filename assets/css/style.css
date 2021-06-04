@@ -8,6 +8,10 @@
     height: 5vh;
 }
 
+.gap-largest {
+    height: 20vh;
+}
+
 .left-align {
     text-align: left;
 }
