@@ -594,6 +594,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </tr>
 </table>
 
+<p><a href="docs/user-stories/user-story-one">See User Story 1 images</a></p>
+
 <p><em>2. As a potential stakeholder, I want to know how to contact the firm and its key management personnel ("KMP").</em></p>
 <table>
 <tr>
