@@ -380,6 +380,10 @@ The mobile configuration displays the items top to bottom, rather than left to r
 
 <p>This feature is accessed via Bootstrap data-toggle buttons, and displays a form requiring users to submit their login details. There is an optional additional modal for users who have forgotten their details, which works via Bootstrap's data-dismiss class. The modal content is responsive to all screen sizes and required some granular tuning of button size and placement for some of the smaller devices.</p>
 
+<img src="assets/images/portal-login-modal.png" alt="modal for signing in to online portal">
+
+<img src="assets/images/password-reminder-modal.png" alt="modal for requesting a password reminder">
+
 <h4>User stories covered by this feature:</h4>
 <p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
 <p>User story 15, as a site owner, I want existing clients to be able to register for and log in to our client portal.</p>
@@ -388,6 +392,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <h4>Feature 8: Testimonials carousel</h4>
 
 <p>This has been produced by editing Bootstrap's carousel component, by resizing the data indicators for enhanced visibility. It features three different slides each displaying three testimonies from DJR's satisfied clients. It is displayed prominently on the home page as an attractive first impression for new users, as well as to provide an immediate advertisment of the firm's qualities.</p>
+
+<img src="assets/images/home-page-carousel.png" alt="carousel showing clients' testimonials">
 
 <h4>User stories covered by this feature:</h4>
 <p>User story 7, as a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</p>
@@ -398,6 +404,10 @@ The mobile configuration displays the items top to bottom, rather than left to r
 
 <p>The news section features three stories each accessible as a full screen modal via underlined "Read more" calls to action. The modals are Bootstrap components, and feature a white background as I decided that the pervasive dark containers of the website were not suitable for reading extended content. On mobile devices the modals require scrolling, so I added anchor elements with "up" arrow icons to allow users to instantly return to the top of the story, and therefore to be able to access the close button without scrolling.</p>
 
+<img src="assets/images/home-page-news-section.png" alt="section for news stories">
+
+<img src="assets/images/news-story-modal.png" alt="modal for display of news story">
+
 <h4>User stories covered by this feature:</h4>
 <p>User story 11, as a current stakeholder, I want to see what the latest industry news is.</p>
 <p>User story 16, as a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</p>
@@ -405,6 +415,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <h4>Feature 10: Newsletter call to action with form</h4>
 
 <p>This component features a fully functional form that will not be submitted until all mandatory fields are completed in the appropriate format. The container is responsive for all screens and becomes centre-aligned on mobile devices.</p>
+
+<img src="assets/images/newsletter-sign-up-call-to-action.png" alt="section calling users to sign up for newsletter">
 
 <h4>User stories covered by this feature:</h4>
 <p>User story 10, as a current stakeholder, I want to be able to easily sign up for the firm's weekly newsletter.</p>
@@ -414,6 +426,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 
 <p>This component includes a long, fully-functional form with various input types. It uses the standard Bootstrap grid system to align two columns cleanly. It displays differently on mobile screens but retains all the same fields. The buttons required granular editing for size and placement on the various screen sizes.</p>
 
+<img src="assets/images/portal-registration-form.png" alt="section calling users to sign up for the online portal">
+
 <h4>User stories covered by this feature:</h4>
 <p>User story 8, as a current stakeholder, I want to be able to sign up to use the client portal.</p>
 <p>User story 15, as a site owner, I want existing clients to be able to register for and log in to our client portal.</p>
@@ -422,6 +436,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <h4>Feature 12: Table of Membership Programme benefits</h4>
 
 <p>This component also uses Bootstrap grid system to produce a responsive design for tablet and mobile. The headings feature colourful, attractive icons, and data is displayed in large, easily legible fonts for maximal accessibility.</p>
+
+<img src="assets/images/membership-programme-table.png" alt="table detailing the benefits of membership across three different levels">
 
 <h4>User stories covered by this feature:</h4>
 <p>User story 3, as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
