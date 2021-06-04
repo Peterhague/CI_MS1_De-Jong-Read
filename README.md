@@ -594,7 +594,7 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </tr>
 </table>
 
-<p><a href="docs/user-stories/user-story-one">See User Story 1 images</a></p>
+<p><a href="docs/user-stories/us1.png">See User Story 1 images</a></p>
 
 <p><em>2. As a potential stakeholder, I want to know how to contact the firm and its key management personnel ("KMP").</em></p>
 <table>
@@ -617,6 +617,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <td>works as exxpected.</td>
 </tr>
 </table>
+<p><a href="docs/user-stories/us2.png">See User Story 2 images</a></p>
+
 <p><em>3. As a potential stakeholder, I want to find out what the firm does and what it can offer me.</em></p>
 <table>
 <tr>
@@ -632,6 +634,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <td>Works as expected.</td>
 </tr>
 </table>
+
+<p><a href="docs/user-stories/us3.png">See User Story 3 images</a></p>
 
 <p><em>4. As a potential stakeholder, I want to know who the KMP are, what their skills and experience are, and links to their social media presence.</em></p>
 <table>
@@ -649,6 +653,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </tr>
 </table>
 
+<p><a href="docs/user-stories/us4.png">See User Story 4 images</a></p>
+
 <p><em>5. As a potential stakeholder, I want to find out about the firm's membership scheme and its benefits.</em></p>
 <table>
 <tr>
@@ -665,6 +671,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </tr>
 </table>
 
+<p><a href="docs/user-stories/us5.png">See User Story 5 images</a></p>
+
 <p><em>6. As a potential stakeholder, I want to discover the firm's culture and the personalities of the KMP.</em></p>
 <table>
 <tr>
@@ -680,6 +688,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <td>Works as expected</td>
 </tr>
 </table>
+
+<p><a href="docs/user-stories/us6.png">See User Story 6 images</a></p>
 
 <p><em>7. As a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</em></p>
 <table>
@@ -703,6 +713,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </tr>
 </table>
 
+<p><a href="docs/user-stories/us7.png">See User Story 7 images</a></p>
+
 <p><em>8. As a current stakeholder, I want to be able to sign up to use the client portal.</em></p>
 <table>
 <tr>
@@ -718,6 +730,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <td>Works as expected</td>
 </tr>
 </table>
+
+<p><a href="docs/user-stories/us8.png">See User Story 8 images</a></p>
 
 <p><em>9. As a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</em></p>
 <table>
@@ -741,6 +755,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </tr>
 </table>
 
+<p><a href="docs/user-stories/us9.png">See User Story 9 images</a></p>
+
 <p><em>10. As a current stakeholder, I want to be able to easily sign up for the firm's weekly newsletter.</em></p>
 <table>
 <tr>
@@ -757,6 +773,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </tr>
 </table>
 
+<p><a href="docs/user-stories/us10.png">See User Story 10 images</a></p>
+
 <p><em>11. As a current stakeholder, I want to see what the latest industry news is.</em></p>
 <table>
 <tr>
@@ -772,6 +790,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <td>Works as expected</td>
 </tr>
 </table>
+
+<p><a href="docs/user-stories/us11.png">See User Story 11 images</a></p>
 
 <p><em>12. As a site owner, I want potential stakeholders to understand what my firm does and encourage them to become clients or employees.</em></p>
 <table>
@@ -795,6 +815,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </tr>
 </table>
 
+<p><a href="docs/user-stories/us12.png">See User Story 12 images</a></p>
+
 <p><em>13. As a site owner, I want potential stakeholders to understand that existing clients are happy and receive an excellent service.</em></p>
 <table>
 <tr>
@@ -810,6 +832,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <td>Works as expected</td>
 </tr>
 </table>
+
+<p><a href="docs/user-stories/us13.png">See User Story 13 images</a></p>
 
 <p><em>14. As a site owner, I want potential and existing stakeholders to understand that my firm plays an active part in the local business community and that its main specialism is agribusiness.</em></p>
 <table>
@@ -832,6 +856,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <td>Works as expected</td>
 </tr>
 </table>
+
+<p><a href="docs/user-stories/us14.png">See User Story 14 images</a></p>
 
 <p><em>15. As a site owner, I want existing clients to be able to register for and log in to our client portal.</em></p>
 <table>
@@ -862,6 +888,9 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </tr>
 </table>
 
+<p><a href="docs/user-stories/us15a.png">See User Story 15 steps 1 to 2 images</a></p>
+<p><a href="docs/user-stories/us15b.png">See User Story 15 steps 3 to 5 images</a></p>
+
 <p><em>16. As a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</em></p>
 <table>
 <tr>
@@ -889,6 +918,9 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <td>Works as expected</td>
 </tr>
 </table>
+
+<p><a href="docs/user-stories/us16a.png">See User Story 16 steps 1 to 3 images</a></p>
+<p><a href="docs/user-stories/us16b.png">See User Story 16 steps 4 to 6 images</a></p>
 
 <h2 id="bugs">Bugs found and resolved during development</h2>
 
