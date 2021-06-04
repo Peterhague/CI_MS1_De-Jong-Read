@@ -826,6 +826,7 @@ iframe {
     bottom: 0;
     transform: skew(-15deg);
     height: 43vh;
+    max-height: 80%;
     width: 37vh;
     background-size: cover;
 }
