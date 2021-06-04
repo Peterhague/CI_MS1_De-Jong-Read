@@ -998,5 +998,7 @@ This website has been deployed using GitHub pages. The process is as follows:
 
 <h3 id="acknowledgements">Acknowledgements</h3>
 
-
-
+<ul>
+<li>To my mentor Mo Shami for his support, advice, and patience.</li>
+<li>To my family and friends for their help testing the site and providing valuable feedback.</li>
+</ul>
