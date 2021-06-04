@@ -2,7 +2,47 @@
 
 https://peterhague.github.io/De-Jong-Read/
 
-<h2>Project Goals</h2>
+<h2>Tabel of Content</h2>
+
+<ol>
+<li><a href="#project-goals">Project Goals</a></li>
+<li><a href="#user-experience">User Experience</a></li>
+<ol>
+<li><a href="#project-goals">Target Audience</a></li>
+<li><a href="#project-goals">User stories</a></li>
+<li><a href="#project-goals">Scope</a></li>
+<li><a href="#project-goals">Design</a></li>
+<li><a href="#project-goals">Wireframes</a></li>
+</ol>
+</li>
+<li><a href="#features">Features</a></li>
+<li><a href="#technologies-used"></a>Technologies Used</li>
+<li><a href="#languages">Languages</a></li>
+<li><a href="#frameworks-and-tools">Frameworks & Tools</a></li>
+<li><a href="#testing">Testing</a></li>
+<li><a href="#html-validation">HTML Validation</a></li>
+<li><a href="#css-validation">CSS Validation</a></li>
+<li><a href="#accessibility">Accessibility</a></li>
+<li><a href="#performance">Performance</a></li>
+<li><a href="#device-testing">Device testing</a></li>
+<li><a href="#browser-compatibility">Browser compatibility</a></li>
+<li><a href="#testing-user-stories">Testing user stories</a></li>
+<li><a href="#bugs">Bugs</a></li>
+<li><a href="#deployment">Deployment</a></li>
+<li><a href="#credits"></a>Credits</li>
+<li><a href="#code">Code</a></li>
+<li><a href="#media">Media</a></li>
+<li><a href="#acknowledgements">Acknowledgements</a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+</ol>
+
+<h2 id="project-goals">Project Goals</h2>
 
 The business goals of De Jong-Read Chartered Accountants and Agribusiness Consultants (DJR) are as follows:
 <ul>
