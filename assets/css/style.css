@@ -1261,6 +1261,10 @@ textarea {
     .services-panel-content {
         height: 70vh !important;
     }
+
+    .navbar {
+        margin-bottom: 1vh;
+    }
     
 }
 
