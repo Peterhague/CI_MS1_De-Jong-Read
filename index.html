@@ -13,11 +13,13 @@
     
 </head>
 <body style="font-family: 'Quattrocento', sans-serif;">
+    <!------------------------------------------------------------------------------------4 squares of bg colours----------------------->
     <div class="yellow-square"></div>
     <div class="orange-square"></div>
     <div class="pink-square"></div>    
     <div class="blue-square"></div>        
-    <header>              
+    <header>  
+        <!---------------------------------------------------------------------------------Bootstrap collapsible navbar toggler----------------------->            
       <h1 class="title"><a class="home" href="index.html" style="font-family: 'Lato', sans-serif; font-weight: 700;">De Jong-Read</a></h1>
       <h2 class="subtitle"><a class="home" href="index.html" style="font-family: 'Lato', sans-serif; font-weight: 700;">Chartered Accountants & <br class="d-md-none d-lg-inline d-xl-none">Agribusiness Consultants</a></h2>              
       <div class="burger-button">
@@ -26,6 +28,8 @@
         </button>      
       </div>      
     </header>
+
+    <!-----------------------------------------------------------------------------------------Bootstrap navbar---------------->
         <nav id="navigation-bar" class="navbar navbar-expand-xl navbar-dar bg-dar"> 
           <div class="collapse navbar-collapse" id="content">        
               <ul id="navbar-home" class="navbar-nav">
@@ -43,11 +47,14 @@
                   </li>
             </ul>
           </div>
+          <!--------------------------------------------------------------------------------------Sign in button for the online portal (desktop only)-------------->
           <div class="book-button-desktop d-none d-xl-block">
             <button class="btn btn-book-desktop nav-link nav-link-header" data-toggle="modal" data-target="#contactusModal">sign in</button> 
           </div>
         </nav>
         <div class="gap-large d-none d-lg-block d-xl-none"></div>
+        
+        <!-----------------------------------------------------------------------------------------------Bootstrap carousel component for testimonials------------>
         <section class="carousel-home">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -108,10 +115,12 @@
                 <span class="sr-only">Next</span>
             </a>
             </div>      
-        </section>  
+        </section> 
+        <!-------------------------------------------------------------------------------------Sign in button for online portal (mobile and tablet)--> 
         <div class="d-xl-none book-button-mobile" style="display: flex; justify-content: center; margin-top: 3vh; margin-bottom: 10vh; z-index: 3;">
           <button class="btn login-button-mobile" data-toggle="modal" data-target="#contactusModal">Sign in</button> 
         </div>
+        <!-------------------------------------------------------------------------------------News section------------------------------------------>
   <section id="news">
       <div class="container news-items">
           <div class="row">
@@ -150,10 +159,9 @@
                 <a class="news-expandable" href="" data-toggle="modal" data-target="#headlinethreeModal">Read more</a>            
               </div>
           </div>
-      </div>
-        
+      </div>        
     </section>
-
+    <!--------------------------------------------------------------------------------------------------------Footer section----------------------->
     <footer class="footer-test footer-mobile">              
         <div class="container-fluid">
             <div class="row">           
@@ -177,6 +185,7 @@
             </div>        
         </div>
     </footer>
+    <!--------------------------------------------------------------------------------------------------------Modals for each news story----------------------->
     <div class="modal" tabindex="-1" role="dialog" id="headlineoneModal">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content modal-content-news">
@@ -208,7 +217,6 @@
             </div>
         </div>
     </div>
-
     <div class="modal modal-news" tabindex="-1" role="dialog" id="headlinetwoModal">
         <div class="modal-dialog modal-dialog-centered modal-dialog-news" role="document">
             <div class="modal-content modal-content-news">
@@ -275,6 +283,7 @@
             </div>
         </div>
     </div>
+    <!--------------------------------------------------------------------------------------------------------Modal for sign in form for portal----------------------->
     <div class="modal" tabindex="-1" role="dialog" id="contactusModal">
         <div class="modal-dialog modal-dialog-original" role="document">
             <div id="modal-content" class="modal-content modal-content-original">
@@ -310,6 +319,7 @@
             </div>
         </div>
     </div>
+    <!--------------------------------------------------------------------------------------------------------Password reminder modal----------------------->
     <div class="modal" tabindex="-1" role="dialog" id="reminderModal">
         <div class="modal-dialog modal-dialog-original" role="document">
             <div class="modal-content modal-content-original">

@@ -12,11 +12,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="contact-us" style="font-family: 'Quattrocento', sans-serif;">
+    <!------------------------------------------------------------------------------------4 squares of bg colours----------------------->
     <div class="yellow-square"></div>
     <div class="orange-square"></div>
     <div class="green-square"></div>    
     <div class="blue-square"></div>        
-    <header>              
+    <header> 
+        <!----------------------------------------------------------------------------------Bootstrap navbar toggler----------------------->             
         <h1 class="title"><a class="home" href="index.html" style="font-family: 'Lato', sans-serif; font-weight: 700;">De Jong-Read</a></h1>
         <h2 class="subtitle"><a class="home" href="index.html" style="font-family: 'Lato', sans-serif; font-weight: 700;">Chartered Accountants & <br class="d-md-none d-lg-inline d-xl-none">Agribusiness Consultants</a></h2>              
         <div class="burger-button">
@@ -25,6 +27,7 @@
             </button>      
         </div>
     </header>
+    <!------------------------------------------------------------------------------------Bootstrap navbar----------------------->
         <nav id="navigation-bar" class="navbar navbar-expand-xl navbar-dar bg-dar"> 
             <div class="collapse navbar-collapse" id="content">        
                 <ul id="navbar-home" class="navbar-nav">
@@ -42,10 +45,12 @@
                     </li>
                 </ul>
             </div>
+            <!-----------------------------------------------------------------------------------desktop portal login button----------------------->
             <div class="book-button-desktop d-none d-xl-block">
               <button class="btn btn-book-desktop nav-link nav-link-header" data-toggle="modal" data-target="#contactusModal">sign in</button> 
             </div>
-        </nav>  
+        </nav>
+     <!------------------------------------------------------------------------------------newsletter sign up form for desktop----------------------->     
     <section class="d-none d-md-block margin-bottom-medium">
         <div class="container">
             <div class="row">
@@ -95,6 +100,7 @@
             </div>
         </div>        
     </section>
+    <!-----------------------------------------------------------------------------------newsletter signup form for mobile----------------------->
     <section class="d-md-none">
         <div class="container">
             <div class="row">
@@ -131,12 +137,15 @@
             </div>            
         </div>      
   </section>
+  <!-----------------------------------------------------------------------------------portal sign in button tablet and mobile----------------------->
   <div class="d-lg-none book-button-mobile" style="display: flex; justify-content: center; margin-top: 3vh; margin-bottom: 10vh; z-index: 3;">
       <button class="btn btn login-button-mobile" data-toggle="modal" data-target="#contactusModal">Sign in</button> 
   </div>
+  <!----------------------------------------------------------------------------------portal sign in button large tablets------------------>
   <div class="d-none d-lg-block d-xl-none book-button-mobile" style="display: flex; justify-content: center; margin-top: 14vh; margin-bottom: 10vh; z-index: 3;">
       <button class="btn btn login-button-mobile" data-toggle="modal" data-target="#contactusModal">Sign in</button> 
   </div>
+  <!-------------------------------------------------------------------------------portal registration form desktop----------------------->
   <section class="registration d-none d-md-block">
       <div class="container-fluid">
           <div class="row">
@@ -338,6 +347,7 @@
           </div>              
       </div>      
   </section>
+  <!---------------------------------------------------------------portal registration form for mobile---------------------->
   <section class="registration d-md-none">
       <div class="container-fluid">
           <div class="row">
@@ -440,6 +450,7 @@
       <div class="col-1">  
       </div>    
   </section>
+  <!-----------------------------------------------------------------------------directions section for desktop----------------------->
   <section class="map-directions d-none d-md-block">
     <div class="container">
         <div class="row container-maps">
@@ -474,6 +485,7 @@
         </div>
     </div>
   </section>
+  <!-------------------------------------------------------------------------------directions section for mobile----------------------->
   <section class="map-directions d-md-none">
       <div class="container">
           <div class="row">
@@ -511,6 +523,7 @@
           </div>
       </div>
   </section>
+  <!------------------------------------------------------------------------------------Footer section----------------------->
   <footer class="footer-test footer-mobile">              
       <div class="container-fluid">
           <div class="row">           
@@ -533,6 +546,7 @@
           </div>        
       </div>
   </footer>
+  <!---------------------------------------------------------------------------------portal login modal----------------------->
   <div class="modal" tabindex="-1" role="dialog" id="contactusModal">
       <div class="modal-dialog modal-dialog-original" role="document">
           <div id="modal-content" class="modal-content modal-content-original">
@@ -568,6 +582,7 @@
           </div>
       </div>
   </div>
+  <!------------------------------------------------------------------------------------password reminder modal----------------------->
   <div class="modal" tabindex="-1" role="dialog" id="reminderModal">
       <div class="modal-dialog modal-dialog-original" role="document">
           <div class="modal-content modal-content-original">
