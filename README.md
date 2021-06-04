@@ -8,11 +8,11 @@ https://peterhague.github.io/De-Jong-Read/
 <li><a href="#project-goals">Project Goals</a></li>
 <li><a href="#user-experience">User Experience</a></li>
 <ol>
-<li><a href="#project-goals">Target Audience</a></li>
-<li><a href="#project-goals">User stories</a></li>
-<li><a href="#project-goals">Scope</a></li>
-<li><a href="#project-goals">Design</a></li>
-<li><a href="#project-goals">Wireframes</a></li>
+<li><a href="#target-audience">Target Audience</a></li>
+<li><a href="#user-stories">User stories</a></li>
+<li><a href="#scope">Scope</a></li>
+<li><a href="#design">Design</a></li>
+<li><a href="#wireframes">Wireframes</a></li>
 </ol>
 </li>
 <li><a href="#features">Features</a></li>
