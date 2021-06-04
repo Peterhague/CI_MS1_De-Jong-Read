@@ -16,10 +16,14 @@ https://peterhague.github.io/De-Jong-Read/
 </ol>
 </li>
 <li><a href="#features">Features</a></li>
-<li><a href="#technologies-used"></a>Technologies Used</li>
+<li><a href="#technologies-used">Technologies Used</a>
+<ol>
 <li><a href="#languages">Languages</a></li>
 <li><a href="#frameworks-and-tools">Frameworks & Tools</a></li>
+</ol>
+</li>
 <li><a href="#testing">Testing</a></li>
+<ol>
 <li><a href="#html-validation">HTML Validation</a></li>
 <li><a href="#css-validation">CSS Validation</a></li>
 <li><a href="#accessibility">Accessibility</a></li>
@@ -27,19 +31,15 @@ https://peterhague.github.io/De-Jong-Read/
 <li><a href="#device-testing">Device testing</a></li>
 <li><a href="#browser-compatibility">Browser compatibility</a></li>
 <li><a href="#testing-user-stories">Testing user stories</a></li>
+</ol>
 <li><a href="#bugs">Bugs</a></li>
 <li><a href="#deployment">Deployment</a></li>
 <li><a href="#credits"></a>Credits</li>
+<ol>
 <li><a href="#code">Code</a></li>
 <li><a href="#media">Media</a></li>
 <li><a href="#acknowledgements">Acknowledgements</a></li>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
-<li><a href="#"></a></li>
+</ol>
 </ol>
 
 <h2 id="project-goals">Project Goals</h2>
@@ -63,7 +63,7 @@ The user goals:
 <li>To be assured that DJR is a professional firm which provides excellent outcomes for its clients</li>
 </ul>
 
-<h2>User Experience</h2>
+<h2 id="user-experience">User Experience</h2>
 
 The website is designed for ease of use on any screen size, with clearly separated and unluttered content.
 This has been achieved by avoiding long chunks of text and by keeping the pages short: auxillary content can be accessed via modals ad different carousel slides.
@@ -72,7 +72,7 @@ The main goals of the user experience are firstly, to attract them to become cli
 
 The first goal is achieved via prominent branding and information about the company and its services as the first content of every page. The second goal is achieved by a prominent "Sign in" button call to action visible on every page load, on every device.
 
-<h3>Target Audience</h3>
+<h3 id="target-audience">Target Audience</h3>
 
 <ul>
     <li>Existing clients</li>
@@ -81,7 +81,7 @@ The first goal is achieved via prominent branding and information about the comp
     <li>Local businesspeople</li>
 </ul>
 
-<h3>User Stories</h3>
+<h3 id="user-stories">User Stories</h3>
 <p>
 There are two main types of user anticipated for the website: potential clients and employees (henceforth "potential stakeholders"), and existing clients and interested local businesspeople
 (henceforth "current stakeholders").
@@ -118,7 +118,7 @@ There are two main types of user anticipated for the website: potential clients 
     <li>As a site owner, I want all users to as engaged with my business as possible, by reading our articles, signing up for services, and following us on social media.</li>
 </ol>
 
-<h2>Scope</h2>
+<h2 id="scope">Scope</h2>
 <p>The project's scope in its initial release is limited to the following features:</p>
 <ul>
 <li>Navigation bar to allow users to navigate the site quickly and easily, with contrasting text to show them which page they are currently looking at.</li>
@@ -147,7 +147,7 @@ this effect contrasted with the transparency of the title "panes", providing a w
     further familiarise users with all aspects of the firm and partly to encourage prospective trainees to join the firm.
 </ul>
 
-<h2>Design</h2>
+<h2 id="design">Design</h2>
 
 <p>The general aesthetic is designed to be a mix of the modern and traditional, to reflect the nature of a dynamic professional practice
 which has deep roots in a legacy industry like agriculture.</p>
@@ -181,9 +181,9 @@ in order to contrast with the colourful background.</p>
 
 <p>All images are fully licensed.</p>
 
-<h2>Wireframes</h2>
+<h2 id="wireframes">Wireframes</h2>
 
-<h2>Features</h2>
+<h2 id="features">Features</h2>
 
 <p>The website has twelve features across four pages.</p>
 
@@ -412,16 +412,16 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <li>A section about the firm's trainees and more junior staff, providing updates on their qualification progress and the support the firm offers, partly to further familiarise users with all aspects of the firm and partly to encourage prospective trainees to join the firm.</li>
 </ol>
 
-<h2>Technologies Used</h2>
+<h2 id="technologies-used">Technologies Used</h2>
 
-<h3>Languages</h3>
+<h3 id="languages">Languages</h3>
 
 <ul>
 <li>HTML5</li>
 <li>CSS3</li>
 </ul>
 
-<h3>Frameworks, libraries and other tools</h3>
+<h3 id="frameworks-and-tools">Frameworks, libraries and other tools</h3>
 <ol>
 <li>Git
 </li>
@@ -468,29 +468,29 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </ol>
 <ul><li>I used Google Maps to create the map embedded on the Contact Us page.</li></ul>
 
-<h2>Testing</h2>
+<h2 id="testing">Testing</h2>
 
-<h3>HTML Validation</h3>
+<h3 id="html-validation">HTML Validation</h3>
 
 <p>The <a>W3C Markup Validation Service</a> was used for HTML validation of the site. All pages passed with 0 errors. The Index and Contact Us pages have warnings for lack of section headings, which is a stylistic choice.</p>
 <p>Please follow the relevant link for the associated results: <a>Home</a> <a>Contact Us</a> <a>Meet the Team</a> <a>Our Services</a></p>
 
-<h3>CSS Validation</h3>
+<h3 id="css-validation">CSS Validation</h3>
 
 <p>The <a>W3C CSS Validation Service</a> was used for CSS validation of the site.</p>
 <p>The CSS passed with zero errors.</p>
 
-<h3>Accessibility</h3>
+<h3 id="accessibility">Accessibility</h3>
 
 <p></p>
 <p></p>
 
-<h3>Performance</h3>
+<h3 id="performance">Performance</h3>
 
 <p></p>
 <p></p>
 
-<h3>Performing tests on various devices</h3>
+<h3 id="device-testing">Performing tests on various devices</h3>
 <h4>Devices tested:</h4>
 <ul>
 <li>Samsung Galaxy A7</li>
@@ -520,7 +520,7 @@ The mobile configuration displays the items top to bottom, rather than left to r
 
 <p>All pages worked as intended on all devices. The one major change necessitated was to move the sign in button up a little in mobile mode, as I had not accounted for the screen real estate taken up by the browser elements.</p>
 
-<h3>Browser compatability</h3>
+<h3 id="browser-compatibility">Browser compatability</h3>
 <ul>
 <li><strong>Google Chrome:</strong>Website and user stories perform as intended.</li>
 <li><strong>Firefox:</strong>Website and user stories perform as intended</li>
@@ -528,7 +528,7 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <li><strong>Samsung Internet Browser:</strong>Website and user stories perform as intended.</li>
 </ul>
 
-<h3>Testing user stories</h3>
+<h3 id="testing-user-stories">Testing user stories</h3>
 
 <p><em>1. As a potential stakeholder, I want to know where the firm is located.</em></p>
 <table>
@@ -840,7 +840,7 @@ The mobile configuration displays the items top to bottom, rather than left to r
 </tr>
 </table>
 
-<h2>Bugs found and resolved during development</h2>
+<h2 id="bugs">Bugs found and resolved during development</h2>
 
 <ul>
 <li><strong>Bug:</strong>The indciators on the testimonials carousel were not very visible against the background</li>
@@ -865,7 +865,7 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <li><strong>Fix:</strong>Optimised the images, making the sizes smaller.</li>
 </ul>
 
-<h2>Deployment</h2>
+<h2 id="deployment">Deployment</h2>
 
 <h3>GitHub Pages</h3>
 
@@ -903,6 +903,12 @@ This website has been deployed using GitHub pages. The process is as follows:
 <li>Press Return</li>
 <li>The local clone should now have been created</li>
 </ol>
+
+<h2 id="credits">Credits</h2>
+
+<h3 id="code">Code</h3>
+<h3 id="media">Media</h3>
+<h3 id="acknowledgements">Acknowledgements</h3>
 
 
 
