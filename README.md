@@ -185,6 +185,8 @@ in order to contrast with the colourful background.</p>
 
 <h2 id="wireframes">Wireframes</h2>
 
+<p>Wireframes: <a href="docs/wireframes/home-wireframe.png">Home</a><a>Contact Us</a><a>Meet the Team</a><a>Our Services</a></p>
+
 <h2 id="features">Features</h2>
 
 <p>The website has twelve features across four pages.</p>
