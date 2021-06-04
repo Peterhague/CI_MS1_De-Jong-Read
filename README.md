@@ -1,6 +1,6 @@
 # De Jong-Read
 
-<a href="https://peterhague.github.io/De-Jong-Read/">View the deployed website</a>
+<a href="https://peterhague.github.io/De-Jong-Read/" target="_blank">View the deployed website</a>
 
 
 
