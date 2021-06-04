@@ -514,10 +514,10 @@ The mobile configuration displays the items top to bottom, rather than left to r
 
 <p>The <a href="https://validator.w3.org/">W3C Markup Validation Service</a> was used for HTML validation of the site. All pages passed with 0 errors. The Index and Contact Us pages have warnings for lack of section headings, which is a stylistic choice.</p>
 
-<img src="html-validation-index.png" alt="screenshot of HTML validation of home page">
-<img src="html-validation-contact-us.png" alt="screenshot of HTML validation of contact us page">
-<img src="html-validation-meet-the-team.png" alt="screenshot of HTML validation of meet the team page">
-<img src="html-validation-our-services.png" alt="screenshot of HTML validation of our services page">
+<img src="assets/images/html-validation-index.png" alt="screenshot of HTML validation of home page">
+<img src="assets/images/html-validation-contact-us.png" alt="screenshot of HTML validation of contact us page">
+<img src="assets/images/html-validation-meet-the-team.png" alt="screenshot of HTML validation of meet the team page">
+<img src="assets/images/html-validation-our-services.png" alt="screenshot of HTML validation of our services page">
 
 <h3 id="css-validation">CSS Validation</h3>
 
