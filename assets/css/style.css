@@ -1602,6 +1602,10 @@ textarea {
 
     @media only screen and (max-width: 800px) and (min-width: 601px) {
 
+        .staff-profile-skew-right-mobile, .staff-profile-skew-left-mobile {
+            font-size: 1.25vh;
+        }
+
         #submit-login {
             width: 7vmax;
             height: 3vmax;
@@ -1850,6 +1854,16 @@ textarea {
 /*---------------------------------------------------------------------------Media Queries Md-----------------------------------------------------------------------*/
     
 @media only screen and (max-width: 1100px) and (min-width: 800px) {
+
+    .staff-profile-skew-right-mobile, .staff-profile-skew-left-mobile {
+        font-size: 1.25vh;
+    }
+
+    .nav-link, #current, #current-home, #current-cus {
+        font-size: 1.5em;
+    }
+
+
 
     #submit-login {
         width: 5vmax;

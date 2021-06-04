@@ -2,7 +2,7 @@
 
 <img src="assets/images/responsiveness.png" alt="screenshot of site in various screen configurations">
 
-<a href="https://peterhague.github.io/De-Jong-Read/" target="_blank">View the deployed website</a>
+<a href="https://peterhague.github.io/CI_MS1_De-Jong-Read/" target="_blank">View the deployed website</a>
 
 
 
