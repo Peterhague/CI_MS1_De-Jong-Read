@@ -251,7 +251,7 @@ The form is fully functional and won't submit until all the necessary fields are
 <p>The submit button is deliberately large and prominent and I chose a circular form to try to convey a relatively fun, informal tone, which seemed appropriate for a free newsletter.
 The inpput fields are rounded to continue that theme.</p>
 
-<img href="assets/images/newsletter-sign-up-call-to-action.png" alt="newsletter sign up call to action">
+<img src="assets/images/newsletter-sign-up-call-to-action.png" alt="newsletter sign up call to action">
 
 <p>I chose the black, slightly opaque background, for consistency with the overall design philosophy mentioned above. I used slightly rounded corners for this componentto achieve a
 slightly softer look.</p>
@@ -268,7 +268,7 @@ the input fields only very slightly rounded, because that seemed to better suit 
 
 <p>The form maintains its two-column structure on tablets, but becomes a single column on mobile: this is achieved via the Bootstrap responsive grid system, as well as some fine-tuning via CSS media queries.</p>
 
-<img href="assets/images/portal-registration-form.png" alt="portal registration form call to action">
+<img src="assets/images/portal-registration-form.png" alt="portal registration form call to action">
 
 <h4>Section 3: contact information</h4>
 
@@ -278,6 +278,7 @@ the input fields only very slightly rounded, because that seemed to better suit 
 via media queries so that the directions and the map are visible on a mobile's roughly 9:16 aspect ratio without the need to scroll.</p>
 
 <p>I chose the black, slightly opaque background, for consistency with the overall design philosophy mentioned above. I chose unrounded corners for this component, as that was a better fit as a frame for the map.</p>
+<img src="assets/images/contact-details-section.png" alt="contact details section and map">
 
 <h4>User stories covered by this feature:</h4>
 <p>User story 1: as a potential stakeholder, I want to know where the firm is located.</p>
