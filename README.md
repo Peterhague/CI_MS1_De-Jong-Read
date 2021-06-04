@@ -523,20 +523,30 @@ The mobile configuration displays the items top to bottom, rather than left to r
 
 <h3 id="css-validation">CSS Validation</h3>
 
-<p>The <a>W3C CSS Validation Service</a> was used for CSS validation of the site.</p>
+<p>The <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a> was used for CSS validation of the site.</p>
 <p>The CSS passed with zero errors.</p>
 
 <img src="assets/images/css-validation.png" alt="screenshot of CSS validation">
 
 <h3 id="accessibility">Accessibility</h3>
 
-<p></p>
-<p></p>
+<p>The <a href="https://wave.webaim.org/">WAVE Webaim Accessibility Tool</a>was used for accessibility validation of the site.</p>
+<p>The website passed with no errors. There were several warnings, due either to stylistic choices or duplicated links (eg more than one linkedin link on the Meet the Team page.</p>
+
+<img src="assets/images/accessibility-validn-home.png" alt="screenshot of accessibility validation of home page">
+<img src="assets/images/accessibility-validn-cus.png" alt="screenshot of accessibility validation of contact us page">
+<img src="assets/images/accessibility-validn-mtt.png" alt="screenshot of accessibility validation of meet the team page">
+<img src="assets/images/accessibility-validn-os.png" alt="screenshot of accessibility validation of our services page">
 
 <h3 id="performance">Performance</h3>
 
-<p></p>
-<p></p>
+<p>The <a href="https://developers.google.com/speed/pagespeed/insights/">Google PageSpeed Insights</a> tool was used for performance validation of the site.</p>
+<p>All four pages of the website scored between 80 and 90 for overall performance.</p>
+
+<img src="assets/images/performance-validn-home.png" alt="screenshot of performance validation of home page">
+<img src="assets/images/performance-validn-cu.png" alt="screenshot of performance validation of contact us page">
+<img src="assets/images/performance-validn-mtt.png" alt="screenshot of performance validation of meet the team page">
+<img src="assets/images/performance-validn-os.png" alt="screenshot of performance validation of our services page">
 
 <h3 id="device-testing">Performing tests on various devices</h3>
 <h4>Devices tested:</h4>
