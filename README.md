@@ -34,7 +34,7 @@ https://peterhague.github.io/De-Jong-Read/
 </ol>
 <li><a href="#bugs">Bugs</a></li>
 <li><a href="#deployment">Deployment</a></li>
-<li><a href="#credits"></a>Credits</li>
+<li><a href="#credits">Credits</a></li>
 <ol>
 <li><a href="#code">Code</a></li>
 <li><a href="#media">Media</a></li>
