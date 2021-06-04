@@ -301,6 +301,8 @@ to each of the classes as necessary. I did this because the designs were differe
 
 <p>The page is fully responsive on mobile and tablet screen sizes.</p>
 
+<img src="assets/images/staff-profiles.png" alt="staff profile example">
+
 <h4>User stories covered by this feature:</h4>
 <p>User story 3: as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
 <p>User story 4: as a potential stakeholder, I want to know who the KMP are, what their skills and experience are, and links to their social media presence.</p>
@@ -326,11 +328,15 @@ panels to evoke the feeling of peering through windows to the scenery behind, an
 
 <p>All copy on the page was written by me.</p>
 
+<img src="assets/images/services-panels.png" alt="our services panels: title and description">
+
 <h4>Section 2: table summarising membership benefits</h4>
 
 <p>The table was also duplicated for mobile and tablet, simply in order to display on smaller screens as a fluid container spanning the entire viewport. This was sufficient for the table to display in a legible and uncluttered manner, viewable without scrolling on most mobile devices. Various media queries narrative contractions were made for some of the smaller and more unusual screen sizes and aspect ratios.</p>
 
 <p>The icons in the table were sourced from Font Awesome's library.</p>
+
+<img src="assets/images/membership-programme-table.png" alt="table explaining membership programme and the various benefits at each level">
 
 <h4>User stories covered by this feature:</h4>
 <p>User story 3: as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
@@ -342,9 +348,14 @@ panels to evoke the feeling of peering through windows to the scenery behind, an
 
 <p>The navigation bar is displayed across the four pages consistently, with some minor changes to colour scheme in order that text always contrasts fully with the backgrounds specific to each page.</p>
 
-<p>It uses the Bootstrap navbar component to leverage Javascript functionality to collapse the bar on mobile and tablet devices and replace with a "burger bar" toggle button.</p>
+<p>It uses the Bootstrap navbar component to leverage Javascript functionality to collapse the bar on mobile and tablet devices and replace with a "burger bar" toggle button.
+</p>
 
 <p>The desktop configuration also features a right-aligned (and therefore prominently isolated) "Sign In" call to action button. In mobile and tablet configurations, this button appears near the bottom of the viewport of each page's display on loading. This aids visibility, and also selection without the need to for users to obscure any of the page with their hand.</p>
+
+<img src="assets/images/navigation-bar.png" alt="navigation bar on desktop devices">
+
+<img src="assets/images/navigation-bar-mobile.png" alt="navigation bar on mobile devices">
 
 <h4>User stories covered by this feature:</h4>
 <p>User story 9, as a current stakeholder, I want to be able to qucikly and easily log in to the client portal.</p>
@@ -356,6 +367,10 @@ panels to evoke the feeling of peering through windows to the scenery behind, an
 The mobile configuration displays the items top to bottom, rather than left to right.</p>
 
 <p>The footer displays mandatory statutory information related to the firm's professional registrations, its address, and social media links.</p>
+
+<img src="assets/images/footer-desktop.png" alt="footer on desktop devices">
+
+<img src="assets/images/footer-mobile.png" alt="footerr on mobile devices">
 
 <h4>User stories covered by this feature:</h4>
 <p>User story 1, as a potential stakeholder, I want to know where the firm is located.</p>
