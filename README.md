@@ -524,6 +524,8 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <p>The <a>W3C CSS Validation Service</a> was used for CSS validation of the site.</p>
 <p>The CSS passed with zero errors.</p>
 
+<img src="assets/images/css-validation.png" alt="screenshot of CSS validation">
+
 <h3 id="accessibility">Accessibility</h3>
 
 <p></p>
@@ -951,7 +953,25 @@ This website has been deployed using GitHub pages. The process is as follows:
 <h2 id="credits">Credits</h2>
 
 <h3 id="code">Code</h3>
+<ul>
+<li><strong>Code Institute</strong> - for general instruction and inspiration for the background/text colour scheme from the "Love Running" project</li>
+<li><strong>Stack Overflow</strong> - for general help with various queries, especially around positioning content. Also used for advice on how to achieve the skew effect on the Meet the Team page.</li>
+<li><strong>Bootstrap</strong> - for the grid layouts on each page, the carousel component, the navigation bar, and the various modals.</li>
+</ul>
+
 <h3 id="media">Media</h3>
+
+<p>All the images on the website were sourced by Google Image search, and then those selected were investigated for any reseravtions of rights. The images are as follows, with as much attribution as possible:</p>
+
+<ul>
+<li>Home page background image: appears across numerous websites, I was unable to find an original source. This is the image url used to conduct this search <a href="https://lh3.googleusercontent.com/a3mJ96AlFkBQnrtHmZom_k3iD5a-L5kXTW8Rz2cl21C5u2xB80y8slwBlC2ih2YApiH1aQ=s170"></a>Homepage background image url for Google search</a></li>
+<li>Contact Us page background image: appears across numerous websites, I was unable to find an original source. This is the url used to conduct this search <a href="https://lh3.googleusercontent.com/vT5v3tEmMvXoi2LcK8hirDjtkqEz2UZIPgtIrctlkIdfGSVYPt4-s49ILdGrAZMNULui=s128"></a>Contact Us background image url for Google search</a></li>
+<li>Meet the Team page background image: appears across numerous websites, I was unable to find an original source. This is the url used to conduct this search <a href="https://lh3.googleusercontent.com/hr5ruYfOrjSDbXtYiO0eC8DGYZx37jEBev9BaGLlX5wKxlJcMm3rGWE_HM06AD-32IdTuQ=s113"></a>Meet the Team background image url for Google search</a></li>
+<li>Our Services page background image: I was able to trace this to a Flickr account, with permission for non-commercial sharing, with no image transformation. 
+
+<p><a href="https://www.flickr.com/photos/letscommunicate/5066054716/">User's Flickr account</a></a></li></p>
+<p><a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">Details of usage rights</a></a></li></p>
+</ul>
 <h3 id="acknowledgements">Acknowledgements</h3>
 
 
