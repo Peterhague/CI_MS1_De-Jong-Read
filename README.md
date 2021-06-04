@@ -213,6 +213,8 @@ The testimonials were written by me.
 
 <p>I chose the black, slightly opaque background, and the hard rectangle container, for consistency with the overall design philosophy mentioned above.</p>
 
+<img src="assets/images/home-page-carousel.png" alt="home page carousel">
+
 <h4>Section 2: Latest Industry News</h4>
 <p>This section consists of three relevant news stories, with informative headlines and images, accessed by collapsible modals, which display full screen on mobiles and tablets with a light
 background and dark text. I chose this because the dark theme seemed too oppresive when fully covering a smaller screen.</p>
