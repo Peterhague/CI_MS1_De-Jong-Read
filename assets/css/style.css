@@ -867,7 +867,6 @@ iframe {
     color: #fafafa;
     width: 60vw;
     height: 55vh;
-    max-height: 450px;
     text-align: center;
     font-size: 1.25em;
     padding-top: 3vh;
@@ -1786,10 +1785,12 @@ textarea {
             background-color: rgba(0, 0, 0, 0.85);
             color: #fafafa;
             width: 75vw;
-            height: 58vh;
+            height: 55vh;
             text-align: center;
             font-size: 1.5em;
-            padding-top: 6vh;
+            padding-top: 2vh;
+            padding-left: 1vw;
+            padding-right: 1vw;
         }
 
         .close-contact-us {
@@ -2224,5 +2225,11 @@ textarea {
     
 }
 
+/*---------------------------------------------------------------------------Media Queries XL screens----------------------------*/
 
+@media only screen and (min-width:1200px) and (min-height: 800px) {
 
+    .test-slides {
+        max-height: 450px;
+    }
+}
