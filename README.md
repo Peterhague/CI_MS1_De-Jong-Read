@@ -218,7 +218,7 @@ The testimonials were written by me.
 <h4>Section 2: Latest Industry News</h4>
 <p>This section consists of three relevant news stories, with informative headlines and images, accessed by collapsible modals, which display full screen on mobiles and tablets with a light
 background and dark text. I chose this because the dark theme seemed too oppresive when fully covering a smaller screen.</p>
-
+<img src="assets/images/home-page-news-section.png" alt="home page news section">
 <h4>User stories covered by this feature:</h4>
 <p>User story 3: as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
 <p>User story 7: as a potential stakeholder, I want to know about the firm's competencies and how its existing clients view its services.</p>
@@ -251,6 +251,8 @@ The form is fully functional and won't submit until all the necessary fields are
 <p>The submit button is deliberately large and prominent and I chose a circular form to try to convey a relatively fun, informal tone, which seemed appropriate for a free newsletter.
 The inpput fields are rounded to continue that theme.</p>
 
+<img href="assets/images/newsletter-sign-up-call-to-action.png" alt="newsletter sign up call to action">
+
 <p>I chose the black, slightly opaque background, for consistency with the overall design philosophy mentioned above. I used slightly rounded corners for this componentto achieve a
 slightly softer look.</p>
 
@@ -265,6 +267,8 @@ The form is fully functional and won't submit until all the necessary fields are
 the input fields only very slightly rounded, because that seemed to better suit the more business-like function of the form.</p>
 
 <p>The form maintains its two-column structure on tablets, but becomes a single column on mobile: this is achieved via the Bootstrap responsive grid system, as well as some fine-tuning via CSS media queries.</p>
+
+<img href="assets/images/portal-registration-form.png" alt="portal registration form call to action">
 
 <h4>Section 3: contact information</h4>
 
