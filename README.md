@@ -133,6 +133,7 @@ There are two main categories of user anticipated for the website: potential cli
 <li>A "Meet the Team" page with biographies of the key individuals of the firm, along with prominent and attractve photographs.</li>
 <li>An "Our Services" page describing the different services the firm provides, in four broad categories.</li>
 <li>A table advertising the firm's membership scheme, with a list of benefits cross-referenced to three different membership levels.</li>
+<li>A custom 404 "page does not exist" error page, with an error message and a prominent link to return to the home page.</li>
 </ul>
 
 <p>Features considered for later releases:</p>
@@ -174,7 +175,7 @@ There are two main categories of user anticipated for the website: potential cli
 
 <h2 id="features">Features</h2>
 
-<p>The website has twelve features across four pages.</p>
+<p>The website has thirteen features across four pages.</p>
 
 <h3>Current Features</h3>
 
@@ -429,6 +430,12 @@ The mobile configuration displays the items top to bottom, rather than left to r
 <h4>User stories covered by this feature:</h4>
 <p>User story 3, as a potential stakeholder, I want to find out what the firm does and what it can offer me.</p>
 <p>User story 5, as a potential stakeholder, I want to find out about the firm's membership scheme and its benefits.</p>
+
+<h4>Feature 13: Custom 404 error message page</h4>
+
+<p>This component directs any broken or missing links on the website to this explanatory error page, with the home page background, the normal title, and a prominent button inviting users to return to the home page.</p>
+
+<img src="assets/images/404-custom-page.png" alt="screenshot of the website's custom 404 error page">
 
 <h4>Features for Future Releases</h4>
 
